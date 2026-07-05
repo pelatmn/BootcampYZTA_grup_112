@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Veri (büyük ham dosyalar repoya yüklenmez; linkler DATA_SOURCES.md'de)
+#data/raw/*.csv
+#data/raw/*.zip
+
+# Sistem
+.DS_Store

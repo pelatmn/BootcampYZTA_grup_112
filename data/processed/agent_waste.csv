@@ -1,0 +1,1619 @@
+food_type,num_guests,event_type,quantity_prepared,storage,purchase_history,seasonality,prep_method,geo_location,pricing_level,wastage_amount,pricing_score,category,waste_ratio
+Meat,310,Corporate,450,Refrigerated,Regular,All Seasons,Buffet,Urban,Low,25,1,ana_yemek,0.0556
+Meat,400,Birthday,500,Room Temperature,Regular,Winter,Buffet,Suburban,High,40,3,ana_yemek,0.08
+Vegetables,302,Birthday,371,Refrigerated,Regular,Summer,Buffet,Suburban,Low,27,1,salata,0.0728
+Meat,491,Birthday,497,Refrigerated,Regular,All Seasons,Finger Food,Rural,High,32,3,ana_yemek,0.0644
+Meat,300,Corporate,400,Refrigerated,Regular,Winter,Finger Food,Urban,Moderate,25,2,ana_yemek,0.0625
+Meat,302,Birthday,371,Refrigerated,Regular,Summer,Buffet,Suburban,Low,27,1,ana_yemek,0.0728
+Meat,240,Wedding,450,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Low,20,1,ana_yemek,0.0444
+Meat,300,Wedding,400,Refrigerated,Regular,Summer,Finger Food,Rural,Moderate,25,2,ana_yemek,0.0625
+Fruits,320,Corporate,400,Refrigerated,Regular,All Seasons,Buffet,Urban,High,45,3,tatli,0.1125
+Meat,400,Corporate,500,Refrigerated,Occasional,Winter,Finger Food,Urban,High,40,3,ana_yemek,0.08
+Fruits,320,Wedding,400,Room Temperature,Regular,Summer,Buffet,Rural,High,35,3,tatli,0.0875
+Meat,302,Birthday,371,Room Temperature,Regular,Winter,Buffet,Suburban,Low,27,1,ana_yemek,0.0728
+Meat,400,Wedding,500,Refrigerated,Occasional,Summer,Sit-down Dinner,Urban,Low,25,1,ana_yemek,0.05
+Meat,250,Social Gathering,350,Room Temperature,Regular,Winter,Buffet,Urban,Low,10,1,ana_yemek,0.0286
+Fruits,267,Corporate,393,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Low,24,1,tatli,0.0611
+Meat,350,Wedding,450,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,ana_yemek,0.0889
+Fruits,300,Birthday,400,Room Temperature,Regular,Winter,Finger Food,Suburban,Low,20,1,tatli,0.05
+Fruits,380,Wedding,500,Room Temperature,Regular,Winter,Sit-down Dinner,Rural,High,35,3,tatli,0.07
+Fruits,300,Birthday,450,Refrigerated,Regular,All Seasons,Finger Food,Suburban,Low,25,1,tatli,0.0556
+Meat,220,Social Gathering,300,Room Temperature,Regular,Winter,Buffet,Suburban,Low,10,1,ana_yemek,0.0333
+Meat,220,Corporate,450,Room Temperature,Regular,Winter,Finger Food,Urban,Moderate,30,2,ana_yemek,0.0667
+Vegetables,220,Corporate,300,Refrigerated,Regular,Winter,Finger Food,Suburban,Low,15,1,salata,0.05
+Meat,350,Corporate,450,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,35,3,ana_yemek,0.0778
+Fruits,400,Wedding,500,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,40,3,tatli,0.08
+Meat,320,Wedding,400,Refrigerated,Regular,Winter,Finger Food,Suburban,Moderate,25,2,ana_yemek,0.0625
+Fruits,400,Wedding,500,Refrigerated,Regular,All Seasons,Finger Food,Urban,High,40,3,tatli,0.08
+Baked Goods,320,Corporate,400,Room Temperature,Regular,Summer,Buffet,Rural,High,35,3,tatli,0.0875
+Meat,400,Birthday,500,Room Temperature,Regular,Winter,Finger Food,Suburban,High,40,3,ana_yemek,0.08
+Meat,208,Wedding,282,Refrigerated,Regular,Summer,Sit-down Dinner,Rural,Moderate,22,2,ana_yemek,0.078
+Meat,280,Birthday,350,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,20,2,ana_yemek,0.0571
+Meat,380,Corporate,400,Refrigerated,Regular,Winter,Finger Food,Suburban,Moderate,25,2,ana_yemek,0.0625
+Meat,438,Corporate,493,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,Moderate,35,2,ana_yemek,0.071
+Fruits,350,Corporate,450,Refrigerated,Regular,All Seasons,Finger Food,Suburban,Low,20,1,tatli,0.0444
+Meat,220,Corporate,300,Refrigerated,Occasional,Winter,Finger Food,Suburban,Moderate,15,2,ana_yemek,0.05
+Fruits,220,Corporate,300,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,15,2,tatli,0.05
+Vegetables,280,Social Gathering,350,Room Temperature,Regular,Summer,Buffet,Urban,Low,20,1,salata,0.0571
+Meat,220,Corporate,300,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,15,2,ana_yemek,0.05
+Fruits,491,Wedding,497,Room Temperature,Regular,All Seasons,Finger Food,Urban,High,32,3,tatli,0.0644
+Fruits,400,Birthday,500,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,50,3,tatli,0.1
+Meat,250,Birthday,350,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Moderate,20,2,ana_yemek,0.0571
+Meat,300,Corporate,400,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,ana_yemek,0.0875
+Dairy Products,439,Corporate,459,Room Temperature,Regular,Summer,Buffet,Suburban,Low,39,1,icecek,0.085
+Fruits,240,Corporate,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Low,20,1,tatli,0.0444
+Baked Goods,300,Birthday,400,Room Temperature,Regular,Summer,Finger Food,Suburban,Low,20,1,tatli,0.05
+Fruits,280,Corporate,350,Refrigerated,Occasional,Summer,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Fruits,350,Wedding,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,40,3,tatli,0.0889
+Meat,400,Social Gathering,450,Refrigerated,Regular,All Seasons,Buffet,Urban,Moderate,30,2,ana_yemek,0.0667
+Fruits,434,Birthday,495,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Low,36,1,tatli,0.0727
+Fruits,300,Corporate,400,Refrigerated,Regular,All Seasons,Finger Food,Rural,Moderate,15,2,tatli,0.0375
+Fruits,290,Social Gathering,374,Room Temperature,Regular,Winter,Finger Food,Urban,Low,27,1,tatli,0.0722
+Dairy Products,300,Birthday,400,Room Temperature,Regular,Winter,Finger Food,Urban,Low,20,1,icecek,0.05
+Meat,320,Social Gathering,400,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,40,3,ana_yemek,0.1
+Baked Goods,320,Birthday,400,Room Temperature,Regular,Summer,Finger Food,Urban,Moderate,20,2,tatli,0.05
+Meat,400,Social Gathering,500,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,45,3,ana_yemek,0.09
+Vegetables,280,Birthday,350,Refrigerated,Regular,All Seasons,Finger Food,Rural,Moderate,20,2,salata,0.0571
+Baked Goods,380,Corporate,500,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,35,3,tatli,0.07
+Meat,380,Birthday,480,Refrigerated,Regular,Summer,Buffet,Suburban,Moderate,30,2,ana_yemek,0.0625
+Meat,400,Wedding,500,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,50,3,ana_yemek,0.1
+Meat,320,Birthday,400,Refrigerated,Regular,All Seasons,Buffet,Suburban,High,30,3,ana_yemek,0.075
+Vegetables,280,Wedding,350,Refrigerated,Regular,Winter,Finger Food,Urban,Low,15,1,salata,0.0429
+Vegetables,320,Birthday,400,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,40,3,salata,0.1
+Fruits,250,Social Gathering,350,Room Temperature,Regular,All Seasons,Buffet,Urban,Low,10,1,tatli,0.0286
+Vegetables,350,Corporate,450,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,salata,0.0778
+Meat,250,Wedding,350,Refrigerated,Occasional,All Seasons,Sit-down Dinner,Suburban,High,40,3,ana_yemek,0.1143
+Vegetables,280,Corporate,350,Refrigerated,Occasional,Summer,Finger Food,Urban,Moderate,20,2,salata,0.0571
+Baked Goods,450,Birthday,500,Room Temperature,Regular,All Seasons,Finger Food,Rural,High,30,3,tatli,0.06
+Dairy Products,250,Social Gathering,350,Room Temperature,Regular,Summer,Buffet,Urban,Low,10,1,icecek,0.0286
+Fruits,230,Wedding,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,Moderate,30,2,tatli,0.06
+Baked Goods,320,Birthday,400,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Baked Goods,442,Wedding,482,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Low,32,1,tatli,0.0664
+Baked Goods,250,Birthday,350,Room Temperature,Regular,Winter,Finger Food,Suburban,High,35,3,tatli,0.1
+Vegetables,310,Social Gathering,350,Refrigerated,Regular,Winter,Finger Food,Rural,High,35,3,salata,0.1
+Fruits,320,Social Gathering,400,Room Temperature,Regular,All Seasons,Buffet,Rural,High,30,3,tatli,0.075
+Dairy Products,350,Corporate,450,Room Temperature,Regular,Summer,Finger Food,Urban,High,30,3,icecek,0.0667
+Meat,400,Social Gathering,500,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,50,3,ana_yemek,0.1
+Fruits,320,Corporate,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,High,35,3,tatli,0.0875
+Vegetables,350,Wedding,450,Refrigerated,Occasional,Winter,Sit-down Dinner,Suburban,High,35,3,salata,0.0778
+Meat,280,Social Gathering,350,Room Temperature,Regular,Winter,Finger Food,Urban,Moderate,20,2,ana_yemek,0.0571
+Meat,350,Social Gathering,450,Refrigerated,Occasional,All Seasons,Finger Food,Rural,High,40,3,ana_yemek,0.0889
+Baked Goods,302,Social Gathering,371,Room Temperature,Regular,Summer,Buffet,Suburban,Low,27,1,tatli,0.0728
+Fruits,438,Corporate,493,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,35,2,tatli,0.071
+Baked Goods,310,Corporate,350,Room Temperature,Regular,All Seasons,Finger Food,Urban,High,35,3,tatli,0.1
+Dairy Products,320,Social Gathering,400,Room Temperature,Regular,Summer,Buffet,Rural,High,40,3,icecek,0.1
+Fruits,300,Birthday,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,15,2,tatli,0.0375
+Baked Goods,280,Birthday,350,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Dairy Products,400,Corporate,500,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Low,25,1,icecek,0.05
+Vegetables,250,Corporate,350,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,20,2,salata,0.0571
+Fruits,350,Corporate,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,45,3,tatli,0.1
+Dairy Products,300,Corporate,400,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,40,3,icecek,0.1
+Fruits,350,Corporate,450,Refrigerated,Occasional,All Seasons,Sit-down Dinner,Rural,Moderate,25,2,tatli,0.0556
+Baked Goods,380,Corporate,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,tatli,0.07
+Dairy Products,250,Corporate,480,Room Temperature,Regular,All Seasons,Finger Food,Urban,Low,20,1,icecek,0.0417
+Dairy Products,300,Social Gathering,400,Room Temperature,Regular,Summer,Buffet,Suburban,High,30,3,icecek,0.075
+Fruits,250,Wedding,350,Refrigerated,Occasional,All Seasons,Sit-down Dinner,Suburban,Moderate,20,2,tatli,0.0571
+Fruits,400,Social Gathering,500,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,40,3,tatli,0.08
+Baked Goods,300,Corporate,400,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Meat,300,Social Gathering,400,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,High,40,3,ana_yemek,0.1
+Fruits,350,Social Gathering,450,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,45,3,tatli,0.1
+Dairy Products,280,Corporate,350,Refrigerated,Occasional,Summer,Finger Food,Suburban,Moderate,20,2,icecek,0.0571
+Fruits,380,Social Gathering,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,tatli,0.07
+Dairy Products,240,Birthday,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Low,20,1,icecek,0.0444
+Baked Goods,397,Wedding,482,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,31,2,tatli,0.0643
+Baked Goods,320,Birthday,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Dairy Products,320,Corporate,400,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,25,2,icecek,0.0625
+Vegetables,400,Social Gathering,500,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,High,30,3,salata,0.06
+Dairy Products,220,Corporate,300,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,15,2,icecek,0.05
+Dairy Products,350,Wedding,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,icecek,0.0556
+Baked Goods,350,Corporate,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,25,2,tatli,0.0556
+Baked Goods,300,Social Gathering,400,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,15,2,tatli,0.0375
+Baked Goods,350,Social Gathering,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,tatli,0.0778
+Dairy Products,250,Social Gathering,350,Room Temperature,Regular,Summer,Buffet,Rural,Moderate,20,2,icecek,0.0571
+Baked Goods,250,Birthday,350,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,20,2,tatli,0.0571
+Vegetables,400,Social Gathering,500,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,40,3,salata,0.08
+Vegetables,290,Social Gathering,374,Room Temperature,Regular,All Seasons,Finger Food,Urban,Low,27,1,salata,0.0722
+Dairy Products,280,Social Gathering,350,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Low,25,1,icecek,0.0714
+Vegetables,350,Corporate,450,Refrigerated,Regular,Summer,Buffet,Urban,High,40,3,salata,0.0889
+Fruits,267,Wedding,480,Refrigerated,Regular,Winter,Sit-down Dinner,Rural,Low,30,1,tatli,0.0625
+Fruits,290,Birthday,374,Refrigerated,Occasional,Winter,Finger Food,Rural,Low,27,1,tatli,0.0722
+Fruits,300,Wedding,450,Room Temperature,Regular,Summer,Finger Food,Urban,High,35,3,tatli,0.0778
+Meat,400,Wedding,500,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,50,3,ana_yemek,0.1
+Fruits,250,Birthday,350,Room Temperature,Regular,Summer,Finger Food,Rural,High,30,3,tatli,0.0857
+Vegetables,310,Birthday,350,Refrigerated,Regular,Summer,Finger Food,Rural,High,35,3,salata,0.1
+Meat,290,Social Gathering,374,Refrigerated,Regular,Summer,Finger Food,Rural,Low,27,1,ana_yemek,0.0722
+Meat,250,Birthday,350,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,ana_yemek,0.1143
+Baked Goods,220,Wedding,300,Room Temperature,Regular,Summer,Buffet,Suburban,Low,10,1,tatli,0.0333
+Meat,400,Birthday,500,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,45,3,ana_yemek,0.09
+Vegetables,250,Corporate,350,Refrigerated,Occasional,Summer,Buffet,Suburban,Low,10,1,salata,0.0286
+Vegetables,350,Corporate,450,Refrigerated,Regular,Summer,Finger Food,Urban,High,30,3,salata,0.0667
+Meat,300,Birthday,400,Refrigerated,Regular,All Seasons,Finger Food,Suburban,Low,20,1,ana_yemek,0.05
+Meat,250,Birthday,350,Refrigerated,Regular,Winter,Finger Food,Suburban,Moderate,20,2,ana_yemek,0.0571
+Meat,261,Wedding,350,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,Moderate,23,2,ana_yemek,0.0657
+Meat,400,Wedding,500,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,High,30,3,ana_yemek,0.06
+Vegetables,350,Wedding,450,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,40,3,salata,0.0889
+Fruits,320,Social Gathering,400,Room Temperature,Regular,Summer,Buffet,Rural,High,30,3,tatli,0.075
+Fruits,300,Wedding,400,Refrigerated,Regular,Winter,Sit-down Dinner,Rural,Moderate,15,2,tatli,0.0375
+Vegetables,280,Birthday,350,Room Temperature,Regular,Summer,Finger Food,Rural,Low,15,1,salata,0.0429
+Meat,220,Wedding,300,Refrigerated,Occasional,Winter,Finger Food,Suburban,Moderate,23,2,ana_yemek,0.0767
+Vegetables,300,Corporate,400,Refrigerated,Regular,Winter,Finger Food,Rural,Moderate,15,2,salata,0.0375
+Meat,250,Wedding,350,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,25,2,ana_yemek,0.0714
+Baked Goods,280,Social Gathering,350,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Baked Goods,380,Social Gathering,400,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Dairy Products,320,Corporate,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,35,3,icecek,0.0875
+Baked Goods,350,Birthday,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,30,2,tatli,0.0667
+Dairy Products,230,Corporate,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,30,2,icecek,0.06
+Baked Goods,350,Social Gathering,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,40,3,tatli,0.0889
+Dairy Products,380,Social Gathering,500,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,25,2,icecek,0.05
+Dairy Products,342,Social Gathering,405,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,29,2,icecek,0.0716
+Fruits,400,Wedding,500,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,High,40,3,tatli,0.08
+Vegetables,275,Wedding,388,Room Temperature,Regular,All Seasons,Finger Food,Rural,Low,16,1,salata,0.0412
+Vegetables,220,Social Gathering,300,Refrigerated,Regular,Winter,Finger Food,Urban,Low,15,1,salata,0.05
+Baked Goods,280,Wedding,400,Room Temperature,Regular,All Seasons,Buffet,Urban,Moderate,25,2,tatli,0.0625
+Vegetables,400,Corporate,500,Refrigerated,Occasional,Summer,Sit-down Dinner,Urban,High,40,3,salata,0.08
+Baked Goods,220,Wedding,300,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,15,2,tatli,0.05
+Baked Goods,400,Wedding,500,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,40,3,tatli,0.08
+Dairy Products,400,Wedding,500,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,Low,25,1,icecek,0.05
+Meat,350,Social Gathering,450,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,ana_yemek,0.0778
+Dairy Products,300,Corporate,450,Room Temperature,Regular,Winter,Finger Food,Urban,High,35,3,icecek,0.0778
+Fruits,300,Corporate,450,Room Temperature,Regular,All Seasons,Finger Food,Suburban,High,35,3,tatli,0.0778
+Dairy Products,472,Social Gathering,489,Room Temperature,Regular,Summer,Buffet,Urban,Low,36,1,icecek,0.0736
+Fruits,397,Wedding,482,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Moderate,31,2,tatli,0.0643
+Dairy Products,439,Birthday,459,Room Temperature,Regular,All Seasons,Buffet,Suburban,Low,39,1,icecek,0.085
+Vegetables,220,Corporate,300,Refrigerated,Occasional,Summer,Finger Food,Suburban,Moderate,15,2,salata,0.05
+Fruits,220,Birthday,300,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,15,2,tatli,0.05
+Dairy Products,300,Corporate,420,Room Temperature,Regular,All Seasons,Finger Food,Urban,Low,20,1,icecek,0.0476
+Baked Goods,400,Corporate,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,50,3,tatli,0.1
+Baked Goods,280,Corporate,350,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Baked Goods,350,Wedding,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,High,35,3,tatli,0.0778
+Baked Goods,350,Corporate,450,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,40,3,tatli,0.0889
+Dairy Products,400,Wedding,350,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,icecek,0.1
+Meat,350,Social Gathering,450,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,High,45,3,ana_yemek,0.1
+Fruits,250,Social Gathering,350,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Baked Goods,350,Corporate,450,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,25,2,tatli,0.0556
+Dairy Products,290,Social Gathering,374,Room Temperature,Regular,Winter,Finger Food,Rural,Low,27,1,icecek,0.0722
+Dairy Products,400,Wedding,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,High,35,3,icecek,0.1
+Dairy Products,280,Corporate,350,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,20,2,icecek,0.0571
+Dairy Products,400,Corporate,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Low,25,1,icecek,0.05
+Meat,400,Wedding,500,Refrigerated,Occasional,Winter,Sit-down Dinner,Rural,High,45,3,ana_yemek,0.09
+Baked Goods,320,Birthday,400,Room Temperature,Regular,Winter,Buffet,Rural,High,30,3,tatli,0.075
+Fruits,310,Corporate,450,Room Temperature,Regular,All Seasons,Buffet,Urban,Low,25,1,tatli,0.0556
+Vegetables,220,Wedding,300,Refrigerated,Occasional,Summer,Finger Food,Rural,Low,15,1,salata,0.05
+Vegetables,367,Social Gathering,420,Refrigerated,Regular,Summer,Buffet,Urban,Low,40,1,salata,0.0952
+Meat,350,Birthday,450,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,Moderate,25,2,ana_yemek,0.0556
+Dairy Products,250,Wedding,500,Room Temperature,Regular,Winter,Buffet,Urban,High,40,3,icecek,0.08
+Dairy Products,472,Corporate,489,Room Temperature,Regular,Winter,Buffet,Urban,Low,36,1,icecek,0.0736
+Baked Goods,250,Wedding,350,Room Temperature,Regular,All Seasons,Buffet,Urban,Low,10,1,tatli,0.0286
+Fruits,220,Social Gathering,450,Refrigerated,Regular,Summer,Finger Food,Rural,Low,20,1,tatli,0.0444
+Vegetables,380,Corporate,480,Refrigerated,Regular,Summer,Buffet,Suburban,Moderate,30,2,salata,0.0625
+Meat,220,Corporate,300,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,15,2,ana_yemek,0.05
+Fruits,400,Wedding,500,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,40,3,tatli,0.08
+Fruits,380,Birthday,400,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,25,2,tatli,0.0625
+Baked Goods,250,Birthday,350,Room Temperature,Regular,Winter,Buffet,Rural,Moderate,20,2,tatli,0.0571
+Meat,350,Birthday,450,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,ana_yemek,0.0556
+Fruits,491,Birthday,497,Room Temperature,Regular,All Seasons,Finger Food,Rural,High,32,3,tatli,0.0644
+Fruits,380,Birthday,480,Room Temperature,Occasional,Summer,Buffet,Suburban,Moderate,30,2,tatli,0.0625
+Meat,292,Social Gathering,470,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,50,3,ana_yemek,0.1064
+Vegetables,400,Birthday,500,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Low,25,1,salata,0.05
+Baked Goods,300,Birthday,450,Room Temperature,Regular,Summer,Finger Food,Suburban,High,35,3,tatli,0.0778
+Dairy Products,250,Corporate,350,Room Temperature,Regular,All Seasons,Buffet,Urban,Low,10,1,icecek,0.0286
+Baked Goods,220,Corporate,300,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Low,15,1,tatli,0.05
+Fruits,230,Corporate,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Low,20,1,tatli,0.04
+Vegetables,320,Birthday,400,Refrigerated,Regular,All Seasons,Finger Food,Rural,Moderate,25,2,salata,0.0625
+Baked Goods,450,Corporate,500,Room Temperature,Occasional,Summer,Finger Food,Urban,High,30,3,tatli,0.06
+Fruits,400,Corporate,500,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,High,40,3,tatli,0.08
+Fruits,342,Corporate,405,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,29,2,tatli,0.0716
+Dairy Products,400,Wedding,350,Room Temperature,Regular,Winter,Sit-down Dinner,Rural,High,35,3,icecek,0.1
+Vegetables,240,Birthday,450,Refrigerated,Regular,All Seasons,Finger Food,Suburban,Moderate,30,2,salata,0.0667
+Dairy Products,250,Wedding,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,High,35,3,icecek,0.1
+Dairy Products,300,Birthday,400,Room Temperature,Regular,All Seasons,Buffet,Urban,Moderate,30,2,icecek,0.075
+Dairy Products,488,Corporate,498,Room Temperature,Regular,Summer,Finger Food,Suburban,High,63,3,icecek,0.1265
+Baked Goods,350,Birthday,450,Room Temperature,Occasional,All Seasons,Finger Food,Rural,High,30,3,tatli,0.0667
+Meat,230,Birthday,500,Refrigerated,Occasional,All Seasons,Sit-down Dinner,Suburban,Moderate,30,2,ana_yemek,0.06
+Meat,220,Social Gathering,300,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,15,2,ana_yemek,0.05
+Dairy Products,280,Wedding,350,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,20,2,icecek,0.0571
+Fruits,400,Wedding,500,Room Temperature,Occasional,All Seasons,Sit-down Dinner,Suburban,High,50,3,tatli,0.1
+Dairy Products,400,Corporate,500,Room Temperature,Regular,All Seasons,Finger Food,Urban,High,40,3,icecek,0.08
+Baked Goods,380,Birthday,400,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,25,2,tatli,0.0625
+Fruits,250,Social Gathering,350,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Moderate,20,2,tatli,0.0571
+Dairy Products,300,Corporate,400,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Low,20,1,icecek,0.05
+Dairy Products,220,Corporate,300,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,15,2,icecek,0.05
+Baked Goods,350,Corporate,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0556
+Vegetables,320,Social Gathering,400,Refrigerated,Occasional,Summer,Finger Food,Suburban,Moderate,25,2,salata,0.0625
+Baked Goods,320,Corporate,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Dairy Products,220,Corporate,300,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,15,2,icecek,0.05
+Dairy Products,250,Birthday,350,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,20,2,icecek,0.0571
+Dairy Products,280,Corporate,480,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,15,1,icecek,0.0312
+Dairy Products,450,Social Gathering,500,Room Temperature,Regular,All Seasons,Finger Food,Rural,High,30,3,icecek,0.06
+Dairy Products,350,Wedding,450,Room Temperature,Occasional,All Seasons,Sit-down Dinner,Suburban,High,40,3,icecek,0.0889
+Vegetables,300,Social Gathering,400,Room Temperature,Occasional,Winter,Sit-down Dinner,Suburban,High,40,3,salata,0.1
+Dairy Products,300,Social Gathering,400,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Low,20,1,icecek,0.05
+Baked Goods,220,Social Gathering,450,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,30,2,tatli,0.0667
+Dairy Products,280,Social Gathering,350,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,20,2,icecek,0.0571
+Dairy Products,350,Social Gathering,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,25,2,icecek,0.0556
+Dairy Products,247,Social Gathering,348,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,16,2,icecek,0.046
+Dairy Products,400,Social Gathering,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,40,3,icecek,0.08
+Dairy Products,320,Social Gathering,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,25,2,icecek,0.0625
+Dairy Products,400,Social Gathering,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,35,3,icecek,0.1
+Meat,320,Birthday,400,Refrigerated,Regular,Winter,Buffet,Rural,High,30,3,ana_yemek,0.075
+Meat,280,Wedding,400,Refrigerated,Regular,Winter,Buffet,Urban,Moderate,25,2,ana_yemek,0.0625
+Meat,320,Corporate,400,Room Temperature,Regular,Summer,Buffet,Urban,High,45,3,ana_yemek,0.1125
+Meat,350,Birthday,450,Refrigerated,Regular,Summer,Finger Food,Suburban,Low,20,1,ana_yemek,0.0444
+Meat,400,Wedding,350,Refrigerated,Regular,Summer,Sit-down Dinner,Rural,High,35,3,ana_yemek,0.1
+Meat,350,Birthday,450,Refrigerated,Regular,Winter,Finger Food,Suburban,High,30,3,ana_yemek,0.0667
+Meat,400,Wedding,500,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,50,3,ana_yemek,0.1
+Fruits,320,Wedding,400,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,35,3,tatli,0.0875
+Baked Goods,220,Social Gathering,300,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,15,2,tatli,0.05
+Dairy Products,434,Social Gathering,495,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Low,36,1,icecek,0.0727
+Dairy Products,300,Social Gathering,400,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,icecek,0.1
+Dairy Products,300,Social Gathering,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,25,2,icecek,0.0625
+Meat,320,Birthday,480,Refrigerated,Regular,Winter,Buffet,Rural,High,40,3,ana_yemek,0.0833
+Meat,350,Corporate,450,Refrigerated,Occasional,Summer,Buffet,Urban,High,40,3,ana_yemek,0.0889
+Meat,400,Corporate,500,Refrigerated,Occasional,Winter,Buffet,Rural,High,30,3,ana_yemek,0.06
+Meat,310,Birthday,350,Refrigerated,Regular,Winter,Finger Food,Rural,High,35,3,ana_yemek,0.1
+Meat,380,Wedding,500,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,35,3,ana_yemek,0.07
+Meat,220,Wedding,300,Refrigerated,Regular,Summer,Finger Food,Rural,Moderate,15,2,ana_yemek,0.05
+Meat,220,Corporate,300,Room Temperature,Regular,Summer,Finger Food,Urban,Low,15,1,ana_yemek,0.05
+Fruits,310,Wedding,350,Refrigerated,Regular,All Seasons,Finger Food,Rural,High,35,3,tatli,0.1
+Meat,434,Birthday,495,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Low,36,1,ana_yemek,0.0727
+Fruits,488,Corporate,498,Room Temperature,Regular,Summer,Finger Food,Rural,High,63,3,tatli,0.1265
+Fruits,275,Corporate,388,Room Temperature,Regular,Winter,Finger Food,Urban,Low,16,1,tatli,0.0412
+Meat,300,Wedding,400,Refrigerated,Regular,All Seasons,Finger Food,Urban,Moderate,15,2,ana_yemek,0.0375
+Meat,220,Wedding,300,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Low,15,1,ana_yemek,0.05
+Meat,350,Corporate,450,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,Moderate,25,2,ana_yemek,0.0556
+Meat,400,Wedding,500,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,High,40,3,ana_yemek,0.08
+Meat,220,Corporate,300,Room Temperature,Regular,Summer,Finger Food,Urban,Moderate,15,2,ana_yemek,0.05
+Meat,220,Birthday,300,Refrigerated,Occasional,Winter,Finger Food,Suburban,Moderate,15,2,ana_yemek,0.05
+Vegetables,350,Birthday,450,Room Temperature,Regular,Summer,Finger Food,Urban,High,30,3,salata,0.0667
+Vegetables,220,Corporate,300,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Low,15,1,salata,0.05
+Baked Goods,220,Birthday,300,Room Temperature,Regular,Summer,Finger Food,Urban,Low,15,1,tatli,0.05
+Dairy Products,300,Birthday,400,Room Temperature,Regular,Summer,Buffet,Suburban,Low,20,1,icecek,0.05
+Vegetables,280,Corporate,350,Refrigerated,Regular,Summer,Finger Food,Urban,Moderate,20,2,salata,0.0571
+Baked Goods,350,Corporate,450,Room Temperature,Regular,Summer,Finger Food,Urban,Low,20,1,tatli,0.0444
+Fruits,280,Corporate,350,Room Temperature,Regular,Winter,Finger Food,Urban,Moderate,20,2,tatli,0.0571
+Baked Goods,320,Wedding,400,Room Temperature,Occasional,Summer,Buffet,Rural,High,35,3,tatli,0.0875
+Meat,280,Birthday,350,Room Temperature,Regular,Summer,Finger Food,Rural,Moderate,20,2,ana_yemek,0.0571
+Meat,207,Corporate,280,Room Temperature,Regular,Winter,Finger Food,Suburban,High,20,3,ana_yemek,0.0714
+Fruits,275,Corporate,388,Room Temperature,Regular,Winter,Finger Food,Suburban,Low,16,1,tatli,0.0412
+Vegetables,400,Wedding,350,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,35,3,salata,0.1
+Meat,250,Wedding,350,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,20,2,ana_yemek,0.0571
+Meat,400,Birthday,500,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,High,40,3,ana_yemek,0.08
+Fruits,350,Birthday,450,Room Temperature,Regular,All Seasons,Finger Food,Suburban,High,30,3,tatli,0.0667
+Baked Goods,300,Wedding,400,Room Temperature,Regular,All Seasons,Finger Food,Rural,Low,20,1,tatli,0.05
+Meat,350,Birthday,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,ana_yemek,0.0556
+Baked Goods,250,Birthday,350,Room Temperature,Regular,All Seasons,Buffet,Rural,Moderate,20,2,tatli,0.0571
+Fruits,320,Birthday,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,35,3,tatli,0.0875
+Baked Goods,292,Wedding,470,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,50,3,tatli,0.1064
+Dairy Products,350,Birthday,450,Refrigerated,Regular,All Seasons,Finger Food,Suburban,Low,20,1,icecek,0.0444
+Vegetables,320,Wedding,400,Refrigerated,Regular,Winter,Buffet,Rural,High,30,3,salata,0.075
+Fruits,472,Birthday,489,Room Temperature,Regular,Summer,Buffet,Urban,Low,36,1,tatli,0.0736
+Meat,320,Corporate,400,Refrigerated,Regular,Winter,Finger Food,Urban,Low,15,1,ana_yemek,0.0375
+Fruits,320,Wedding,400,Refrigerated,Regular,All Seasons,Buffet,Rural,High,35,3,tatli,0.0875
+Meat,453,Wedding,484,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,54,3,ana_yemek,0.1116
+Dairy Products,290,Wedding,374,Room Temperature,Regular,All Seasons,Finger Food,Urban,Low,27,1,icecek,0.0722
+Dairy Products,350,Birthday,450,Room Temperature,Regular,Summer,Sit-down Dinner,Rural,High,35,3,icecek,0.0778
+Fruits,280,Social Gathering,350,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,20,2,tatli,0.0571
+Dairy Products,280,Corporate,400,Room Temperature,Regular,All Seasons,Buffet,Urban,Moderate,25,2,icecek,0.0625
+Baked Goods,250,Wedding,350,Room Temperature,Regular,Summer,Finger Food,Rural,High,30,3,tatli,0.0857
+Fruits,320,Corporate,400,Refrigerated,Regular,Summer,Finger Food,Suburban,Moderate,20,2,tatli,0.05
+Meat,350,Wedding,450,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,ana_yemek,0.0556
+Vegetables,267,Wedding,393,Room Temperature,Regular,Summer,Sit-down Dinner,Rural,Low,24,1,salata,0.0611
+Baked Goods,450,Corporate,500,Room Temperature,Regular,Summer,Finger Food,Urban,High,30,3,tatli,0.06
+Meat,220,Wedding,300,Refrigerated,Regular,Summer,Finger Food,Rural,Moderate,20,2,ana_yemek,0.0667
+Fruits,320,Birthday,400,Room Temperature,Occasional,Winter,Buffet,Rural,High,30,3,tatli,0.075
+Meat,400,Corporate,500,Refrigerated,Regular,Summer,Sit-down Dinner,Rural,High,40,3,ana_yemek,0.08
+Dairy Products,400,Corporate,500,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,50,3,icecek,0.1
+Fruits,442,Wedding,452,Room Temperature,Occasional,All Seasons,Sit-down Dinner,Suburban,Low,32,1,tatli,0.0708
+Baked Goods,247,Birthday,348,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,16,2,tatli,0.046
+Fruits,320,Wedding,400,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,tatli,0.0875
+Meat,290,Social Gathering,374,Refrigerated,Regular,All Seasons,Finger Food,Rural,Low,27,1,ana_yemek,0.0722
+Fruits,320,Birthday,400,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,40,3,tatli,0.1
+Vegetables,438,Birthday,493,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,33,3,salata,0.0669
+Dairy Products,280,Birthday,350,Room Temperature,Regular,Summer,Finger Food,Urban,Low,15,1,icecek,0.0429
+Dairy Products,280,Social Gathering,350,Room Temperature,Regular,Winter,Finger Food,Rural,Low,20,1,icecek,0.0571
+Dairy Products,280,Wedding,350,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,20,2,icecek,0.0571
+Baked Goods,400,Birthday,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,45,3,tatli,0.09
+Baked Goods,350,Birthday,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,35,3,tatli,0.0778
+Dairy Products,350,Wedding,450,Room Temperature,Occasional,Summer,Sit-down Dinner,Urban,Moderate,25,2,icecek,0.0556
+Dairy Products,220,Wedding,300,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,15,1,icecek,0.05
+Dairy Products,260,Corporate,400,Room Temperature,Occasional,Winter,Sit-down Dinner,Suburban,Low,20,1,icecek,0.05
+Dairy Products,250,Wedding,350,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,20,2,icecek,0.0571
+Baked Goods,412,Social Gathering,478,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Low,38,1,tatli,0.0795
+Dairy Products,320,Social Gathering,400,Room Temperature,Regular,All Seasons,Buffet,Urban,Moderate,25,2,icecek,0.0625
+Meat,230,Corporate,500,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,30,2,ana_yemek,0.06
+Baked Goods,350,Birthday,450,Room Temperature,Regular,Summer,Finger Food,Suburban,High,30,3,tatli,0.0667
+Baked Goods,302,Corporate,371,Room Temperature,Regular,All Seasons,Buffet,Suburban,Low,27,1,tatli,0.0728
+Baked Goods,488,Corporate,498,Room Temperature,Regular,Summer,Finger Food,Suburban,High,63,3,tatli,0.1265
+Vegetables,350,Corporate,450,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,35,3,salata,0.0778
+Fruits,280,Birthday,350,Refrigerated,Regular,Summer,Finger Food,Rural,Moderate,20,2,tatli,0.0571
+Meat,250,Wedding,350,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Moderate,25,2,ana_yemek,0.0714
+Meat,230,Wedding,500,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,Low,20,1,ana_yemek,0.04
+Baked Goods,350,Social Gathering,450,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,25,2,tatli,0.0556
+Dairy Products,280,Corporate,350,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,20,2,icecek,0.0571
+Baked Goods,280,Social Gathering,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,20,2,tatli,0.0571
+Vegetables,208,Social Gathering,282,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Moderate,22,2,salata,0.078
+Dairy Products,250,Wedding,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,20,2,icecek,0.0571
+Meat,250,Birthday,350,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Moderate,20,2,ana_yemek,0.0571
+Fruits,260,Wedding,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,20,1,tatli,0.05
+Meat,300,Social Gathering,400,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,15,2,ana_yemek,0.0375
+Dairy Products,400,Wedding,400,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,40,3,icecek,0.1
+Baked Goods,400,Birthday,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,tatli,0.08
+Meat,350,Social Gathering,450,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,ana_yemek,0.0556
+Baked Goods,400,Social Gathering,500,Room Temperature,Regular,Winter,Finger Food,Rural,High,40,3,tatli,0.08
+Baked Goods,320,Corporate,400,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Dairy Products,270,Wedding,400,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,icecek,0.1
+Dairy Products,220,Wedding,300,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,15,2,icecek,0.05
+Dairy Products,280,Birthday,350,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,20,2,icecek,0.0571
+Baked Goods,400,Wedding,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,50,3,tatli,0.1
+Vegetables,220,Corporate,300,Refrigerated,Occasional,All Seasons,Finger Food,Suburban,Moderate,15,2,salata,0.05
+Baked Goods,247,Corporate,348,Room Temperature,Occasional,Summer,Finger Food,Suburban,Moderate,16,2,tatli,0.046
+Fruits,320,Social Gathering,400,Refrigerated,Occasional,Winter,Buffet,Rural,High,40,3,tatli,0.1
+Dairy Products,320,Birthday,400,Room Temperature,Regular,Summer,Buffet,Rural,High,35,3,icecek,0.0875
+Fruits,250,Birthday,500,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,tatli,0.08
+Dairy Products,320,Corporate,400,Room Temperature,Regular,Winter,Buffet,Urban,High,45,3,icecek,0.1125
+Meat,220,Birthday,300,Refrigerated,Occasional,Summer,Finger Food,Suburban,Moderate,15,2,ana_yemek,0.05
+Dairy Products,400,Corporate,500,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,45,3,icecek,0.09
+Baked Goods,350,Birthday,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,40,3,tatli,0.0889
+Baked Goods,280,Social Gathering,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,Low,20,1,tatli,0.0571
+Dairy Products,320,Corporate,400,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,25,2,icecek,0.0625
+Baked Goods,247,Corporate,348,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,16,2,tatli,0.046
+Dairy Products,280,Corporate,350,Room Temperature,Occasional,Winter,Finger Food,Suburban,Moderate,20,2,icecek,0.0571
+Baked Goods,247,Social Gathering,348,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,16,2,tatli,0.046
+Baked Goods,230,Wedding,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,30,2,tatli,0.06
+Baked Goods,400,Social Gathering,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,tatli,0.08
+Baked Goods,220,Social Gathering,450,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,30,2,tatli,0.0667
+Dairy Products,350,Social Gathering,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,35,3,icecek,0.0778
+Dairy Products,280,Social Gathering,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,15,2,icecek,0.0429
+Dairy Products,250,Social Gathering,350,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Moderate,20,2,icecek,0.0571
+Vegetables,350,Corporate,450,Refrigerated,Occasional,All Seasons,Sit-down Dinner,Suburban,Moderate,30,2,salata,0.0667
+Baked Goods,350,Social Gathering,450,Room Temperature,Regular,Winter,Sit-down Dinner,Rural,Moderate,30,2,tatli,0.0667
+Vegetables,397,Social Gathering,482,Refrigerated,Regular,All Seasons,Sit-down Dinner,Rural,Moderate,31,2,salata,0.0643
+Baked Goods,400,Social Gathering,500,Room Temperature,Regular,All Seasons,Finger Food,Suburban,High,40,3,tatli,0.08
+Dairy Products,261,Birthday,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,23,2,icecek,0.0657
+Baked Goods,290,Birthday,374,Room Temperature,Regular,Summer,Finger Food,Rural,Low,27,1,tatli,0.0722
+Vegetables,300,Corporate,400,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,30,3,salata,0.075
+Fruits,350,Corporate,450,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,45,3,tatli,0.1
+Meat,350,Corporate,450,Refrigerated,Occasional,Winter,Sit-down Dinner,Rural,Moderate,25,2,ana_yemek,0.0556
+Dairy Products,320,Wedding,400,Room Temperature,Regular,All Seasons,Buffet,Urban,High,45,3,icecek,0.1125
+Meat,400,Wedding,500,Refrigerated,Occasional,All Seasons,Sit-down Dinner,Suburban,High,45,3,ana_yemek,0.09
+Fruits,400,Social Gathering,500,Room Temperature,Regular,Summer,Finger Food,Rural,High,40,3,tatli,0.08
+Meat,380,Social Gathering,480,Room Temperature,Regular,Winter,Buffet,Suburban,Moderate,30,2,ana_yemek,0.0625
+Meat,400,Social Gathering,500,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Low,25,1,ana_yemek,0.05
+Meat,350,Social Gathering,450,Room Temperature,Regular,Winter,Finger Food,Suburban,High,30,3,ana_yemek,0.0667
+Dairy Products,350,Corporate,450,Room Temperature,Regular,Winter,Finger Food,Urban,High,30,3,icecek,0.0667
+Fruits,310,Corporate,350,Room Temperature,Occasional,All Seasons,Finger Food,Urban,High,35,3,tatli,0.1
+Baked Goods,450,Birthday,500,Room Temperature,Regular,All Seasons,Finger Food,Urban,High,30,3,tatli,0.06
+Baked Goods,247,Corporate,348,Room Temperature,Regular,Winter,Finger Food,Urban,Moderate,16,2,tatli,0.046
+Meat,400,Corporate,500,Refrigerated,Occasional,All Seasons,Sit-down Dinner,Suburban,High,40,3,ana_yemek,0.08
+Baked Goods,220,Wedding,300,Room Temperature,Occasional,Summer,Finger Food,Suburban,High,35,3,tatli,0.1167
+Fruits,250,Social Gathering,350,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,tatli,0.1143
+Vegetables,300,Social Gathering,400,Room Temperature,Regular,Summer,Finger Food,Rural,Low,20,1,salata,0.05
+Fruits,342,Social Gathering,405,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,29,2,tatli,0.0716
+Dairy Products,280,Birthday,350,Room Temperature,Regular,All Seasons,Finger Food,Urban,Low,20,1,icecek,0.0571
+Baked Goods,350,Wedding,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,35,3,tatli,0.0778
+Baked Goods,250,Social Gathering,350,Room Temperature,Occasional,Summer,Buffet,Suburban,Low,10,1,tatli,0.0286
+Dairy Products,220,Corporate,300,Room Temperature,Regular,Winter,Finger Food,Urban,Moderate,15,2,icecek,0.05
+Baked Goods,320,Corporate,400,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,25,2,tatli,0.0625
+Vegetables,250,Social Gathering,350,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,Moderate,20,2,salata,0.0571
+Dairy Products,350,Corporate,450,Room Temperature,Regular,All Seasons,Finger Food,Suburban,High,30,3,icecek,0.0667
+Dairy Products,400,Corporate,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,50,3,icecek,0.1
+Dairy Products,439,Social Gathering,459,Room Temperature,Regular,All Seasons,Buffet,Suburban,Low,39,1,icecek,0.085
+Dairy Products,300,Wedding,400,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,icecek,0.0625
+Dairy Products,280,Wedding,350,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,20,2,icecek,0.0571
+Baked Goods,220,Social Gathering,300,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Low,15,1,tatli,0.05
+Dairy Products,300,Social Gathering,400,Room Temperature,Regular,Summer,Finger Food,Suburban,High,40,3,icecek,0.1
+Fruits,230,Social Gathering,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,20,1,tatli,0.04
+Dairy Products,350,Birthday,450,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Moderate,25,2,icecek,0.0556
+Dairy Products,400,Social Gathering,450,Room Temperature,Regular,All Seasons,Buffet,Urban,Moderate,30,2,icecek,0.0667
+Fruits,220,Social Gathering,300,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,15,2,tatli,0.05
+Baked Goods,300,Social Gathering,400,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Fruits,280,Social Gathering,350,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Fruits,320,Birthday,480,Refrigerated,Regular,Summer,Buffet,Rural,High,40,3,tatli,0.0833
+Meat,220,Wedding,300,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,Low,15,1,ana_yemek,0.05
+Meat,434,Wedding,495,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Low,36,1,ana_yemek,0.0727
+Vegetables,472,Corporate,489,Refrigerated,Occasional,Winter,Buffet,Urban,Low,36,1,salata,0.0736
+Meat,250,Corporate,350,Room Temperature,Regular,Winter,Finger Food,Urban,High,30,3,ana_yemek,0.0857
+Fruits,220,Wedding,300,Refrigerated,Regular,Winter,Finger Food,Rural,Moderate,15,2,tatli,0.05
+Meat,320,Corporate,400,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,ana_yemek,0.0875
+Vegetables,350,Wedding,450,Refrigerated,Occasional,Summer,Finger Food,Rural,High,30,3,salata,0.0667
+Meat,400,Corporate,400,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,40,3,ana_yemek,0.1
+Fruits,320,Corporate,480,Refrigerated,Occasional,All Seasons,Buffet,Suburban,High,40,3,tatli,0.0833
+Vegetables,280,Corporate,350,Refrigerated,Regular,Winter,Buffet,Suburban,Moderate,24,2,salata,0.0686
+Fruits,292,Birthday,470,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,50,3,tatli,0.1064
+Meat,208,Wedding,282,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Moderate,22,2,ana_yemek,0.078
+Fruits,250,Corporate,350,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Moderate,20,2,tatli,0.0571
+Meat,320,Birthday,400,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,ana_yemek,0.0875
+Meat,320,Corporate,400,Refrigerated,Occasional,Winter,Finger Food,Suburban,Moderate,20,2,ana_yemek,0.05
+Vegetables,220,Wedding,300,Refrigerated,Occasional,Summer,Finger Food,Rural,Moderate,15,2,salata,0.05
+Baked Goods,302,Corporate,371,Room Temperature,Occasional,Winter,Buffet,Suburban,Low,27,1,tatli,0.0728
+Vegetables,250,Social Gathering,350,Refrigerated,Regular,Summer,Buffet,Rural,Moderate,20,2,salata,0.0571
+Baked Goods,267,Wedding,393,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Low,24,1,tatli,0.0611
+Fruits,453,Wedding,484,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,High,54,3,tatli,0.1116
+Vegetables,400,Social Gathering,500,Room Temperature,Regular,Summer,Buffet,Rural,High,30,3,salata,0.06
+Meat,300,Wedding,400,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,Moderate,15,2,ana_yemek,0.0375
+Baked Goods,220,Wedding,300,Room Temperature,Regular,Summer,Finger Food,Urban,Moderate,15,2,tatli,0.05
+Baked Goods,300,Birthday,480,Room Temperature,Regular,All Seasons,Buffet,Suburban,High,40,3,tatli,0.0833
+Fruits,280,Social Gathering,350,Refrigerated,Regular,All Seasons,Finger Food,Rural,Low,20,1,tatli,0.0571
+Dairy Products,290,Corporate,374,Room Temperature,Regular,Winter,Finger Food,Rural,Low,27,1,icecek,0.0722
+Meat,438,Corporate,493,Refrigerated,Occasional,Winter,Sit-down Dinner,Suburban,Moderate,35,2,ana_yemek,0.071
+Baked Goods,350,Birthday,450,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,45,3,tatli,0.1
+Vegetables,300,Corporate,450,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,High,35,3,salata,0.0778
+Baked Goods,300,Corporate,400,Room Temperature,Regular,Summer,Finger Food,Rural,Moderate,15,2,tatli,0.0375
+Dairy Products,300,Wedding,400,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,35,3,icecek,0.0875
+Fruits,267,Social Gathering,393,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Low,24,1,tatli,0.0611
+Fruits,300,Birthday,400,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0625
+Meat,342,Social Gathering,405,Refrigerated,Regular,All Seasons,Finger Food,Rural,Moderate,29,2,ana_yemek,0.0716
+Fruits,350,Birthday,450,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0556
+Fruits,400,Social Gathering,500,Room Temperature,Regular,Summer,Sit-down Dinner,Rural,High,40,3,tatli,0.08
+Vegetables,220,Corporate,300,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,15,2,salata,0.05
+Vegetables,320,Social Gathering,400,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,35,3,salata,0.0875
+Dairy Products,491,Birthday,497,Room Temperature,Regular,All Seasons,Finger Food,Urban,High,32,3,icecek,0.0644
+Fruits,250,Wedding,350,Room Temperature,Occasional,Winter,Sit-down Dinner,Suburban,Moderate,20,2,tatli,0.0571
+Meat,350,Social Gathering,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,ana_yemek,0.0778
+Dairy Products,220,Social Gathering,300,Room Temperature,Regular,Summer,Finger Food,Rural,Low,15,1,icecek,0.05
+Baked Goods,380,Social Gathering,480,Room Temperature,Regular,Summer,Buffet,Suburban,Moderate,30,2,tatli,0.0625
+Vegetables,250,Wedding,350,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,20,2,salata,0.0571
+Dairy Products,400,Wedding,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,50,3,icecek,0.1
+Dairy Products,250,Corporate,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Low,25,1,icecek,0.0625
+Baked Goods,400,Social Gathering,500,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,50,3,tatli,0.1
+Baked Goods,240,Wedding,450,Room Temperature,Occasional,All Seasons,Sit-down Dinner,Suburban,Low,20,1,tatli,0.0444
+Dairy Products,250,Social Gathering,350,Room Temperature,Regular,Winter,Buffet,Suburban,Moderate,20,2,icecek,0.0571
+Dairy Products,453,Corporate,484,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,54,3,icecek,0.1116
+Dairy Products,380,Social Gathering,480,Room Temperature,Regular,Winter,Buffet,Suburban,Moderate,30,2,icecek,0.0625
+Baked Goods,380,Social Gathering,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,tatli,0.07
+Dairy Products,250,Birthday,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,40,3,icecek,0.1143
+Vegetables,220,Social Gathering,300,Refrigerated,Regular,All Seasons,Finger Food,Suburban,Moderate,15,2,salata,0.05
+Fruits,270,Social Gathering,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,40,3,tatli,0.1
+Dairy Products,280,Social Gathering,400,Room Temperature,Regular,All Seasons,Buffet,Urban,Moderate,24,2,icecek,0.06
+Baked Goods,208,Social Gathering,282,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Moderate,22,2,tatli,0.078
+Baked Goods,280,Social Gathering,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,15,2,tatli,0.0429
+Dairy Products,300,Social Gathering,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,30,2,icecek,0.075
+Dairy Products,310,Social Gathering,350,Room Temperature,Regular,All Seasons,Finger Food,Urban,High,35,3,icecek,0.1
+Baked Goods,380,Social Gathering,400,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,25,2,tatli,0.0625
+Baked Goods,434,Social Gathering,495,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,36,1,tatli,0.0727
+Meat,284,Wedding,443,Refrigerated,Regular,Summer,Buffet,Urban,Low,32,1,ana_yemek,0.0722
+Meat,250,Wedding,350,Refrigerated,Regular,Summer,Buffet,Urban,Low,10,1,ana_yemek,0.0286
+Meat,250,Wedding,480,Refrigerated,Regular,Summer,Finger Food,Rural,Low,20,1,ana_yemek,0.0417
+Meat,280,Birthday,350,Room Temperature,Regular,Winter,Finger Food,Urban,Low,20,1,ana_yemek,0.0571
+Meat,300,Corporate,400,Refrigerated,Occasional,Winter,Finger Food,Urban,Low,20,1,ana_yemek,0.05
+Meat,400,Birthday,500,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,45,3,ana_yemek,0.09
+Meat,300,Corporate,400,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,40,3,ana_yemek,0.1
+Fruits,310,Corporate,350,Room Temperature,Regular,Summer,Finger Food,Urban,High,35,3,tatli,0.1
+Meat,400,Wedding,350,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,35,3,ana_yemek,0.1
+Meat,207,Corporate,280,Room Temperature,Regular,Summer,Finger Food,Suburban,High,20,3,ana_yemek,0.0714
+Fruits,380,Wedding,500,Refrigerated,Occasional,Winter,Sit-down Dinner,Urban,High,35,3,tatli,0.07
+Meat,302,Social Gathering,371,Room Temperature,Regular,Winter,Buffet,Suburban,Low,27,1,ana_yemek,0.0728
+Dairy Products,250,Corporate,350,Room Temperature,Regular,Winter,Buffet,Urban,Low,10,1,icecek,0.0286
+Baked Goods,280,Birthday,350,Room Temperature,Regular,Winter,Finger Food,Rural,Low,15,1,tatli,0.0429
+Vegetables,350,Birthday,450,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,35,3,salata,0.0778
+Fruits,220,Wedding,300,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Low,15,1,tatli,0.05
+Vegetables,300,Birthday,400,Refrigerated,Occasional,Winter,Finger Food,Suburban,Low,15,1,salata,0.0375
+Meat,300,Social Gathering,450,Refrigerated,Regular,Summer,Finger Food,Suburban,High,35,3,ana_yemek,0.0778
+Fruits,250,Corporate,350,Refrigerated,Regular,All Seasons,Finger Food,Urban,Moderate,20,2,tatli,0.0571
+Vegetables,350,Wedding,450,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,40,3,salata,0.0889
+Fruits,442,Wedding,482,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Low,32,1,tatli,0.0664
+Fruits,350,Wedding,450,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,25,2,tatli,0.0556
+Baked Goods,300,Wedding,400,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Low,20,1,tatli,0.05
+Dairy Products,310,Birthday,350,Room Temperature,Regular,Winter,Finger Food,Rural,High,35,3,icecek,0.1
+Baked Goods,275,Wedding,388,Room Temperature,Regular,All Seasons,Finger Food,Urban,Low,16,1,tatli,0.0412
+Fruits,310,Social Gathering,350,Room Temperature,Regular,Winter,Finger Food,Rural,High,35,3,tatli,0.1
+Baked Goods,220,Birthday,300,Room Temperature,Regular,Summer,Finger Food,Rural,Moderate,15,2,tatli,0.05
+Dairy Products,380,Wedding,480,Room Temperature,Regular,Summer,Buffet,Suburban,Moderate,30,2,icecek,0.0625
+Dairy Products,491,Wedding,497,Room Temperature,Occasional,Summer,Finger Food,Rural,High,32,3,icecek,0.0644
+Dairy Products,250,Birthday,350,Room Temperature,Occasional,Winter,Buffet,Rural,Moderate,20,2,icecek,0.0571
+Vegetables,250,Corporate,350,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,High,40,3,salata,0.1143
+Fruits,220,Corporate,300,Refrigerated,Occasional,All Seasons,Finger Food,Suburban,Moderate,20,2,tatli,0.0667
+Fruits,320,Birthday,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Fruits,300,Corporate,400,Room Temperature,Occasional,All Seasons,Finger Food,Rural,Moderate,25,2,tatli,0.0625
+Baked Goods,250,Corporate,350,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Meat,300,Social Gathering,400,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,15,2,ana_yemek,0.0375
+Baked Goods,320,Social Gathering,400,Room Temperature,Regular,All Seasons,Buffet,Rural,High,30,3,tatli,0.075
+Meat,208,Social Gathering,282,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Moderate,22,2,ana_yemek,0.078
+Baked Goods,438,Corporate,493,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,35,2,tatli,0.071
+Vegetables,280,Social Gathering,350,Room Temperature,Regular,Winter,Finger Food,Suburban,Low,20,1,salata,0.0571
+Baked Goods,207,Corporate,280,Room Temperature,Regular,All Seasons,Finger Food,Suburban,High,20,3,tatli,0.0714
+Vegetables,453,Social Gathering,484,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,54,3,salata,0.1116
+Dairy Products,300,Corporate,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Low,15,1,icecek,0.0375
+Vegetables,280,Corporate,350,Refrigerated,Occasional,All Seasons,Finger Food,Suburban,Moderate,20,2,salata,0.0571
+Dairy Products,400,Social Gathering,400,Room Temperature,Regular,Summer,Finger Food,Rural,High,40,3,icecek,0.1
+Dairy Products,250,Corporate,350,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,20,2,icecek,0.0571
+Baked Goods,250,Social Gathering,350,Room Temperature,Regular,All Seasons,Buffet,Rural,Moderate,20,2,tatli,0.0571
+Dairy Products,250,Corporate,350,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,20,2,icecek,0.0571
+Baked Goods,220,Birthday,300,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,20,2,tatli,0.0667
+Vegetables,250,Social Gathering,350,Room Temperature,Regular,Winter,Sit-down Dinner,Rural,Moderate,20,2,salata,0.0571
+Dairy Products,342,Social Gathering,405,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,29,2,icecek,0.0716
+Vegetables,400,Corporate,500,Room Temperature,Occasional,All Seasons,Sit-down Dinner,Suburban,High,50,3,salata,0.1
+Dairy Products,300,Birthday,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,40,3,icecek,0.1
+Dairy Products,491,Social Gathering,497,Room Temperature,Regular,All Seasons,Finger Food,Rural,High,32,3,icecek,0.0644
+Dairy Products,380,Social Gathering,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,icecek,0.07
+Dairy Products,300,Social Gathering,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,40,3,icecek,0.1
+Dairy Products,230,Corporate,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,30,2,icecek,0.06
+Baked Goods,300,Social Gathering,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0625
+Meat,300,Wedding,400,Refrigerated,Regular,Summer,Buffet,Suburban,High,40,3,ana_yemek,0.1
+Meat,300,Wedding,400,Refrigerated,Regular,Summer,Finger Food,Urban,Low,20,1,ana_yemek,0.05
+Meat,302,Wedding,371,Refrigerated,Occasional,Summer,Buffet,Suburban,Low,27,1,ana_yemek,0.0728
+Vegetables,472,Birthday,489,Refrigerated,Regular,Summer,Buffet,Urban,Low,36,1,salata,0.0736
+Meat,300,Corporate,400,Refrigerated,Occasional,Winter,Buffet,Suburban,High,40,3,ana_yemek,0.1
+Vegetables,250,Wedding,350,Refrigerated,Regular,Winter,Buffet,Suburban,Low,10,1,salata,0.0286
+Meat,290,Corporate,374,Refrigerated,Regular,Winter,Finger Food,Suburban,Low,27,1,ana_yemek,0.0722
+Meat,434,Corporate,495,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,Low,36,1,ana_yemek,0.0727
+Fruits,280,Corporate,350,Refrigerated,Occasional,Summer,Finger Food,Urban,Low,15,1,tatli,0.0429
+Fruits,400,Wedding,500,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,45,3,tatli,0.09
+Meat,350,Wedding,450,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,ana_yemek,0.0778
+Meat,250,Corporate,350,Room Temperature,Regular,Winter,Finger Food,Suburban,High,30,3,ana_yemek,0.0857
+Vegetables,350,Wedding,450,Refrigerated,Regular,Winter,Sit-down Dinner,Rural,High,35,3,salata,0.0778
+Vegetables,280,Wedding,350,Refrigerated,Regular,Summer,Finger Food,Urban,Moderate,20,2,salata,0.0571
+Fruits,302,Corporate,371,Room Temperature,Regular,All Seasons,Buffet,Suburban,Low,22,1,tatli,0.0593
+Meat,250,Corporate,350,Room Temperature,Regular,Winter,Buffet,Urban,Low,10,1,ana_yemek,0.0286
+Meat,280,Birthday,350,Refrigerated,Regular,Summer,Finger Food,Rural,Low,20,1,ana_yemek,0.0571
+Meat,320,Birthday,400,Refrigerated,Regular,All Seasons,Buffet,Rural,High,30,3,ana_yemek,0.075
+Fruits,250,Corporate,350,Room Temperature,Regular,Winter,Buffet,Urban,Low,10,1,tatli,0.0286
+Meat,380,Birthday,480,Refrigerated,Regular,Winter,Buffet,Suburban,Moderate,30,2,ana_yemek,0.0625
+Meat,380,Corporate,480,Room Temperature,Occasional,Summer,Buffet,Suburban,Moderate,30,2,ana_yemek,0.0625
+Meat,280,Corporate,350,Refrigerated,Occasional,Winter,Finger Food,Suburban,Moderate,20,2,ana_yemek,0.0571
+Vegetables,434,Corporate,495,Refrigerated,Regular,Winter,Sit-down Dinner,Rural,High,36,3,salata,0.0727
+Meat,250,Social Gathering,350,Refrigerated,Regular,Summer,Finger Food,Urban,Moderate,20,2,ana_yemek,0.0571
+Vegetables,320,Social Gathering,480,Refrigerated,Occasional,Winter,Buffet,Rural,High,40,3,salata,0.0833
+Baked Goods,442,Wedding,482,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Low,32,1,tatli,0.0664
+Vegetables,300,Wedding,400,Room Temperature,Regular,Winter,Sit-down Dinner,Rural,High,35,3,salata,0.0875
+Vegetables,280,Birthday,350,Refrigerated,Regular,Summer,Finger Food,Suburban,Moderate,20,2,salata,0.0571
+Baked Goods,380,Birthday,480,Room Temperature,Regular,Winter,Buffet,Suburban,Moderate,30,2,tatli,0.0625
+Fruits,292,Corporate,470,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,50,3,tatli,0.1064
+Vegetables,320,Corporate,400,Refrigerated,Regular,Summer,Finger Food,Suburban,Moderate,20,2,salata,0.05
+Meat,261,Wedding,350,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,24,2,ana_yemek,0.0686
+Fruits,300,Corporate,400,Refrigerated,Regular,All Seasons,Finger Food,Suburban,Moderate,15,2,tatli,0.0375
+Vegetables,400,Birthday,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Low,25,1,salata,0.05
+Fruits,220,Social Gathering,300,Room Temperature,Regular,Winter,Finger Food,Suburban,Low,15,1,tatli,0.05
+Baked Goods,400,Birthday,500,Room Temperature,Regular,All Seasons,Finger Food,Rural,High,40,3,tatli,0.08
+Dairy Products,320,Social Gathering,400,Room Temperature,Regular,Summer,Buffet,Rural,High,30,3,icecek,0.075
+Fruits,250,Social Gathering,480,Room Temperature,Regular,All Seasons,Finger Food,Rural,Low,20,1,tatli,0.0417
+Vegetables,280,Wedding,480,Refrigerated,Regular,All Seasons,Sit-down Dinner,Rural,Moderate,15,2,salata,0.0312
+Baked Goods,300,Wedding,400,Room Temperature,Regular,Summer,Sit-down Dinner,Rural,Low,20,1,tatli,0.05
+Fruits,280,Birthday,350,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Fruits,290,Social Gathering,374,Room Temperature,Regular,Winter,Finger Food,Rural,Low,27,1,tatli,0.0722
+Fruits,320,Birthday,400,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,High,35,3,tatli,0.0875
+Fruits,261,Birthday,350,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,23,2,tatli,0.0657
+Baked Goods,350,Birthday,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,tatli,0.0778
+Baked Goods,270,Birthday,400,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,tatli,0.1
+Vegetables,320,Social Gathering,400,Room Temperature,Regular,All Seasons,Buffet,Rural,High,30,3,salata,0.075
+Baked Goods,380,Corporate,500,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,tatli,0.07
+Vegetables,397,Corporate,482,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,31,2,salata,0.0643
+Dairy Products,350,Wedding,450,Room Temperature,Regular,All Seasons,Finger Food,Suburban,High,30,3,icecek,0.0667
+Dairy Products,220,Birthday,300,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,15,2,icecek,0.05
+Vegetables,250,Birthday,350,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,20,2,salata,0.0571
+Dairy Products,220,Corporate,300,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Low,15,1,icecek,0.05
+Meat,267,Wedding,393,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,Low,24,1,ana_yemek,0.0611
+Meat,280,Wedding,350,Refrigerated,Regular,All Seasons,Finger Food,Urban,Low,20,1,ana_yemek,0.0571
+Fruits,220,Corporate,300,Refrigerated,Occasional,Winter,Finger Food,Urban,Low,15,1,tatli,0.05
+Vegetables,280,Birthday,350,Refrigerated,Regular,Winter,Finger Food,Rural,Low,20,1,salata,0.0571
+Vegetables,250,Corporate,350,Refrigerated,Regular,Winter,Finger Food,Rural,High,30,3,salata,0.0857
+Baked Goods,280,Birthday,350,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Dairy Products,300,Social Gathering,450,Room Temperature,Regular,Winter,Finger Food,Suburban,High,35,3,icecek,0.0778
+Fruits,300,Social Gathering,400,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0625
+Dairy Products,292,Social Gathering,470,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,50,3,icecek,0.1064
+Baked Goods,320,Social Gathering,400,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Fruits,220,Wedding,300,Refrigerated,Regular,Winter,Finger Food,Suburban,Moderate,15,2,tatli,0.05
+Dairy Products,367,Birthday,420,Room Temperature,Regular,Winter,Buffet,Urban,Low,40,1,icecek,0.0952
+Vegetables,220,Birthday,300,Refrigerated,Regular,Winter,Finger Food,Suburban,Low,15,1,salata,0.05
+Fruits,300,Birthday,400,Room Temperature,Regular,All Seasons,Buffet,Urban,Moderate,30,2,tatli,0.075
+Vegetables,250,Corporate,350,Refrigerated,Regular,Summer,Finger Food,Suburban,High,35,3,salata,0.1
+Dairy Products,400,Corporate,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,45,3,icecek,0.09
+Dairy Products,300,Corporate,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,35,3,icecek,0.0875
+Baked Goods,250,Social Gathering,500,Room Temperature,Regular,All Seasons,Finger Food,Suburban,High,40,3,tatli,0.08
+Dairy Products,300,Corporate,400,Room Temperature,Occasional,All Seasons,Finger Food,Suburban,Moderate,25,2,icecek,0.0625
+Dairy Products,240,Social Gathering,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,20,1,icecek,0.0444
+Vegetables,220,Corporate,300,Refrigerated,Regular,Summer,Finger Food,Urban,Moderate,15,2,salata,0.05
+Meat,220,Birthday,300,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,15,2,ana_yemek,0.05
+Baked Goods,280,Corporate,350,Room Temperature,Regular,Winter,Finger Food,Urban,Low,20,1,tatli,0.0571
+Meat,220,Social Gathering,300,Room Temperature,Regular,Summer,Finger Food,Rural,Low,15,1,ana_yemek,0.05
+Fruits,280,Birthday,350,Refrigerated,Regular,All Seasons,Finger Food,Urban,Moderate,20,2,tatli,0.0571
+Fruits,250,Wedding,350,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Fruits,320,Social Gathering,400,Refrigerated,Regular,All Seasons,Buffet,Suburban,High,30,3,tatli,0.075
+Vegetables,230,Corporate,500,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Low,20,1,salata,0.04
+Fruits,250,Birthday,350,Room Temperature,Regular,All Seasons,Finger Food,Suburban,High,35,3,tatli,0.1
+Meat,280,Social Gathering,350,Refrigerated,Regular,Summer,Finger Food,Suburban,Moderate,20,2,ana_yemek,0.0571
+Vegetables,208,Corporate,282,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Moderate,22,2,salata,0.078
+Meat,250,Social Gathering,350,Refrigerated,Regular,Summer,Finger Food,Suburban,Moderate,20,2,ana_yemek,0.0571
+Vegetables,208,Wedding,282,Refrigerated,Occasional,Summer,Sit-down Dinner,Rural,Moderate,22,2,salata,0.078
+Baked Goods,300,Corporate,450,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,35,3,tatli,0.0778
+Dairy Products,302,Corporate,371,Room Temperature,Regular,All Seasons,Buffet,Suburban,Low,27,1,icecek,0.0728
+Baked Goods,380,Wedding,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,tatli,0.07
+Baked Goods,367,Social Gathering,420,Room Temperature,Regular,All Seasons,Buffet,Urban,Low,40,1,tatli,0.0952
+Baked Goods,280,Social Gathering,350,Room Temperature,Regular,Winter,Finger Food,Rural,Low,20,1,tatli,0.0571
+Vegetables,350,Wedding,450,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,25,2,salata,0.0556
+Fruits,400,Social Gathering,500,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,50,3,tatli,0.1
+Meat,280,Social Gathering,480,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Low,15,1,ana_yemek,0.0312
+Vegetables,280,Social Gathering,350,Refrigerated,Regular,Winter,Finger Food,Rural,Moderate,20,2,salata,0.0571
+Dairy Products,400,Wedding,500,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,High,40,3,icecek,0.08
+Baked Goods,310,Social Gathering,350,Room Temperature,Regular,Summer,Finger Food,Rural,High,35,3,tatli,0.1
+Baked Goods,320,Wedding,400,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,25,2,tatli,0.0625
+Meat,220,Social Gathering,300,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,15,2,ana_yemek,0.05
+Dairy Products,400,Wedding,350,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,icecek,0.1
+Dairy Products,310,Corporate,350,Room Temperature,Regular,All Seasons,Finger Food,Urban,High,35,3,icecek,0.1
+Fruits,250,Social Gathering,350,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Fruits,220,Social Gathering,300,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,15,2,tatli,0.05
+Dairy Products,300,Birthday,450,Room Temperature,Regular,All Seasons,Finger Food,Suburban,High,35,3,icecek,0.0778
+Dairy Products,270,Corporate,400,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,icecek,0.1
+Baked Goods,400,Social Gathering,500,Room Temperature,Regular,Summer,Sit-down Dinner,Rural,High,40,3,tatli,0.08
+Baked Goods,380,Social Gathering,500,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,35,3,tatli,0.07
+Baked Goods,300,Social Gathering,400,Room Temperature,Regular,All Seasons,Buffet,Urban,Moderate,30,2,tatli,0.075
+Dairy Products,434,Social Gathering,495,Room Temperature,Regular,Winter,Sit-down Dinner,Rural,Low,36,1,icecek,0.0727
+Baked Goods,350,Birthday,450,Room Temperature,Occasional,Winter,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0556
+Dairy Products,434,Corporate,495,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,36,1,icecek,0.0727
+Dairy Products,350,Birthday,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,35,3,icecek,0.0778
+Baked Goods,400,Social Gathering,500,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,50,3,tatli,0.1
+Dairy Products,320,Social Gathering,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Low,15,1,icecek,0.0375
+Baked Goods,250,Social Gathering,350,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,20,2,tatli,0.0571
+Baked Goods,320,Social Gathering,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Dairy Products,280,Social Gathering,350,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Low,20,1,icecek,0.0571
+Baked Goods,438,Social Gathering,493,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,35,2,tatli,0.071
+Dairy Products,300,Social Gathering,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,40,3,icecek,0.1
+Meat,280,Birthday,350,Refrigerated,Regular,All Seasons,Buffet,Urban,Low,20,1,ana_yemek,0.0571
+Fruits,400,Corporate,500,Room Temperature,Regular,Summer,Buffet,Rural,High,30,3,tatli,0.06
+Meat,292,Birthday,470,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,50,3,ana_yemek,0.1064
+Meat,220,Corporate,300,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Low,15,1,ana_yemek,0.05
+Fruits,280,Corporate,480,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Low,15,1,tatli,0.0312
+Baked Goods,350,Corporate,450,Room Temperature,Regular,Winter,Buffet,Urban,High,40,3,tatli,0.0889
+Fruits,439,Social Gathering,459,Refrigerated,Regular,Summer,Buffet,Suburban,Low,26,1,tatli,0.0566
+Fruits,400,Corporate,500,Refrigerated,Regular,Summer,Sit-down Dinner,Rural,High,50,3,tatli,0.1
+Fruits,400,Corporate,500,Refrigerated,Regular,All Seasons,Finger Food,Urban,High,40,3,tatli,0.08
+Fruits,367,Social Gathering,420,Room Temperature,Regular,Summer,Buffet,Urban,Low,40,1,tatli,0.0952
+Fruits,380,Wedding,400,Room Temperature,Regular,Winter,Finger Food,Urban,Moderate,25,2,tatli,0.0625
+Vegetables,250,Wedding,350,Refrigerated,Regular,Summer,Sit-down Dinner,Rural,High,40,3,salata,0.1143
+Vegetables,380,Wedding,400,Refrigerated,Regular,Winter,Finger Food,Urban,Moderate,25,2,salata,0.0625
+Baked Goods,250,Wedding,350,Room Temperature,Regular,Winter,Finger Food,Rural,High,35,3,tatli,0.1
+Meat,400,Corporate,500,Refrigerated,Regular,All Seasons,Sit-down Dinner,Rural,High,45,3,ana_yemek,0.09
+Meat,380,Corporate,500,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,High,35,3,ana_yemek,0.07
+Meat,400,Corporate,500,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,High,45,3,ana_yemek,0.09
+Fruits,350,Corporate,450,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,35,3,tatli,0.0778
+Vegetables,250,Birthday,350,Refrigerated,Regular,Summer,Finger Food,Suburban,Moderate,20,2,salata,0.0571
+Vegetables,400,Wedding,400,Room Temperature,Regular,Winter,Sit-down Dinner,Rural,High,40,3,salata,0.1
+Fruits,400,Birthday,350,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,tatli,0.1
+Dairy Products,320,Birthday,400,Room Temperature,Regular,All Seasons,Buffet,Rural,High,30,3,icecek,0.075
+Dairy Products,300,Corporate,400,Room Temperature,Regular,Summer,Finger Food,Urban,Low,20,1,icecek,0.05
+Meat,280,Corporate,350,Refrigerated,Occasional,All Seasons,Finger Food,Suburban,Moderate,20,2,ana_yemek,0.0571
+Fruits,220,Corporate,300,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,15,2,tatli,0.05
+Meat,320,Social Gathering,400,Room Temperature,Regular,Winter,Finger Food,Urban,Moderate,25,2,ana_yemek,0.0625
+Baked Goods,350,Corporate,450,Room Temperature,Regular,Summer,Finger Food,Urban,Moderate,20,2,tatli,0.0444
+Vegetables,300,Birthday,400,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,25,2,salata,0.0625
+Vegetables,320,Birthday,400,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,25,2,salata,0.0625
+Fruits,220,Corporate,300,Refrigerated,Occasional,All Seasons,Finger Food,Suburban,Moderate,15,2,tatli,0.05
+Fruits,220,Corporate,300,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,15,1,tatli,0.05
+Dairy Products,220,Birthday,300,Room Temperature,Regular,All Seasons,Finger Food,Rural,Low,15,1,icecek,0.05
+Baked Goods,400,Birthday,500,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,45,3,tatli,0.09
+Dairy Products,400,Corporate,500,Room Temperature,Regular,Summer,Sit-down Dinner,Rural,High,40,3,icecek,0.08
+Dairy Products,400,Corporate,500,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,50,3,icecek,0.1
+Baked Goods,400,Corporate,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,40,3,tatli,0.08
+Dairy Products,434,Corporate,495,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Low,36,1,icecek,0.0727
+Baked Goods,350,Wedding,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0556
+Baked Goods,220,Birthday,300,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,15,1,tatli,0.05
+Baked Goods,400,Social Gathering,500,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,40,3,tatli,0.08
+Dairy Products,250,Corporate,350,Room Temperature,Regular,All Seasons,Finger Food,Suburban,High,30,3,icecek,0.0857
+Baked Goods,453,Social Gathering,484,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,54,3,tatli,0.1116
+Dairy Products,260,Social Gathering,400,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Low,20,1,icecek,0.05
+Vegetables,350,Social Gathering,450,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,20,2,salata,0.0444
+Fruits,350,Social Gathering,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0556
+Dairy Products,250,Birthday,350,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,15,2,icecek,0.0429
+Baked Goods,400,Social Gathering,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,45,3,tatli,0.09
+Dairy Products,320,Social Gathering,400,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,25,2,icecek,0.0625
+Baked Goods,350,Social Gathering,400,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Baked Goods,350,Social Gathering,450,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,20,2,tatli,0.0444
+Baked Goods,400,Social Gathering,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,High,40,3,tatli,0.08
+Dairy Products,300,Corporate,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,25,2,icecek,0.0625
+Baked Goods,250,Social Gathering,350,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Moderate,20,2,tatli,0.0571
+Fruits,320,Social Gathering,400,Room Temperature,Occasional,All Seasons,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Dairy Products,250,Social Gathering,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,Moderate,20,2,icecek,0.0571
+Meat,400,Wedding,500,Refrigerated,Occasional,Summer,Buffet,Rural,High,30,3,ana_yemek,0.06
+Meat,320,Corporate,400,Room Temperature,Regular,Winter,Buffet,Urban,High,45,3,ana_yemek,0.1125
+Meat,400,Wedding,500,Refrigerated,Occasional,Winter,Sit-down Dinner,Rural,Low,25,1,ana_yemek,0.05
+Fruits,400,Wedding,500,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,50,3,tatli,0.1
+Fruits,380,Wedding,500,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,35,3,tatli,0.07
+Meat,300,Wedding,400,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,40,3,ana_yemek,0.1
+Meat,400,Wedding,500,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Low,25,1,ana_yemek,0.05
+Fruits,320,Corporate,400,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,35,3,tatli,0.0875
+Meat,380,Birthday,480,Refrigerated,Regular,All Seasons,Buffet,Suburban,Moderate,30,2,ana_yemek,0.0625
+Fruits,380,Corporate,480,Refrigerated,Occasional,Winter,Buffet,Suburban,Moderate,30,2,tatli,0.0625
+Meat,300,Wedding,400,Refrigerated,Regular,All Seasons,Finger Food,Rural,Moderate,15,2,ana_yemek,0.0375
+Vegetables,380,Birthday,480,Refrigerated,Regular,Summer,Buffet,Suburban,Moderate,30,2,salata,0.0625
+Meat,280,Corporate,350,Refrigerated,Regular,Summer,Finger Food,Suburban,Moderate,20,2,ana_yemek,0.0571
+Baked Goods,300,Wedding,400,Room Temperature,Regular,Summer,Finger Food,Rural,Low,15,1,tatli,0.0375
+Meat,400,Corporate,350,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,35,3,ana_yemek,0.1
+Fruits,400,Birthday,450,Room Temperature,Regular,All Seasons,Buffet,Urban,Moderate,30,2,tatli,0.0667
+Meat,240,Wedding,450,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,Low,20,1,ana_yemek,0.0444
+Meat,250,Wedding,350,Refrigerated,Occasional,Winter,Sit-down Dinner,Rural,Moderate,20,2,ana_yemek,0.0571
+Meat,320,Corporate,400,Refrigerated,Occasional,Winter,Finger Food,Suburban,Moderate,25,2,ana_yemek,0.0625
+Baked Goods,450,Birthday,500,Room Temperature,Regular,Summer,Finger Food,Rural,High,30,3,tatli,0.06
+Baked Goods,439,Corporate,459,Room Temperature,Occasional,Winter,Buffet,Suburban,Low,36,1,tatli,0.0784
+Baked Goods,280,Wedding,350,Room Temperature,Occasional,All Seasons,Buffet,Urban,Low,20,1,tatli,0.0571
+Fruits,310,Corporate,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,High,35,3,tatli,0.1
+Vegetables,208,Wedding,282,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Moderate,22,2,salata,0.078
+Fruits,208,Wedding,282,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,22,2,tatli,0.078
+Vegetables,250,Birthday,350,Room Temperature,Regular,Summer,Finger Food,Rural,Moderate,20,2,salata,0.0571
+Baked Goods,300,Wedding,400,Room Temperature,Regular,Summer,Finger Food,Urban,Moderate,15,2,tatli,0.0375
+Fruits,250,Corporate,350,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Moderate,20,2,tatli,0.0571
+Baked Goods,290,Birthday,374,Room Temperature,Regular,All Seasons,Finger Food,Rural,Low,27,1,tatli,0.0722
+Fruits,342,Corporate,405,Refrigerated,Occasional,All Seasons,Finger Food,Urban,Moderate,29,2,tatli,0.0716
+Dairy Products,280,Wedding,480,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Low,15,1,icecek,0.0312
+Vegetables,434,Wedding,495,Refrigerated,Occasional,All Seasons,Sit-down Dinner,Urban,Low,36,1,salata,0.0727
+Meat,230,Social Gathering,500,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,Low,20,1,ana_yemek,0.04
+Baked Goods,491,Birthday,497,Room Temperature,Regular,All Seasons,Finger Food,Rural,High,32,3,tatli,0.0644
+Dairy Products,250,Social Gathering,500,Room Temperature,Regular,Winter,Buffet,Urban,High,40,3,icecek,0.08
+Fruits,320,Social Gathering,480,Room Temperature,Regular,All Seasons,Buffet,Suburban,High,40,3,tatli,0.0833
+Fruits,400,Corporate,500,Room Temperature,Occasional,Summer,Sit-down Dinner,Suburban,High,50,3,tatli,0.1
+Fruits,230,Corporate,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,20,1,tatli,0.04
+Fruits,208,Wedding,282,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,22,2,tatli,0.078
+Dairy Products,220,Birthday,300,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,15,2,icecek,0.05
+Fruits,300,Social Gathering,400,Room Temperature,Regular,All Seasons,Buffet,Urban,Moderate,30,2,tatli,0.075
+Baked Goods,453,Birthday,484,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,54,3,tatli,0.1116
+Baked Goods,300,Social Gathering,400,Room Temperature,Regular,All Seasons,Buffet,Rural,High,40,3,tatli,0.1
+Dairy Products,220,Corporate,300,Room Temperature,Regular,All Seasons,Finger Food,Urban,Low,15,1,icecek,0.05
+Fruits,450,Social Gathering,500,Room Temperature,Regular,All Seasons,Finger Food,Urban,High,30,3,tatli,0.06
+Meat,400,Social Gathering,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,50,3,ana_yemek,0.1
+Dairy Products,220,Corporate,300,Room Temperature,Regular,All Seasons,Finger Food,Rural,Low,15,1,icecek,0.05
+Baked Goods,208,Corporate,282,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,22,2,tatli,0.078
+Meat,280,Social Gathering,350,Refrigerated,Occasional,All Seasons,Finger Food,Rural,Moderate,20,2,ana_yemek,0.0571
+Dairy Products,350,Wedding,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,35,3,icecek,0.0778
+Fruits,280,Social Gathering,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,20,2,tatli,0.0571
+Baked Goods,350,Social Gathering,450,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,45,3,tatli,0.1
+Baked Goods,300,Social Gathering,400,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,40,3,tatli,0.1
+Baked Goods,230,Social Gathering,500,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Moderate,30,2,tatli,0.06
+Dairy Products,400,Corporate,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,50,3,icecek,0.1
+Dairy Products,300,Social Gathering,400,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,15,2,icecek,0.0375
+Baked Goods,350,Social Gathering,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0556
+Dairy Products,261,Birthday,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,23,2,icecek,0.0657
+Dairy Products,438,Social Gathering,493,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,35,2,icecek,0.071
+Meat,491,Birthday,497,Refrigerated,Regular,Summer,Finger Food,Urban,High,32,3,ana_yemek,0.0644
+Meat,300,Birthday,400,Refrigerated,Regular,Winter,Finger Food,Suburban,Low,15,1,ana_yemek,0.0375
+Meat,300,Wedding,400,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,40,3,ana_yemek,0.1
+Meat,350,Wedding,450,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,35,3,ana_yemek,0.0778
+Meat,292,Corporate,470,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,50,3,ana_yemek,0.1064
+Meat,300,Wedding,400,Refrigerated,Regular,Winter,Finger Food,Suburban,Moderate,25,2,ana_yemek,0.0625
+Baked Goods,430,Corporate,477,Room Temperature,Regular,Summer,Buffet,Urban,Low,29,1,tatli,0.0608
+Fruits,220,Corporate,300,Room Temperature,Regular,Summer,Finger Food,Urban,Low,15,1,tatli,0.05
+Meat,320,Wedding,400,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,ana_yemek,0.0875
+Fruits,300,Corporate,400,Refrigerated,Regular,Winter,Finger Food,Rural,Moderate,15,2,tatli,0.0375
+Meat,350,Wedding,450,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,High,35,3,ana_yemek,0.0778
+Meat,320,Corporate,400,Refrigerated,Regular,Winter,Finger Food,Suburban,Moderate,25,2,ana_yemek,0.0625
+Fruits,400,Birthday,500,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,50,3,tatli,0.1
+Baked Goods,250,Social Gathering,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,25,2,tatli,0.0714
+Dairy Products,261,Social Gathering,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,23,2,icecek,0.0657
+Fruits,220,Corporate,300,Refrigerated,Regular,Winter,Finger Food,Rural,Low,15,1,tatli,0.05
+Meat,400,Wedding,500,Refrigerated,Regular,Winter,Sit-down Dinner,Rural,High,45,3,ana_yemek,0.09
+Meat,280,Corporate,350,Room Temperature,Regular,Winter,Finger Food,Urban,Low,15,1,ana_yemek,0.0429
+Vegetables,320,Wedding,400,Room Temperature,Regular,Summer,Buffet,Rural,High,35,3,salata,0.0875
+Meat,250,Corporate,350,Refrigerated,Regular,Winter,Finger Food,Rural,Moderate,20,2,ana_yemek,0.0571
+Meat,300,Birthday,400,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Low,15,1,ana_yemek,0.0375
+Meat,300,Corporate,400,Refrigerated,Regular,Summer,Finger Food,Suburban,Moderate,15,2,ana_yemek,0.0375
+Meat,350,Corporate,450,Refrigerated,Regular,Winter,Finger Food,Suburban,Moderate,20,2,ana_yemek,0.0444
+Meat,220,Corporate,450,Refrigerated,Occasional,Winter,Finger Food,Urban,Moderate,30,2,ana_yemek,0.0667
+Vegetables,280,Corporate,350,Refrigerated,Occasional,Summer,Finger Food,Rural,Low,20,1,salata,0.0571
+Meat,400,Corporate,500,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,40,3,ana_yemek,0.08
+Vegetables,320,Birthday,400,Refrigerated,Regular,Summer,Sit-down Dinner,Rural,High,40,3,salata,0.1
+Dairy Products,250,Corporate,500,Room Temperature,Regular,Winter,Buffet,Urban,High,40,3,icecek,0.08
+Baked Goods,310,Birthday,450,Room Temperature,Regular,All Seasons,Buffet,Urban,Low,25,1,tatli,0.0556
+Vegetables,220,Corporate,300,Refrigerated,Regular,Summer,Finger Food,Rural,Moderate,20,2,salata,0.0667
+Baked Goods,220,Corporate,300,Room Temperature,Regular,Winter,Finger Food,Urban,Low,15,1,tatli,0.05
+Fruits,350,Wedding,450,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,40,3,tatli,0.0889
+Meat,320,Corporate,400,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,25,2,ana_yemek,0.0625
+Fruits,300,Wedding,400,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,tatli,0.0875
+Vegetables,320,Wedding,400,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,salata,0.0875
+Fruits,320,Social Gathering,400,Refrigerated,Regular,All Seasons,Buffet,Rural,High,30,3,tatli,0.075
+Dairy Products,310,Corporate,450,Refrigerated,Regular,All Seasons,Buffet,Urban,Low,25,1,icecek,0.0556
+Meat,300,Corporate,400,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,High,35,3,ana_yemek,0.0875
+Vegetables,250,Corporate,350,Refrigerated,Regular,Winter,Sit-down Dinner,Rural,High,40,3,salata,0.1143
+Fruits,220,Wedding,300,Refrigerated,Occasional,Summer,Finger Food,Suburban,Moderate,15,2,tatli,0.05
+Meat,350,Wedding,450,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,25,2,ana_yemek,0.0556
+Baked Goods,400,Corporate,500,Room Temperature,Regular,Summer,Finger Food,Urban,High,40,3,tatli,0.08
+Dairy Products,250,Wedding,350,Room Temperature,Regular,All Seasons,Buffet,Urban,Low,10,1,icecek,0.0286
+Vegetables,302,Corporate,371,Room Temperature,Regular,All Seasons,Buffet,Suburban,Low,27,1,salata,0.0728
+Baked Goods,350,Wedding,450,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Low,25,1,tatli,0.0556
+Baked Goods,220,Birthday,300,Room Temperature,Regular,Summer,Finger Food,Suburban,Low,15,1,tatli,0.05
+Fruits,250,Birthday,350,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Dairy Products,280,Corporate,350,Room Temperature,Regular,Winter,Finger Food,Urban,Low,20,1,icecek,0.0571
+Meat,488,Social Gathering,498,Refrigerated,Regular,All Seasons,Finger Food,Rural,High,63,3,ana_yemek,0.1265
+Fruits,220,Social Gathering,300,Room Temperature,Regular,Winter,Finger Food,Rural,Low,15,1,tatli,0.05
+Fruits,320,Social Gathering,400,Refrigerated,Regular,All Seasons,Buffet,Suburban,High,45,3,tatli,0.1125
+Meat,320,Corporate,400,Refrigerated,Regular,All Seasons,Finger Food,Suburban,Moderate,25,2,ana_yemek,0.0625
+Dairy Products,207,Birthday,280,Room Temperature,Regular,Summer,Finger Food,Rural,High,20,3,icecek,0.0714
+Fruits,280,Wedding,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,20,2,tatli,0.0571
+Baked Goods,300,Corporate,400,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Low,20,1,tatli,0.05
+Baked Goods,310,Corporate,350,Room Temperature,Regular,Winter,Finger Food,Suburban,High,35,3,tatli,0.1
+Fruits,400,Social Gathering,500,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,45,3,tatli,0.09
+Fruits,400,Birthday,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,25,1,tatli,0.05
+Fruits,491,Social Gathering,497,Room Temperature,Regular,Summer,Finger Food,Urban,High,32,3,tatli,0.0644
+Baked Goods,220,Wedding,300,Room Temperature,Regular,Summer,Finger Food,Rural,Moderate,15,2,tatli,0.05
+Vegetables,320,Corporate,400,Refrigerated,Occasional,Winter,Sit-down Dinner,Urban,High,35,3,salata,0.0875
+Vegetables,350,Corporate,450,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Moderate,25,2,salata,0.0556
+Baked Goods,400,Wedding,500,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,50,3,tatli,0.1
+Baked Goods,320,Wedding,400,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Dairy Products,300,Corporate,400,Room Temperature,Regular,All Seasons,Buffet,Suburban,Low,20,1,icecek,0.05
+Baked Goods,250,Wedding,350,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,40,3,tatli,0.1143
+Baked Goods,280,Wedding,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Low,25,1,tatli,0.0714
+Dairy Products,320,Corporate,400,Room Temperature,Regular,All Seasons,Buffet,Urban,High,45,3,icecek,0.1125
+Meat,250,Corporate,350,Refrigerated,Occasional,Winter,Sit-down Dinner,Suburban,Moderate,20,2,ana_yemek,0.0571
+Vegetables,400,Corporate,500,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,Low,25,1,salata,0.05
+Meat,300,Social Gathering,400,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,ana_yemek,0.0875
+Baked Goods,250,Corporate,350,Room Temperature,Regular,All Seasons,Finger Food,Suburban,High,30,3,tatli,0.0857
+Fruits,320,Social Gathering,400,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Fruits,220,Social Gathering,300,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,15,2,tatli,0.05
+Fruits,280,Social Gathering,350,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Dairy Products,400,Birthday,500,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,45,3,icecek,0.09
+Baked Goods,350,Wedding,450,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Moderate,30,2,tatli,0.0667
+Baked Goods,400,Social Gathering,500,Room Temperature,Regular,Winter,Finger Food,Suburban,High,40,3,tatli,0.08
+Baked Goods,250,Social Gathering,350,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,40,3,tatli,0.1143
+Fruits,400,Social Gathering,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,50,3,tatli,0.1
+Baked Goods,310,Social Gathering,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,High,35,3,tatli,0.1
+Baked Goods,350,Corporate,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,45,3,tatli,0.1
+Baked Goods,320,Corporate,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,40,3,tatli,0.1
+Baked Goods,220,Wedding,300,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,15,2,tatli,0.05
+Dairy Products,280,Birthday,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,Low,20,1,icecek,0.0571
+Dairy Products,250,Birthday,350,Room Temperature,Regular,All Seasons,Buffet,Rural,Moderate,20,2,icecek,0.0571
+Dairy Products,250,Wedding,350,Room Temperature,Regular,All Seasons,Finger Food,Urban,High,30,3,icecek,0.0857
+Baked Goods,220,Wedding,300,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,15,2,tatli,0.05
+Baked Goods,300,Social Gathering,400,Room Temperature,Occasional,All Seasons,Buffet,Suburban,Low,20,1,tatli,0.05
+Dairy Products,350,Birthday,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,icecek,0.0556
+Dairy Products,342,Social Gathering,405,Room Temperature,Regular,Summer,Finger Food,Rural,Moderate,29,2,icecek,0.0716
+Baked Goods,380,Social Gathering,500,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,tatli,0.07
+Baked Goods,400,Wedding,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,50,3,tatli,0.1
+Baked Goods,400,Corporate,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,tatli,0.08
+Dairy Products,400,Wedding,500,Room Temperature,Occasional,Winter,Sit-down Dinner,Urban,High,40,3,icecek,0.08
+Dairy Products,320,Wedding,400,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,icecek,0.0875
+Dairy Products,400,Social Gathering,500,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,40,3,icecek,0.08
+Dairy Products,320,Social Gathering,400,Room Temperature,Regular,Winter,Sit-down Dinner,Rural,High,35,3,icecek,0.0875
+Baked Goods,300,Social Gathering,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,20,1,tatli,0.05
+Dairy Products,220,Social Gathering,300,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,15,2,icecek,0.05
+Baked Goods,400,Wedding,500,Room Temperature,Occasional,Winter,Sit-down Dinner,Suburban,High,40,3,tatli,0.08
+Vegetables,350,Wedding,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,salata,0.0556
+Vegetables,429,Social Gathering,496,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Low,42,1,salata,0.0847
+Baked Goods,380,Social Gathering,400,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,25,2,tatli,0.0625
+Baked Goods,250,Birthday,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,40,3,tatli,0.1143
+Meat,250,Social Gathering,350,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,ana_yemek,0.0714
+Dairy Products,250,Corporate,350,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,20,2,icecek,0.0571
+Baked Goods,300,Social Gathering,400,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Low,20,1,tatli,0.05
+Dairy Products,320,Social Gathering,480,Room Temperature,Regular,All Seasons,Buffet,Suburban,High,40,3,icecek,0.0833
+Dairy Products,380,Social Gathering,400,Room Temperature,Regular,Winter,Finger Food,Urban,Moderate,25,2,icecek,0.0625
+Baked Goods,320,Social Gathering,400,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,40,3,tatli,0.1
+Dairy Products,300,Social Gathering,400,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,25,2,icecek,0.0625
+Dairy Products,397,Social Gathering,482,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,31,2,icecek,0.0643
+Baked Goods,350,Birthday,450,Room Temperature,Occasional,All Seasons,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0556
+Meat,488,Wedding,498,Refrigerated,Regular,Winter,Finger Food,Rural,High,63,3,ana_yemek,0.1265
+Meat,320,Corporate,400,Refrigerated,Regular,Summer,Buffet,Urban,Moderate,25,2,ana_yemek,0.0625
+Meat,302,Birthday,371,Room Temperature,Regular,Summer,Buffet,Suburban,Low,27,1,ana_yemek,0.0728
+Meat,300,Wedding,450,Refrigerated,Regular,Winter,Finger Food,Suburban,High,35,3,ana_yemek,0.0778
+Meat,350,Wedding,450,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,40,3,ana_yemek,0.0889
+Vegetables,280,Wedding,350,Refrigerated,Regular,Summer,Finger Food,Urban,Low,20,1,salata,0.0571
+Meat,300,Wedding,450,Refrigerated,Regular,All Seasons,Finger Food,Rural,High,35,3,ana_yemek,0.0778
+Fruits,320,Birthday,480,Room Temperature,Regular,Summer,Buffet,Suburban,High,40,3,tatli,0.0833
+Fruits,350,Birthday,450,Refrigerated,Regular,Winter,Finger Food,Suburban,High,30,3,tatli,0.0667
+Meat,300,Birthday,400,Room Temperature,Regular,Winter,Finger Food,Suburban,Low,20,1,ana_yemek,0.05
+Meat,350,Corporate,450,Refrigerated,Occasional,Summer,Finger Food,Suburban,High,30,3,ana_yemek,0.0667
+Baked Goods,367,Birthday,420,Room Temperature,Regular,Winter,Buffet,Suburban,Low,40,1,tatli,0.0952
+Meat,300,Wedding,400,Refrigerated,Regular,All Seasons,Finger Food,Rural,Moderate,25,2,ana_yemek,0.0625
+Meat,300,Wedding,400,Refrigerated,Occasional,Winter,Sit-down Dinner,Suburban,Low,20,1,ana_yemek,0.05
+Fruits,280,Birthday,350,Room Temperature,Regular,Winter,Sit-down Dinner,Rural,Low,25,1,tatli,0.0714
+Fruits,320,Corporate,480,Room Temperature,Regular,All Seasons,Buffet,Suburban,High,40,3,tatli,0.0833
+Baked Goods,320,Wedding,400,Room Temperature,Regular,All Seasons,Buffet,Rural,High,35,3,tatli,0.0875
+Meat,250,Birthday,400,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Low,25,1,ana_yemek,0.0625
+Vegetables,207,Birthday,280,Refrigerated,Regular,All Seasons,Finger Food,Rural,High,20,3,salata,0.0714
+Meat,250,Social Gathering,350,Refrigerated,Regular,Summer,Finger Food,Suburban,High,35,3,ana_yemek,0.1
+Meat,250,Corporate,350,Room Temperature,Occasional,Winter,Finger Food,Suburban,High,35,3,ana_yemek,0.1
+Fruits,350,Birthday,450,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,High,45,3,tatli,0.1
+Fruits,438,Wedding,493,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Moderate,35,2,tatli,0.071
+Meat,310,Social Gathering,350,Room Temperature,Regular,Winter,Finger Food,Rural,High,35,3,ana_yemek,0.1
+Baked Goods,320,Wedding,400,Room Temperature,Regular,Summer,Finger Food,Rural,Moderate,25,2,tatli,0.0625
+Fruits,400,Corporate,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,50,3,tatli,0.1
+Meat,453,Social Gathering,484,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,54,3,ana_yemek,0.1116
+Baked Goods,350,Birthday,450,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,40,3,tatli,0.0889
+Baked Goods,400,Corporate,500,Room Temperature,Regular,Winter,Sit-down Dinner,Rural,High,45,3,tatli,0.09
+Meat,400,Corporate,500,Refrigerated,Occasional,All Seasons,Sit-down Dinner,Suburban,High,50,3,ana_yemek,0.1
+Dairy Products,300,Birthday,400,Room Temperature,Regular,All Seasons,Buffet,Suburban,High,30,3,icecek,0.075
+Dairy Products,434,Birthday,495,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Low,36,1,icecek,0.0727
+Fruits,280,Birthday,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,25,1,tatli,0.0714
+Baked Goods,400,Social Gathering,450,Room Temperature,Regular,Summer,Buffet,Urban,Moderate,30,2,tatli,0.0667
+Baked Goods,400,Wedding,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Low,25,1,tatli,0.05
+Meat,350,Wedding,450,Refrigerated,Occasional,All Seasons,Sit-down Dinner,Suburban,Moderate,25,2,ana_yemek,0.0556
+Fruits,453,Birthday,484,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,54,3,tatli,0.1116
+Dairy Products,453,Corporate,484,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,54,3,icecek,0.1116
+Dairy Products,240,Wedding,450,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Low,20,1,icecek,0.0444
+Dairy Products,350,Wedding,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,icecek,0.0778
+Dairy Products,300,Birthday,400,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,25,2,icecek,0.0625
+Meat,367,Birthday,420,Room Temperature,Regular,Summer,Buffet,Urban,Low,40,1,ana_yemek,0.0952
+Meat,220,Wedding,300,Refrigerated,Regular,Summer,Finger Food,Urban,Low,15,1,ana_yemek,0.05
+Fruits,280,Wedding,350,Refrigerated,Regular,Winter,Finger Food,Urban,Low,20,1,tatli,0.0571
+Fruits,491,Birthday,497,Refrigerated,Regular,Winter,Finger Food,Urban,High,32,3,tatli,0.0644
+Baked Goods,434,Wedding,495,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,36,1,tatli,0.0727
+Vegetables,230,Corporate,500,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,Moderate,30,2,salata,0.06
+Baked Goods,250,Birthday,350,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0714
+Dairy Products,300,Corporate,400,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,25,2,icecek,0.0625
+Baked Goods,350,Wedding,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,45,3,tatli,0.1
+Dairy Products,320,Wedding,400,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,25,2,icecek,0.0625
+Dairy Products,310,Social Gathering,350,Room Temperature,Regular,Winter,Finger Food,Urban,High,35,3,icecek,0.1
+Dairy Products,320,Wedding,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,35,3,icecek,0.0875
+Baked Goods,260,Social Gathering,400,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Low,20,1,tatli,0.05
+Meat,400,Birthday,450,Refrigerated,Occasional,Winter,Buffet,Urban,Moderate,30,2,ana_yemek,0.0667
+Meat,275,Corporate,388,Refrigerated,Regular,All Seasons,Finger Food,Rural,Low,16,1,ana_yemek,0.0412
+Meat,320,Corporate,400,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,40,3,ana_yemek,0.1
+Meat,400,Corporate,500,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,50,3,ana_yemek,0.1
+Dairy Products,400,Social Gathering,400,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,40,3,icecek,0.1
+Dairy Products,320,Birthday,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,15,2,icecek,0.0375
+Vegetables,300,Social Gathering,450,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,High,35,3,salata,0.0778
+Baked Goods,350,Birthday,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0556
+Dairy Products,220,Social Gathering,300,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Low,15,1,icecek,0.05
+Dairy Products,220,Social Gathering,300,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,15,2,icecek,0.05
+Baked Goods,400,Social Gathering,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,50,3,tatli,0.1
+Baked Goods,220,Social Gathering,300,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,15,2,tatli,0.05
+Fruits,453,Wedding,484,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,54,3,tatli,0.1116
+Fruits,250,Birthday,350,Refrigerated,Regular,Summer,Finger Food,Suburban,High,30,3,tatli,0.0857
+Vegetables,350,Corporate,450,Room Temperature,Regular,Winter,Buffet,Urban,High,40,3,salata,0.0889
+Meat,300,Wedding,400,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Moderate,25,2,ana_yemek,0.0625
+Meat,380,Birthday,500,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,ana_yemek,0.07
+Meat,250,Wedding,350,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Moderate,20,2,ana_yemek,0.0571
+Baked Goods,488,Wedding,498,Room Temperature,Regular,Winter,Finger Food,Rural,High,63,3,tatli,0.1265
+Meat,400,Corporate,500,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,High,50,3,ana_yemek,0.1
+Baked Goods,491,Birthday,497,Room Temperature,Regular,Summer,Finger Food,Urban,High,32,3,tatli,0.0644
+Fruits,400,Wedding,500,Refrigerated,Occasional,Winter,Sit-down Dinner,Suburban,High,40,3,tatli,0.08
+Meat,261,Birthday,350,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,Moderate,23,2,ana_yemek,0.0657
+Vegetables,434,Wedding,495,Refrigerated,Regular,All Seasons,Sit-down Dinner,Rural,Low,36,1,salata,0.0727
+Fruits,350,Wedding,450,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,30,2,tatli,0.0667
+Vegetables,350,Birthday,450,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,salata,0.0778
+Fruits,400,Wedding,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,40,3,tatli,0.08
+Baked Goods,247,Wedding,348,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,16,2,tatli,0.046
+Dairy Products,320,Corporate,400,Room Temperature,Regular,Winter,Buffet,Urban,Moderate,25,2,icecek,0.0625
+Baked Goods,207,Wedding,280,Room Temperature,Regular,All Seasons,Finger Food,Rural,High,20,3,tatli,0.0714
+Baked Goods,280,Corporate,350,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Low,25,1,tatli,0.0714
+Baked Goods,400,Corporate,500,Room Temperature,Occasional,Winter,Finger Food,Urban,High,40,3,tatli,0.08
+Dairy Products,220,Wedding,300,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,15,2,icecek,0.05
+Baked Goods,400,Wedding,500,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,40,3,tatli,0.08
+Baked Goods,250,Birthday,350,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Baked Goods,320,Birthday,400,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,20,2,tatli,0.05
+Vegetables,250,Corporate,350,Refrigerated,Occasional,Summer,Sit-down Dinner,Urban,Moderate,25,2,salata,0.0714
+Dairy Products,230,Wedding,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Low,20,1,icecek,0.04
+Vegetables,350,Wedding,450,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,Moderate,25,2,salata,0.0556
+Fruits,261,Corporate,350,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,23,2,tatli,0.0657
+Baked Goods,247,Corporate,348,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,16,2,tatli,0.046
+Baked Goods,380,Corporate,480,Room Temperature,Regular,All Seasons,Buffet,Suburban,Moderate,30,2,tatli,0.0625
+Baked Goods,350,Corporate,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,tatli,0.0778
+Dairy Products,300,Birthday,400,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Low,20,1,icecek,0.05
+Baked Goods,380,Social Gathering,480,Room Temperature,Regular,Winter,Buffet,Suburban,Moderate,30,2,tatli,0.0625
+Vegetables,300,Social Gathering,400,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,salata,0.0875
+Baked Goods,300,Social Gathering,400,Room Temperature,Regular,All Seasons,Buffet,Suburban,Low,20,1,tatli,0.05
+Dairy Products,300,Wedding,400,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,25,2,icecek,0.0625
+Baked Goods,320,Wedding,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Baked Goods,280,Social Gathering,350,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,15,2,tatli,0.0429
+Baked Goods,208,Corporate,282,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,22,2,tatli,0.078
+Baked Goods,320,Wedding,400,Room Temperature,Occasional,All Seasons,Sit-down Dinner,Suburban,High,35,3,tatli,0.0875
+Dairy Products,240,Social Gathering,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,30,2,icecek,0.0667
+Meat,250,Corporate,500,Refrigerated,Regular,Summer,Buffet,Urban,High,40,3,ana_yemek,0.08
+Meat,430,Corporate,477,Room Temperature,Regular,Winter,Buffet,Urban,Low,29,1,ana_yemek,0.0608
+Fruits,350,Social Gathering,450,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0556
+Dairy Products,220,Social Gathering,300,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,15,2,icecek,0.05
+Baked Goods,280,Social Gathering,480,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,15,1,tatli,0.0312
+Baked Goods,350,Social Gathering,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0556
+Dairy Products,350,Social Gathering,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,Moderate,25,2,icecek,0.0556
+Fruits,320,Wedding,400,Refrigerated,Regular,Summer,Buffet,Rural,High,35,3,tatli,0.0875
+Meat,300,Wedding,400,Refrigerated,Regular,Winter,Finger Food,Suburban,Low,15,1,ana_yemek,0.0375
+Meat,380,Wedding,480,Refrigerated,Occasional,Winter,Buffet,Suburban,Moderate,30,2,ana_yemek,0.0625
+Meat,300,Corporate,400,Refrigerated,Occasional,Winter,Finger Food,Suburban,Low,20,1,ana_yemek,0.05
+Fruits,380,Corporate,500,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,35,3,tatli,0.07
+Meat,280,Corporate,350,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,Low,25,1,ana_yemek,0.0714
+Meat,350,Corporate,450,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,45,3,ana_yemek,0.1
+Meat,320,Wedding,400,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,High,35,3,ana_yemek,0.0875
+Meat,380,Corporate,480,Refrigerated,Regular,Winter,Buffet,Urban,Moderate,30,2,ana_yemek,0.0625
+Meat,250,Corporate,350,Refrigerated,Regular,Winter,Finger Food,Urban,High,30,3,ana_yemek,0.0857
+Meat,280,Wedding,350,Refrigerated,Occasional,Summer,Finger Food,Rural,Low,20,1,ana_yemek,0.0571
+Meat,429,Birthday,496,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Low,42,1,ana_yemek,0.0847
+Dairy Products,320,Wedding,400,Room Temperature,Regular,Summer,Buffet,Rural,High,30,3,icecek,0.075
+Meat,400,Wedding,500,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,High,50,3,ana_yemek,0.1
+Fruits,400,Wedding,450,Room Temperature,Regular,All Seasons,Buffet,Urban,Moderate,30,2,tatli,0.0667
+Meat,208,Corporate,282,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Moderate,22,2,ana_yemek,0.078
+Vegetables,350,Wedding,450,Refrigerated,Occasional,Summer,Finger Food,Suburban,Low,20,1,salata,0.0444
+Vegetables,280,Corporate,350,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Low,25,1,salata,0.0714
+Meat,350,Wedding,450,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,Moderate,25,2,ana_yemek,0.0556
+Fruits,300,Wedding,450,Room Temperature,Regular,All Seasons,Finger Food,Rural,High,35,3,tatli,0.0778
+Fruits,275,Wedding,388,Room Temperature,Regular,Winter,Finger Food,Rural,Low,16,1,tatli,0.0412
+Fruits,220,Birthday,450,Room Temperature,Regular,Summer,Finger Food,Rural,Low,20,1,tatli,0.0444
+Baked Goods,400,Wedding,500,Room Temperature,Regular,Summer,Buffet,Rural,High,30,3,tatli,0.06
+Vegetables,302,Social Gathering,371,Refrigerated,Regular,Winter,Buffet,Suburban,Low,27,1,salata,0.0728
+Baked Goods,320,Corporate,400,Room Temperature,Regular,All Seasons,Buffet,Urban,High,45,3,tatli,0.1125
+Meat,397,Wedding,482,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,31,2,ana_yemek,0.0643
+Vegetables,320,Social Gathering,400,Refrigerated,Regular,All Seasons,Buffet,Rural,High,30,3,salata,0.075
+Meat,300,Social Gathering,400,Room Temperature,Regular,Winter,Finger Food,Suburban,Low,15,1,ana_yemek,0.0375
+Dairy Products,300,Corporate,400,Room Temperature,Regular,Winter,Finger Food,Urban,Low,20,1,icecek,0.05
+Fruits,300,Wedding,400,Refrigerated,Occasional,All Seasons,Sit-down Dinner,Suburban,Low,20,1,tatli,0.05
+Baked Goods,320,Birthday,400,Room Temperature,Regular,Winter,Finger Food,Urban,Moderate,15,2,tatli,0.0375
+Meat,230,Birthday,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,30,2,ana_yemek,0.06
+Meat,320,Social Gathering,400,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,ana_yemek,0.0875
+Meat,280,Wedding,350,Refrigerated,Occasional,All Seasons,Finger Food,Rural,Low,20,1,ana_yemek,0.0571
+Fruits,280,Wedding,350,Refrigerated,Occasional,Summer,Finger Food,Suburban,Low,20,1,tatli,0.0571
+Meat,320,Wedding,400,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,ana_yemek,0.0875
+Meat,300,Birthday,400,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,ana_yemek,0.0875
+Fruits,280,Wedding,350,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Low,25,1,tatli,0.0714
+Meat,400,Birthday,500,Refrigerated,Occasional,All Seasons,Sit-down Dinner,Suburban,High,45,3,ana_yemek,0.09
+Baked Goods,400,Corporate,500,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,50,3,tatli,0.1
+Baked Goods,342,Corporate,405,Room Temperature,Regular,Summer,Finger Food,Urban,Moderate,29,2,tatli,0.0716
+Vegetables,350,Birthday,450,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,Moderate,25,2,salata,0.0556
+Fruits,250,Wedding,350,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Moderate,20,2,tatli,0.0571
+Baked Goods,320,Birthday,480,Room Temperature,Regular,Summer,Buffet,Suburban,High,40,3,tatli,0.0833
+Vegetables,320,Corporate,400,Room Temperature,Regular,Winter,Buffet,Urban,Moderate,25,2,salata,0.0625
+Fruits,400,Birthday,500,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,50,3,tatli,0.1
+Fruits,320,Corporate,400,Room Temperature,Regular,Winter,Finger Food,Urban,Moderate,20,2,tatli,0.05
+Meat,250,Social Gathering,480,Room Temperature,Regular,Winter,Finger Food,Rural,Low,20,1,ana_yemek,0.0417
+Baked Goods,350,Corporate,450,Room Temperature,Regular,Winter,Finger Food,Urban,Low,20,1,tatli,0.0444
+Vegetables,400,Corporate,500,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,45,3,salata,0.09
+Meat,250,Social Gathering,350,Room Temperature,Regular,Summer,Buffet,Rural,Moderate,20,2,ana_yemek,0.0571
+Vegetables,434,Wedding,495,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Low,36,1,salata,0.0727
+Vegetables,350,Birthday,450,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,45,3,salata,0.1
+Vegetables,400,Birthday,500,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,50,3,salata,0.1
+Baked Goods,280,Wedding,350,Room Temperature,Regular,Summer,Finger Food,Urban,Moderate,15,2,tatli,0.0429
+Fruits,250,Social Gathering,350,Refrigerated,Regular,All Seasons,Buffet,Suburban,Moderate,20,2,tatli,0.0571
+Baked Goods,300,Wedding,400,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,40,3,tatli,0.1
+Vegetables,250,Corporate,350,Refrigerated,Occasional,Summer,Finger Food,Suburban,Moderate,20,2,salata,0.0571
+Baked Goods,300,Birthday,400,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Vegetables,300,Wedding,400,Refrigerated,Occasional,Summer,Finger Food,Suburban,Moderate,25,2,salata,0.0625
+Dairy Products,280,Social Gathering,350,Room Temperature,Regular,Winter,Buffet,Urban,Low,20,1,icecek,0.0571
+Baked Goods,432,Wedding,477,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Low,23,1,tatli,0.0482
+Dairy Products,300,Wedding,400,Room Temperature,Regular,Winter,Sit-down Dinner,Rural,High,40,3,icecek,0.1
+Dairy Products,320,Corporate,480,Room Temperature,Regular,All Seasons,Buffet,Suburban,High,40,3,icecek,0.0833
+Vegetables,320,Social Gathering,400,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,35,3,salata,0.0875
+Dairy Products,300,Corporate,400,Room Temperature,Regular,Winter,Finger Food,Urban,Moderate,15,2,icecek,0.0375
+Baked Goods,400,Corporate,500,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,40,3,tatli,0.08
+Meat,350,Social Gathering,450,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,Moderate,25,2,ana_yemek,0.0556
+Meat,220,Social Gathering,300,Room Temperature,Occasional,Winter,Finger Food,Rural,Moderate,15,2,ana_yemek,0.05
+Dairy Products,275,Wedding,388,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Low,16,1,icecek,0.0412
+Dairy Products,320,Birthday,400,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,25,2,icecek,0.0625
+Fruits,380,Wedding,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,35,3,tatli,0.07
+Dairy Products,400,Birthday,500,Room Temperature,Regular,Winter,Finger Food,Suburban,High,40,3,icecek,0.08
+Vegetables,300,Social Gathering,400,Refrigerated,Regular,Summer,Finger Food,Rural,Moderate,25,2,salata,0.0625
+Baked Goods,275,Birthday,388,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Low,16,1,tatli,0.0412
+Baked Goods,400,Corporate,350,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,tatli,0.1
+Meat,250,Social Gathering,350,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,ana_yemek,0.0714
+Baked Goods,434,Wedding,495,Room Temperature,Occasional,Summer,Sit-down Dinner,Suburban,Low,36,1,tatli,0.0727
+Baked Goods,400,Corporate,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Low,25,1,tatli,0.05
+Baked Goods,280,Social Gathering,350,Room Temperature,Regular,Summer,Finger Food,Suburban,Low,20,1,tatli,0.0571
+Baked Goods,300,Wedding,400,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,15,2,tatli,0.0375
+Baked Goods,220,Corporate,300,Room Temperature,Occasional,Summer,Finger Food,Suburban,Moderate,15,2,tatli,0.05
+Fruits,280,Social Gathering,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,15,2,tatli,0.0429
+Dairy Products,261,Wedding,350,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,23,2,icecek,0.0657
+Dairy Products,275,Social Gathering,388,Room Temperature,Regular,Summer,Finger Food,Suburban,Low,16,1,icecek,0.0412
+Dairy Products,400,Corporate,500,Room Temperature,Occasional,Summer,Sit-down Dinner,Suburban,High,50,3,icecek,0.1
+Vegetables,380,Social Gathering,480,Room Temperature,Regular,All Seasons,Buffet,Suburban,Moderate,30,2,salata,0.0625
+Dairy Products,280,Birthday,350,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,20,2,icecek,0.0571
+Dairy Products,220,Corporate,300,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,15,2,icecek,0.05
+Fruits,350,Social Gathering,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,Moderate,15,2,tatli,0.0333
+Dairy Products,350,Birthday,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,25,2,icecek,0.0556
+Dairy Products,220,Social Gathering,300,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,15,2,icecek,0.05
+Baked Goods,220,Social Gathering,450,Room Temperature,Regular,All Seasons,Finger Food,Rural,Low,20,1,tatli,0.0444
+Baked Goods,220,Social Gathering,300,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,15,2,tatli,0.05
+Meat,208,Social Gathering,282,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Moderate,22,2,ana_yemek,0.078
+Dairy Products,250,Wedding,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,34,3,icecek,0.0971
+Dairy Products,280,Social Gathering,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,Low,20,1,icecek,0.0571
+Dairy Products,350,Birthday,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,45,3,icecek,0.1
+Baked Goods,250,Social Gathering,350,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,tatli,0.1143
+Dairy Products,400,Corporate,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,25,1,icecek,0.05
+Baked Goods,270,Social Gathering,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,40,3,tatli,0.1
+Dairy Products,250,Corporate,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,25,2,icecek,0.0714
+Dairy Products,208,Social Gathering,282,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,22,2,icecek,0.078
+Baked Goods,350,Social Gathering,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,35,3,tatli,0.0778
+Dairy Products,250,Social Gathering,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,20,2,icecek,0.0571
+Dairy Products,250,Social Gathering,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,25,2,icecek,0.0714
+Meat,302,Birthday,371,Refrigerated,Regular,Winter,Buffet,Suburban,Low,27,1,ana_yemek,0.0728
+Meat,430,Wedding,477,Refrigerated,Regular,All Seasons,Buffet,Urban,Low,29,1,ana_yemek,0.0608
+Meat,400,Birthday,450,Refrigerated,Regular,Summer,Buffet,Urban,Moderate,30,2,ana_yemek,0.0667
+Meat,250,Wedding,350,Refrigerated,Regular,All Seasons,Buffet,Rural,Moderate,20,2,ana_yemek,0.0571
+Meat,290,Corporate,374,Refrigerated,Occasional,Winter,Finger Food,Urban,Low,27,1,ana_yemek,0.0722
+Meat,220,Birthday,450,Room Temperature,Regular,Winter,Finger Food,Rural,Low,20,1,ana_yemek,0.0444
+Meat,300,Corporate,400,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Low,20,1,ana_yemek,0.05
+Meat,240,Corporate,450,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Low,20,1,ana_yemek,0.0444
+Meat,442,Corporate,482,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,Low,32,1,ana_yemek,0.0664
+Meat,300,Wedding,400,Refrigerated,Occasional,Winter,Sit-down Dinner,Rural,Low,20,1,ana_yemek,0.05
+Vegetables,491,Birthday,497,Refrigerated,Regular,Summer,Finger Food,Rural,High,32,3,salata,0.0644
+Meat,220,Birthday,300,Refrigerated,Regular,Summer,Finger Food,Suburban,Moderate,20,2,ana_yemek,0.0667
+Meat,350,Birthday,450,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,45,3,ana_yemek,0.1
+Meat,300,Social Gathering,400,Refrigerated,Regular,All Seasons,Buffet,Rural,High,40,3,ana_yemek,0.1
+Vegetables,302,Social Gathering,371,Refrigerated,Regular,Summer,Buffet,Rural,Low,27,1,salata,0.0728
+Meat,350,Corporate,450,Refrigerated,Regular,Winter,Sit-down Dinner,Rural,Moderate,25,2,ana_yemek,0.0556
+Meat,300,Corporate,400,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,Moderate,15,2,ana_yemek,0.0375
+Fruits,450,Corporate,500,Room Temperature,Occasional,Winter,Finger Food,Urban,High,30,3,tatli,0.06
+Meat,434,Corporate,495,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,Low,36,1,ana_yemek,0.0727
+Meat,250,Corporate,350,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,High,40,3,ana_yemek,0.1143
+Meat,450,Birthday,500,Refrigerated,Regular,Summer,Finger Food,Urban,High,30,3,ana_yemek,0.06
+Meat,434,Wedding,495,Refrigerated,Regular,Winter,Sit-down Dinner,Rural,Low,36,1,ana_yemek,0.0727
+Meat,280,Birthday,350,Room Temperature,Regular,Winter,Finger Food,Rural,Low,15,1,ana_yemek,0.0429
+Meat,280,Corporate,480,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Low,15,1,ana_yemek,0.0312
+Meat,280,Corporate,350,Room Temperature,Regular,Winter,Finger Food,Rural,Low,15,1,ana_yemek,0.0429
+Meat,429,Corporate,496,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,Low,42,1,ana_yemek,0.0847
+Meat,320,Corporate,400,Refrigerated,Regular,Winter,Finger Food,Urban,Moderate,25,2,ana_yemek,0.0625
+Meat,400,Corporate,500,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,45,3,ana_yemek,0.09
+Fruits,220,Corporate,300,Room Temperature,Regular,Summer,Finger Food,Urban,Moderate,20,2,tatli,0.0667
+Dairy Products,220,Birthday,300,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Low,15,1,icecek,0.05
+Fruits,250,Social Gathering,350,Room Temperature,Regular,Winter,Buffet,Rural,Moderate,20,2,tatli,0.0571
+Dairy Products,300,Corporate,400,Room Temperature,Regular,Summer,Buffet,Suburban,High,30,3,icecek,0.075
+Dairy Products,400,Wedding,500,Room Temperature,Regular,All Seasons,Buffet,Rural,High,30,3,icecek,0.06
+Baked Goods,430,Social Gathering,477,Room Temperature,Regular,Winter,Buffet,Urban,Low,29,1,tatli,0.0608
+Fruits,300,Birthday,400,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,20,2,tatli,0.05
+Fruits,320,Corporate,400,Room Temperature,Occasional,All Seasons,Buffet,Rural,Moderate,25,2,tatli,0.0625
+Baked Goods,280,Wedding,350,Room Temperature,Regular,Winter,Finger Food,Urban,Moderate,20,2,tatli,0.0571
+Vegetables,350,Birthday,450,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,35,3,salata,0.0778
+Vegetables,300,Wedding,400,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,Low,20,1,salata,0.05
+Baked Goods,320,Corporate,400,Room Temperature,Regular,Winter,Finger Food,Urban,Moderate,25,2,tatli,0.0625
+Dairy Products,320,Birthday,400,Room Temperature,Regular,All Seasons,Buffet,Suburban,High,30,3,icecek,0.075
+Baked Goods,300,Corporate,400,Room Temperature,Occasional,All Seasons,Buffet,Suburban,High,40,3,tatli,0.1
+Meat,350,Wedding,450,Refrigerated,Occasional,All Seasons,Buffet,Suburban,High,40,3,ana_yemek,0.0889
+Baked Goods,250,Corporate,350,Room Temperature,Regular,Summer,Buffet,Urban,Low,10,1,tatli,0.0286
+Meat,220,Wedding,300,Refrigerated,Regular,Winter,Finger Food,Suburban,Moderate,20,2,ana_yemek,0.0667
+Meat,220,Birthday,300,Refrigerated,Regular,Summer,Finger Food,Suburban,Moderate,15,2,ana_yemek,0.05
+Meat,250,Corporate,350,Refrigerated,Regular,Winter,Buffet,Urban,Low,10,1,ana_yemek,0.0286
+Fruits,250,Corporate,350,Refrigerated,Regular,Winter,Buffet,Urban,Low,10,1,tatli,0.0286
+Meat,220,Corporate,300,Refrigerated,Regular,Summer,Finger Food,Urban,Moderate,15,2,ana_yemek,0.05
+Meat,270,Corporate,400,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,40,3,ana_yemek,0.1
+Meat,280,Birthday,350,Refrigerated,Regular,All Seasons,Finger Food,Urban,Moderate,20,2,ana_yemek,0.0571
+Fruits,300,Wedding,400,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,40,3,tatli,0.1
+Dairy Products,320,Birthday,400,Room Temperature,Regular,Winter,Buffet,Rural,High,40,3,icecek,0.1
+Baked Goods,280,Birthday,400,Room Temperature,Regular,Summer,Buffet,Urban,Moderate,25,2,tatli,0.0625
+Vegetables,450,Corporate,500,Refrigerated,Regular,Summer,Finger Food,Suburban,High,30,3,salata,0.06
+Meat,280,Birthday,480,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Low,15,1,ana_yemek,0.0312
+Meat,380,Corporate,480,Refrigerated,Occasional,Summer,Buffet,Suburban,Moderate,30,2,ana_yemek,0.0625
+Vegetables,320,Birthday,480,Refrigerated,Regular,All Seasons,Buffet,Rural,High,40,3,salata,0.0833
+Meat,350,Wedding,450,Refrigerated,Regular,Summer,Sit-down Dinner,Rural,Moderate,25,2,ana_yemek,0.0556
+Vegetables,220,Social Gathering,300,Refrigerated,Regular,Summer,Finger Food,Rural,Moderate,20,2,salata,0.0667
+Dairy Products,220,Social Gathering,300,Room Temperature,Regular,Winter,Buffet,Suburban,Low,10,1,icecek,0.0333
+Baked Goods,310,Social Gathering,350,Room Temperature,Regular,Summer,Finger Food,Urban,High,35,3,tatli,0.1
+Baked Goods,220,Corporate,300,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,15,2,tatli,0.05
+Baked Goods,280,Birthday,350,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,20,2,tatli,0.0571
+Meat,400,Wedding,500,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,Low,25,1,ana_yemek,0.05
+Meat,280,Social Gathering,350,Refrigerated,Regular,All Seasons,Finger Food,Urban,Low,20,1,ana_yemek,0.0571
+Vegetables,350,Wedding,450,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,45,3,salata,0.1
+Meat,400,Social Gathering,500,Room Temperature,Regular,Winter,Finger Food,Rural,High,40,3,ana_yemek,0.08
+Dairy Products,250,Social Gathering,480,Room Temperature,Regular,Summer,Finger Food,Urban,Low,20,1,icecek,0.0417
+Dairy Products,320,Wedding,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,High,35,3,icecek,0.0875
+Dairy Products,350,Wedding,450,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,20,2,icecek,0.0444
+Dairy Products,400,Wedding,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,High,50,3,icecek,0.1
+Baked Goods,300,Social Gathering,400,Room Temperature,Regular,All Seasons,Buffet,Suburban,High,40,3,tatli,0.1
+Baked Goods,350,Wedding,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,Moderate,25,2,tatli,0.0556
+Baked Goods,250,Corporate,350,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0714
+Dairy Products,380,Wedding,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,35,3,icecek,0.07
+Fruits,400,Social Gathering,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,50,3,tatli,0.1
+Fruits,250,Wedding,350,Refrigerated,Occasional,Winter,Sit-down Dinner,Rural,Moderate,20,2,tatli,0.0571
+Meat,320,Social Gathering,400,Refrigerated,Regular,Summer,Finger Food,Urban,Moderate,25,2,ana_yemek,0.0625
+Meat,320,Corporate,400,Refrigerated,Occasional,All Seasons,Finger Food,Urban,Moderate,25,2,ana_yemek,0.0625
+Fruits,280,Birthday,350,Refrigerated,Occasional,All Seasons,Finger Food,Rural,Moderate,20,2,tatli,0.0571
+Baked Goods,220,Corporate,300,Room Temperature,Regular,Summer,Finger Food,Suburban,Low,15,1,tatli,0.05
+Vegetables,290,Wedding,374,Refrigerated,Occasional,Summer,Finger Food,Rural,Low,27,1,salata,0.0722
+Fruits,300,Wedding,400,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,40,3,tatli,0.1
+Fruits,400,Corporate,450,Room Temperature,Occasional,All Seasons,Buffet,Urban,Moderate,30,2,tatli,0.0667
+Fruits,342,Birthday,405,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,29,2,tatli,0.0716
+Meat,292,Social Gathering,470,Refrigerated,Occasional,Summer,Sit-down Dinner,Urban,High,50,3,ana_yemek,0.1064
+Fruits,320,Wedding,400,Room Temperature,Occasional,All Seasons,Finger Food,Suburban,Low,15,1,tatli,0.0375
+Meat,350,Corporate,450,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,Moderate,25,2,ana_yemek,0.0556
+Dairy Products,380,Corporate,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,25,2,icecek,0.0625
+Baked Goods,250,Social Gathering,350,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,20,2,tatli,0.0571
+Baked Goods,247,Social Gathering,348,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,16,2,tatli,0.046
+Dairy Products,397,Wedding,482,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,31,2,icecek,0.0643
+Dairy Products,300,Social Gathering,400,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Moderate,15,2,icecek,0.0375
+Baked Goods,280,Wedding,350,Room Temperature,Regular,Winter,Finger Food,Urban,Low,15,1,tatli,0.0429
+Baked Goods,320,Corporate,480,Room Temperature,Regular,Summer,Buffet,Suburban,High,40,3,tatli,0.0833
+Vegetables,280,Birthday,350,Refrigerated,Regular,Summer,Finger Food,Urban,Moderate,20,2,salata,0.0571
+Baked Goods,434,Wedding,495,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Low,36,1,tatli,0.0727
+Meat,300,Corporate,400,Refrigerated,Occasional,All Seasons,Finger Food,Suburban,Moderate,15,2,ana_yemek,0.0375
+Dairy Products,300,Corporate,400,Room Temperature,Regular,All Seasons,Buffet,Suburban,High,30,3,icecek,0.075
+Baked Goods,220,Birthday,300,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,20,2,tatli,0.0667
+Baked Goods,400,Wedding,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,High,40,3,tatli,0.08
+Vegetables,250,Social Gathering,480,Refrigerated,Regular,Summer,Finger Food,Rural,Low,20,1,salata,0.0417
+Fruits,300,Social Gathering,400,Refrigerated,Regular,All Seasons,Buffet,Suburban,High,40,3,tatli,0.1
+Fruits,350,Corporate,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,tatli,0.0889
+Vegetables,342,Corporate,405,Refrigerated,Occasional,Winter,Finger Food,Rural,Moderate,29,2,salata,0.0716
+Baked Goods,320,Birthday,480,Room Temperature,Regular,All Seasons,Buffet,Suburban,High,40,3,tatli,0.0833
+Fruits,488,Social Gathering,498,Room Temperature,Regular,Winter,Finger Food,Rural,High,63,3,tatli,0.1265
+Baked Goods,280,Corporate,350,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Low,25,1,tatli,0.0714
+Baked Goods,280,Birthday,350,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,20,2,tatli,0.0571
+Fruits,280,Corporate,480,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Moderate,15,2,tatli,0.0312
+Dairy Products,300,Wedding,400,Room Temperature,Regular,Summer,Finger Food,Suburban,Low,20,1,icecek,0.05
+Meat,300,Social Gathering,450,Refrigerated,Regular,All Seasons,Finger Food,Suburban,High,35,3,ana_yemek,0.0778
+Dairy Products,280,Wedding,480,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Low,15,1,icecek,0.0312
+Fruits,439,Social Gathering,459,Room Temperature,Regular,All Seasons,Buffet,Suburban,Low,39,1,tatli,0.085
+Dairy Products,380,Wedding,480,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Low,10,1,icecek,0.0208
+Baked Goods,247,Birthday,348,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,16,2,tatli,0.046
+Baked Goods,220,Corporate,300,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,15,2,tatli,0.05
+Dairy Products,280,Social Gathering,350,Room Temperature,Regular,Winter,Finger Food,Rural,Low,15,1,icecek,0.0429
+Dairy Products,280,Wedding,480,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Low,15,1,icecek,0.0312
+Vegetables,400,Corporate,500,Refrigerated,Occasional,Winter,Sit-down Dinner,Suburban,High,40,3,salata,0.08
+Fruits,250,Wedding,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,20,2,tatli,0.0571
+Fruits,438,Corporate,493,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,35,2,tatli,0.071
+Baked Goods,220,Social Gathering,300,Room Temperature,Regular,Summer,Finger Food,Rural,Low,15,1,tatli,0.05
+Meat,250,Social Gathering,350,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Moderate,20,2,ana_yemek,0.0571
+Fruits,400,Corporate,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,35,3,tatli,0.1
+Vegetables,350,Corporate,450,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,25,2,salata,0.0556
+Baked Goods,220,Wedding,300,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,15,2,tatli,0.05
+Dairy Products,350,Corporate,450,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Low,20,1,icecek,0.0444
+Dairy Products,350,Birthday,450,Room Temperature,Regular,All Seasons,Finger Food,Suburban,High,30,3,icecek,0.0667
+Dairy Products,400,Corporate,500,Room Temperature,Regular,All Seasons,Finger Food,Suburban,High,40,3,icecek,0.08
+Dairy Products,488,Corporate,498,Room Temperature,Regular,All Seasons,Finger Food,Urban,High,63,3,icecek,0.1265
+Dairy Products,350,Corporate,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,icecek,0.0778
+Vegetables,230,Social Gathering,500,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Moderate,30,2,salata,0.06
+Dairy Products,250,Wedding,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,40,3,icecek,0.1143
+Baked Goods,208,Wedding,282,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,22,2,tatli,0.078
+Baked Goods,350,Social Gathering,350,Room Temperature,Regular,Winter,Sit-down Dinner,Rural,High,35,3,tatli,0.1
+Baked Goods,220,Social Gathering,300,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,20,2,tatli,0.0667
+Dairy Products,350,Corporate,450,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,20,2,icecek,0.0444
+Dairy Products,240,Social Gathering,450,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Low,20,1,icecek,0.0444
+Baked Goods,350,Social Gathering,450,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,35,3,tatli,0.0778
+Baked Goods,220,Birthday,300,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,15,2,tatli,0.05
+Dairy Products,400,Corporate,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,40,3,icecek,0.1
+Dairy Products,350,Wedding,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,40,3,icecek,0.0889
+Baked Goods,250,Social Gathering,350,Room Temperature,Occasional,All Seasons,Buffet,Rural,Moderate,20,2,tatli,0.0571
+Meat,350,Social Gathering,450,Room Temperature,Occasional,Winter,Sit-down Dinner,Suburban,Moderate,25,2,ana_yemek,0.0556
+Dairy Products,350,Corporate,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,30,2,icecek,0.0667
+Dairy Products,300,Birthday,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,15,2,icecek,0.0375
+Dairy Products,280,Social Gathering,350,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Low,25,1,icecek,0.0714
+Dairy Products,280,Social Gathering,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,Low,15,1,icecek,0.0429
+Dairy Products,453,Birthday,484,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,54,3,icecek,0.1116
+Dairy Products,320,Birthday,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,25,2,icecek,0.0625
+Baked Goods,208,Birthday,282,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,22,2,tatli,0.078
+Dairy Products,300,Corporate,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,15,2,icecek,0.0375
+Dairy Products,280,Social Gathering,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,20,2,icecek,0.0571
+Meat,320,Wedding,400,Refrigerated,Occasional,Winter,Buffet,Rural,High,30,3,ana_yemek,0.075
+Meat,300,Birthday,400,Refrigerated,Regular,Summer,Buffet,Suburban,High,40,3,ana_yemek,0.1
+Meat,302,Wedding,371,Refrigerated,Regular,All Seasons,Buffet,Suburban,Low,27,1,ana_yemek,0.0728
+Meat,250,Wedding,350,Refrigerated,Regular,Summer,Finger Food,Suburban,High,35,3,ana_yemek,0.1
+Fruits,320,Social Gathering,480,Refrigerated,Regular,Winter,Buffet,Rural,High,40,3,tatli,0.0833
+Baked Goods,284,Birthday,443,Room Temperature,Regular,Summer,Buffet,Urban,Low,32,1,tatli,0.0722
+Meat,453,Wedding,484,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,54,3,ana_yemek,0.1116
+Meat,400,Birthday,500,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,Low,25,1,ana_yemek,0.05
+Meat,320,Social Gathering,400,Room Temperature,Regular,Summer,Buffet,Rural,High,30,3,ana_yemek,0.075
+Vegetables,434,Wedding,495,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,Low,36,1,salata,0.0727
+Meat,300,Corporate,400,Refrigerated,Regular,All Seasons,Finger Food,Rural,Moderate,15,2,ana_yemek,0.0375
+Vegetables,400,Corporate,500,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,45,3,salata,0.09
+Meat,300,Corporate,400,Refrigerated,Occasional,Winter,Finger Food,Suburban,Moderate,25,2,ana_yemek,0.0625
+Meat,300,Wedding,400,Refrigerated,Regular,All Seasons,Sit-down Dinner,Rural,Moderate,25,2,ana_yemek,0.0625
+Fruits,412,Birthday,478,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Low,38,1,tatli,0.0795
+Fruits,491,Birthday,497,Room Temperature,Regular,All Seasons,Finger Food,Suburban,High,32,3,tatli,0.0644
+Meat,300,Social Gathering,400,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Low,20,1,ana_yemek,0.05
+Fruits,270,Birthday,400,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,High,40,3,tatli,0.1
+Baked Goods,400,Wedding,500,Room Temperature,Regular,Winter,Sit-down Dinner,Rural,High,45,3,tatli,0.09
+Baked Goods,400,Corporate,500,Room Temperature,Regular,Winter,Sit-down Dinner,Rural,Low,25,1,tatli,0.05
+Vegetables,300,Corporate,400,Room Temperature,Regular,Summer,Finger Food,Rural,Moderate,15,2,salata,0.0375
+Dairy Products,380,Wedding,480,Room Temperature,Regular,Winter,Buffet,Suburban,Moderate,30,2,icecek,0.0625
+Dairy Products,320,Corporate,400,Room Temperature,Regular,All Seasons,Buffet,Rural,High,35,3,icecek,0.0875
+Baked Goods,280,Birthday,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,Low,15,1,tatli,0.0429
+Vegetables,350,Social Gathering,450,Refrigerated,Regular,Summer,Finger Food,Suburban,Low,20,1,salata,0.0444
+Baked Goods,220,Social Gathering,300,Room Temperature,Regular,Winter,Buffet,Suburban,Low,10,1,tatli,0.0333
+Dairy Products,320,Wedding,400,Room Temperature,Regular,Summer,Finger Food,Rural,Moderate,25,2,icecek,0.0625
+Baked Goods,350,Birthday,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,45,3,tatli,0.1
+Baked Goods,412,Corporate,478,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Low,38,1,tatli,0.0795
+Baked Goods,220,Social Gathering,300,Room Temperature,Regular,Winter,Finger Food,Rural,Low,15,1,tatli,0.05
+Fruits,350,Wedding,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,25,2,tatli,0.0556
+Vegetables,320,Birthday,400,Refrigerated,Regular,All Seasons,Finger Food,Suburban,Moderate,25,2,salata,0.0625
+Vegetables,350,Corporate,450,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Moderate,25,2,salata,0.0556
+Vegetables,250,Wedding,350,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,Moderate,25,2,salata,0.0714
+Fruits,429,Social Gathering,496,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Low,42,1,tatli,0.0847
+Baked Goods,280,Wedding,354,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,23,1,tatli,0.065
+Dairy Products,400,Birthday,350,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,icecek,0.1
+Dairy Products,300,Social Gathering,400,Room Temperature,Regular,Winter,Finger Food,Rural,Low,20,1,icecek,0.05
+Dairy Products,280,Wedding,480,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,Low,15,1,icecek,0.0312
+Baked Goods,400,Social Gathering,500,Room Temperature,Regular,Summer,Finger Food,Suburban,High,40,3,tatli,0.08
+Baked Goods,400,Wedding,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,40,3,tatli,0.08
+Dairy Products,300,Corporate,400,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,25,2,icecek,0.0625
+Dairy Products,208,Birthday,282,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,22,2,icecek,0.078
+Vegetables,230,Social Gathering,500,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,Moderate,30,2,salata,0.06
+Dairy Products,220,Birthday,300,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,15,1,icecek,0.05
+Dairy Products,300,Social Gathering,400,Room Temperature,Regular,All Seasons,Buffet,Urban,Moderate,30,2,icecek,0.075
+Baked Goods,300,Social Gathering,400,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,15,2,tatli,0.0375
+Dairy Products,400,Social Gathering,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,50,3,icecek,0.1
+Baked Goods,208,Social Gathering,282,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,22,2,tatli,0.078
+Fruits,261,Social Gathering,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,23,2,tatli,0.0657
+Meat,320,Birthday,480,Refrigerated,Regular,Winter,Buffet,Suburban,High,40,3,ana_yemek,0.0833
+Fruits,300,Wedding,400,Refrigerated,Regular,Winter,Buffet,Suburban,High,40,3,tatli,0.1
+Meat,491,Birthday,497,Refrigerated,Regular,Winter,Finger Food,Rural,High,32,3,ana_yemek,0.0644
+Meat,220,Corporate,300,Refrigerated,Occasional,Winter,Buffet,Suburban,Low,10,1,ana_yemek,0.0333
+Meat,275,Wedding,388,Refrigerated,Occasional,Winter,Finger Food,Rural,Low,16,1,ana_yemek,0.0412
+Dairy Products,350,Social Gathering,450,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,20,2,icecek,0.0444
+Dairy Products,300,Corporate,400,Room Temperature,Occasional,Winter,Sit-down Dinner,Suburban,Moderate,25,2,icecek,0.0625
+Dairy Products,320,Social Gathering,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,35,3,icecek,0.0875
+Meat,300,Birthday,400,Refrigerated,Regular,Winter,Buffet,Urban,Moderate,30,2,ana_yemek,0.075
+Meat,320,Wedding,400,Refrigerated,Regular,Winter,Finger Food,Rural,Moderate,25,2,ana_yemek,0.0625
+Meat,380,Corporate,480,Refrigerated,Regular,Summer,Buffet,Suburban,Moderate,30,2,ana_yemek,0.0625
+Baked Goods,250,Wedding,350,Room Temperature,Regular,Winter,Buffet,Urban,Low,10,1,tatli,0.0286
+Baked Goods,250,Corporate,500,Room Temperature,Regular,Summer,Buffet,Urban,High,40,3,tatli,0.08
+Vegetables,300,Wedding,400,Refrigerated,Regular,Winter,Buffet,Suburban,Low,20,1,salata,0.05
+Meat,250,Wedding,350,Refrigerated,Regular,Winter,Finger Food,Rural,Moderate,20,2,ana_yemek,0.0571
+Meat,320,Social Gathering,400,Refrigerated,Regular,Winter,Buffet,Rural,High,30,3,ana_yemek,0.075
+Meat,250,Corporate,350,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Low,20,1,ana_yemek,0.0571
+Meat,350,Birthday,450,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,45,3,ana_yemek,0.1
+Meat,380,Wedding,500,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,35,3,ana_yemek,0.07
+Meat,400,Birthday,500,Refrigerated,Regular,All Seasons,Finger Food,Suburban,High,40,3,ana_yemek,0.08
+Fruits,350,Corporate,450,Room Temperature,Occasional,Winter,Finger Food,Rural,Low,20,1,tatli,0.0444
+Vegetables,400,Wedding,500,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,50,3,salata,0.1
+Fruits,350,Wedding,450,Room Temperature,Regular,All Seasons,Finger Food,Rural,Low,10,1,tatli,0.0222
+Fruits,250,Wedding,350,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,40,3,tatli,0.1143
+Fruits,280,Birthday,350,Room Temperature,Regular,All Seasons,Finger Food,Urban,Low,15,1,tatli,0.0429
+Fruits,400,Corporate,500,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,50,3,tatli,0.1
+Meat,300,Birthday,400,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,25,2,ana_yemek,0.0625
+Baked Goods,220,Corporate,300,Room Temperature,Regular,Winter,Finger Food,Rural,Low,15,1,tatli,0.05
+Fruits,320,Social Gathering,480,Room Temperature,Regular,Winter,Buffet,Suburban,High,40,3,tatli,0.0833
+Meat,230,Corporate,500,Refrigerated,Occasional,All Seasons,Sit-down Dinner,Urban,Low,20,1,ana_yemek,0.04
+Meat,453,Corporate,484,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,54,3,ana_yemek,0.1116
+Fruits,380,Wedding,500,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,tatli,0.07
+Vegetables,320,Corporate,480,Room Temperature,Occasional,Winter,Buffet,Suburban,High,40,3,salata,0.0833
+Meat,491,Social Gathering,497,Refrigerated,Regular,All Seasons,Finger Food,Urban,High,32,3,ana_yemek,0.0644
+Fruits,280,Birthday,350,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Baked Goods,400,Wedding,500,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Low,25,1,tatli,0.05
+Fruits,450,Social Gathering,500,Room Temperature,Regular,Winter,Finger Food,Rural,High,30,3,tatli,0.06
+Vegetables,220,Corporate,300,Refrigerated,Regular,Summer,Finger Food,Suburban,Moderate,15,2,salata,0.05
+Fruits,261,Corporate,350,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,23,2,tatli,0.0657
+Meat,320,Corporate,400,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,25,2,ana_yemek,0.0625
+Dairy Products,250,Wedding,350,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,40,3,icecek,0.1143
+Baked Goods,220,Social Gathering,450,Room Temperature,Regular,Summer,Finger Food,Urban,Low,20,1,tatli,0.0444
+Baked Goods,292,Wedding,470,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,50,3,tatli,0.1064
+Dairy Products,320,Corporate,400,Room Temperature,Regular,Summer,Finger Food,Rural,Moderate,20,2,icecek,0.05
+Dairy Products,300,Corporate,400,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,25,2,icecek,0.0625
+Baked Goods,453,Birthday,484,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,High,54,3,tatli,0.1116
+Baked Goods,320,Wedding,400,Room Temperature,Occasional,Summer,Sit-down Dinner,Suburban,High,35,3,tatli,0.0875
+Dairy Products,320,Birthday,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Low,15,1,icecek,0.0375
+Dairy Products,220,Birthday,300,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Low,15,1,icecek,0.05
+Dairy Products,310,Social Gathering,350,Room Temperature,Regular,Summer,Finger Food,Rural,High,35,3,icecek,0.1
+Fruits,400,Social Gathering,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,High,50,3,tatli,0.1
+Baked Goods,230,Corporate,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,30,1,tatli,0.06
+Baked Goods,250,Wedding,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,20,2,tatli,0.0571
+Baked Goods,397,Social Gathering,482,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,31,2,tatli,0.0643
+Baked Goods,300,Social Gathering,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,25,2,tatli,0.0625
+Dairy Products,250,Social Gathering,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,20,2,icecek,0.0571
+Meat,320,Social Gathering,480,Room Temperature,Regular,Winter,Buffet,Rural,High,40,3,ana_yemek,0.0833
+Vegetables,280,Wedding,350,Refrigerated,Occasional,Winter,Finger Food,Rural,Low,20,1,salata,0.0571
+Meat,320,Social Gathering,400,Refrigerated,Regular,All Seasons,Buffet,Rural,High,30,3,ana_yemek,0.075
+Dairy Products,438,Wedding,493,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,35,2,icecek,0.071
+Vegetables,412,Social Gathering,478,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Low,38,1,salata,0.0795
+Dairy Products,300,Wedding,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,35,3,icecek,0.0875
+Dairy Products,400,Wedding,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,40,3,icecek,0.08
+Dairy Products,350,Social Gathering,450,Room Temperature,Regular,Winter,Finger Food,Suburban,High,30,3,icecek,0.0667
+Meat,280,Corporate,350,Refrigerated,Regular,Summer,Finger Food,Urban,Low,20,1,ana_yemek,0.0571
+Fruits,320,Birthday,400,Room Temperature,Regular,Summer,Buffet,Rural,High,30,3,tatli,0.075
+Baked Goods,367,Birthday,420,Room Temperature,Regular,Winter,Buffet,Urban,Low,40,1,tatli,0.0952
+Vegetables,220,Wedding,300,Refrigerated,Occasional,Summer,Buffet,Suburban,Low,10,1,salata,0.0333
+Baked Goods,250,Corporate,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,25,2,tatli,0.0714
+Dairy Products,320,Social Gathering,400,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,35,3,icecek,0.0875
+Baked Goods,350,Social Gathering,450,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Low,20,1,tatli,0.0444
+Baked Goods,320,Social Gathering,400,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,tatli,0.0875
+Dairy Products,280,Social Gathering,350,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,20,2,icecek,0.0571
+Baked Goods,220,Social Gathering,300,Room Temperature,Regular,Summer,Finger Food,Suburban,Moderate,15,2,tatli,0.05
+Dairy Products,310,Social Gathering,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,High,35,3,icecek,0.1
+Baked Goods,342,Social Gathering,405,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,29,2,tatli,0.0716
+Dairy Products,350,Social Gathering,450,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Low,20,1,icecek,0.0444
+Meat,400,Wedding,500,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,High,40,3,ana_yemek,0.08
+Vegetables,302,Birthday,371,Refrigerated,Regular,All Seasons,Buffet,Suburban,Low,27,1,salata,0.0728
+Fruits,400,Wedding,500,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,High,40,3,tatli,0.08
+Meat,250,Corporate,400,Refrigerated,Occasional,Winter,Sit-down Dinner,Urban,Low,25,1,ana_yemek,0.0625
+Meat,453,Birthday,484,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,54,3,ana_yemek,0.1116
+Meat,208,Wedding,282,Refrigerated,Regular,Winter,Sit-down Dinner,Rural,Moderate,22,2,ana_yemek,0.078
+Meat,320,Wedding,400,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,25,2,ana_yemek,0.0625
+Fruits,292,Wedding,470,Refrigerated,Occasional,Summer,Sit-down Dinner,Rural,High,50,3,tatli,0.1064
+Meat,240,Wedding,450,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,Low,20,1,ana_yemek,0.0444
+Meat,220,Wedding,300,Refrigerated,Occasional,Winter,Finger Food,Suburban,Moderate,15,2,ana_yemek,0.05
+Meat,350,Wedding,450,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,High,35,3,ana_yemek,0.0778
+Vegetables,220,Wedding,300,Refrigerated,Regular,Summer,Finger Food,Rural,Moderate,15,2,salata,0.05
+Meat,380,Corporate,480,Refrigerated,Regular,Summer,Sit-down Dinner,Rural,Moderate,30,2,ana_yemek,0.0625
+Baked Goods,320,Birthday,400,Room Temperature,Regular,Summer,Buffet,Rural,Moderate,25,2,tatli,0.0625
+Fruits,350,Corporate,450,Room Temperature,Regular,Winter,Finger Food,Suburban,High,30,3,tatli,0.0667
+Vegetables,350,Corporate,450,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,35,3,salata,0.0778
+Fruits,280,Birthday,350,Refrigerated,Regular,All Seasons,Finger Food,Rural,Moderate,20,2,tatli,0.0571
+Meat,400,Corporate,500,Refrigerated,Occasional,Winter,Sit-down Dinner,Suburban,High,40,3,ana_yemek,0.08
+Fruits,320,Corporate,400,Room Temperature,Regular,Summer,Finger Food,Urban,Moderate,25,2,tatli,0.0625
+Baked Goods,400,Corporate,500,Room Temperature,Regular,Summer,Finger Food,Rural,High,40,3,tatli,0.08
+Fruits,280,Corporate,350,Refrigerated,Occasional,Winter,Sit-down Dinner,Suburban,Low,25,1,tatli,0.0714
+Fruits,320,Wedding,400,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,tatli,0.0875
+Vegetables,320,Social Gathering,400,Refrigerated,Occasional,Winter,Buffet,Rural,High,30,3,salata,0.075
+Fruits,350,Birthday,450,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0556
+Baked Goods,400,Wedding,500,Room Temperature,Occasional,Winter,Finger Food,Urban,High,40,3,tatli,0.08
+Fruits,350,Birthday,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,tatli,0.0889
+Meat,350,Corporate,450,Refrigerated,Regular,All Seasons,Sit-down Dinner,Rural,Moderate,30,2,ana_yemek,0.0667
+Baked Goods,300,Wedding,400,Room Temperature,Regular,Summer,Finger Food,Rural,Moderate,15,2,tatli,0.0375
+Meat,350,Wedding,450,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Moderate,25,2,ana_yemek,0.0556
+Vegetables,400,Wedding,500,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,High,40,3,salata,0.08
+Vegetables,280,Birthday,350,Refrigerated,Regular,All Seasons,Finger Food,Urban,Moderate,20,2,salata,0.0571
+Vegetables,220,Social Gathering,300,Refrigerated,Regular,Summer,Finger Food,Suburban,Low,15,1,salata,0.05
+Baked Goods,350,Corporate,450,Room Temperature,Regular,All Seasons,Buffet,Urban,Moderate,30,2,tatli,0.0667
+Fruits,380,Social Gathering,480,Refrigerated,Regular,Summer,Buffet,Suburban,Moderate,30,2,tatli,0.0625
+Fruits,300,Social Gathering,400,Room Temperature,Regular,Winter,Buffet,Suburban,High,30,3,tatli,0.075
+Dairy Products,284,Birthday,443,Room Temperature,Regular,All Seasons,Buffet,Urban,Low,32,1,icecek,0.0722
+Fruits,250,Wedding,350,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,20,2,tatli,0.0571
+Vegetables,400,Wedding,500,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,High,40,3,salata,0.08
+Baked Goods,350,Wedding,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,45,3,tatli,0.1
+Fruits,400,Wedding,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,50,3,tatli,0.1
+Meat,280,Social Gathering,350,Refrigerated,Regular,All Seasons,Finger Food,Suburban,Moderate,20,2,ana_yemek,0.0571
+Baked Goods,350,Birthday,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,45,3,tatli,0.1
+Vegetables,220,Social Gathering,450,Refrigerated,Regular,Summer,Finger Food,Suburban,Moderate,30,2,salata,0.0667
+Fruits,400,Social Gathering,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,45,3,tatli,0.09
+Baked Goods,220,Corporate,300,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,15,2,tatli,0.05
+Dairy Products,230,Wedding,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Low,20,1,icecek,0.04
+Dairy Products,438,Wedding,493,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Moderate,35,2,icecek,0.071
+Vegetables,300,Social Gathering,400,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,35,3,salata,0.0875
+Dairy Products,300,Corporate,400,Room Temperature,Occasional,All Seasons,Buffet,Suburban,High,30,3,icecek,0.075
+Fruits,280,Social Gathering,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,Low,25,1,tatli,0.0714
+Dairy Products,350,Birthday,450,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,25,2,icecek,0.0556
+Vegetables,280,Corporate,350,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,20,2,salata,0.0571
+Baked Goods,250,Corporate,350,Room Temperature,Occasional,Winter,Sit-down Dinner,Rural,Moderate,25,2,tatli,0.0714
+Dairy Products,342,Corporate,405,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,29,2,icecek,0.0716
+Baked Goods,380,Social Gathering,480,Room Temperature,Occasional,Winter,Buffet,Suburban,Moderate,30,2,tatli,0.0625
+Dairy Products,300,Birthday,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,25,2,icecek,0.0625
+Baked Goods,350,Wedding,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0556
+Baked Goods,300,Corporate,400,Room Temperature,Regular,All Seasons,Buffet,Suburban,High,40,3,tatli,0.1
+Meat,300,Social Gathering,400,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,ana_yemek,0.0875
+Fruits,400,Social Gathering,500,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Low,25,1,tatli,0.05
+Fruits,300,Birthday,400,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Moderate,15,2,tatli,0.0375
+Dairy Products,400,Wedding,500,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,50,3,icecek,0.1
+Vegetables,280,Birthday,480,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Low,15,1,salata,0.0312
+Dairy Products,280,Birthday,350,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,20,2,icecek,0.0571
+Dairy Products,250,Corporate,350,Room Temperature,Regular,Winter,Finger Food,Urban,Moderate,20,2,icecek,0.0571
+Dairy Products,280,Corporate,350,Room Temperature,Regular,All Seasons,Finger Food,Urban,Low,20,1,icecek,0.0571
+Dairy Products,250,Wedding,350,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,25,2,icecek,0.0714
+Dairy Products,350,Wedding,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,40,3,icecek,0.0889
+Baked Goods,250,Corporate,350,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Moderate,20,2,tatli,0.0571
+Baked Goods,400,Social Gathering,500,Room Temperature,Regular,Summer,Sit-down Dinner,Rural,High,50,3,tatli,0.1
+Baked Goods,290,Social Gathering,374,Room Temperature,Regular,All Seasons,Finger Food,Rural,Low,27,1,tatli,0.0722
+Dairy Products,350,Wedding,450,Room Temperature,Occasional,Summer,Sit-down Dinner,Suburban,High,35,3,icecek,0.0778
+Baked Goods,491,Social Gathering,497,Room Temperature,Regular,All Seasons,Finger Food,Urban,High,32,3,tatli,0.0644
+Baked Goods,350,Birthday,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,30,2,tatli,0.0667
+Dairy Products,400,Birthday,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,45,3,icecek,0.09
+Fruits,250,Social Gathering,350,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,25,2,tatli,0.0714
+Dairy Products,220,Corporate,300,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,15,1,icecek,0.05
+Baked Goods,320,Social Gathering,400,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,tatli,0.1
+Dairy Products,320,Birthday,400,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,40,3,icecek,0.1
+Baked Goods,250,Wedding,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,20,2,tatli,0.0571
+Baked Goods,250,Birthday,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,20,2,tatli,0.0571
+Meat,284,Birthday,443,Refrigerated,Regular,Summer,Buffet,Urban,Low,32,1,ana_yemek,0.0722
+Meat,280,Corporate,350,Refrigerated,Regular,Winter,Buffet,Urban,Low,20,1,ana_yemek,0.0571
+Meat,300,Wedding,400,Refrigerated,Occasional,Winter,Buffet,Suburban,Low,20,1,ana_yemek,0.05
+Meat,300,Corporate,400,Refrigerated,Regular,Winter,Buffet,Suburban,High,40,3,ana_yemek,0.1
+Meat,412,Wedding,478,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Low,38,1,ana_yemek,0.0795
+Meat,434,Wedding,495,Refrigerated,Regular,Summer,Sit-down Dinner,Rural,Low,36,1,ana_yemek,0.0727
+Meat,250,Birthday,350,Refrigerated,Regular,Summer,Finger Food,Suburban,High,30,3,ana_yemek,0.0857
+Fruits,280,Birthday,350,Room Temperature,Regular,Summer,Finger Food,Rural,Low,20,1,tatli,0.0571
+Meat,300,Social Gathering,400,Refrigerated,Regular,Winter,Buffet,Suburban,Low,20,1,ana_yemek,0.05
+Meat,300,Wedding,400,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Low,20,1,ana_yemek,0.05
+Meat,400,Wedding,500,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,ana_yemek,0.08
+Meat,320,Social Gathering,400,Room Temperature,Regular,Winter,Buffet,Rural,High,30,3,ana_yemek,0.075
+Meat,250,Social Gathering,350,Refrigerated,Regular,All Seasons,Buffet,Urban,Low,10,1,ana_yemek,0.0286
+Vegetables,320,Corporate,400,Refrigerated,Regular,All Seasons,Buffet,Rural,High,30,3,salata,0.075
+Meat,300,Social Gathering,400,Room Temperature,Regular,Winter,Buffet,Suburban,Low,20,1,ana_yemek,0.05
+Meat,320,Corporate,400,Room Temperature,Regular,Winter,Finger Food,Urban,Moderate,25,2,ana_yemek,0.0625
+Fruits,400,Birthday,500,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,40,3,tatli,0.08
+Meat,310,Social Gathering,450,Refrigerated,Regular,Summer,Finger Food,Suburban,Low,25,1,ana_yemek,0.0556
+Fruits,250,Wedding,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,High,30,3,tatli,0.0857
+Meat,300,Corporate,400,Refrigerated,Occasional,Summer,Finger Food,Suburban,Moderate,25,2,ana_yemek,0.0625
+Vegetables,300,Birthday,400,Refrigerated,Regular,Winter,Finger Food,Suburban,Moderate,15,2,salata,0.0375
+Vegetables,280,Corporate,480,Refrigerated,Occasional,Winter,Sit-down Dinner,Urban,Low,15,1,salata,0.0312
+Baked Goods,434,Wedding,495,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Low,36,1,tatli,0.0727
+Fruits,280,Social Gathering,350,Room Temperature,Regular,Winter,Finger Food,Urban,Low,20,1,tatli,0.0571
+Fruits,400,Corporate,350,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,35,3,tatli,0.1
+Baked Goods,300,Social Gathering,400,Room Temperature,Regular,Winter,Buffet,Rural,High,30,3,tatli,0.075
+Meat,350,Wedding,450,Refrigerated,Occasional,All Seasons,Sit-down Dinner,Suburban,High,45,3,ana_yemek,0.1
+Meat,250,Wedding,350,Refrigerated,Occasional,All Seasons,Sit-down Dinner,Rural,Moderate,20,2,ana_yemek,0.0571
+Meat,230,Wedding,500,Refrigerated,Occasional,All Seasons,Sit-down Dinner,Rural,Moderate,30,2,ana_yemek,0.06
+Meat,220,Social Gathering,300,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,15,2,ana_yemek,0.05
+Fruits,280,Corporate,350,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,20,2,tatli,0.0571
+Fruits,300,Social Gathering,400,Room Temperature,Regular,All Seasons,Buffet,Suburban,High,30,3,tatli,0.075
+Baked Goods,400,Wedding,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,50,3,tatli,0.1
+Dairy Products,280,Birthday,350,Room Temperature,Regular,Summer,Finger Food,Rural,Moderate,20,2,icecek,0.0571
+Baked Goods,300,Birthday,400,Room Temperature,Occasional,All Seasons,Finger Food,Rural,Low,20,1,tatli,0.05
+Baked Goods,280,Social Gathering,350,Room Temperature,Regular,Summer,Finger Food,Rural,Low,20,1,tatli,0.0571
+Meat,350,Social Gathering,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,45,3,ana_yemek,0.1
+Vegetables,300,Wedding,400,Refrigerated,Occasional,Winter,Sit-down Dinner,Suburban,Moderate,25,2,salata,0.0625
+Meat,320,Social Gathering,400,Room Temperature,Regular,Winter,Finger Food,Suburban,Moderate,25,2,ana_yemek,0.0625
+Dairy Products,230,Social Gathering,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,30,2,icecek,0.06
+Meat,300,Corporate,400,Refrigerated,Regular,Summer,Buffet,Suburban,Low,20,1,ana_yemek,0.05
+Fruits,350,Social Gathering,450,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Low,10,1,tatli,0.0222
+Dairy Products,250,Social Gathering,350,Room Temperature,Regular,Summer,Finger Food,Urban,High,35,3,icecek,0.1
+Dairy Products,350,Corporate,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,45,3,icecek,0.1
+Fruits,350,Wedding,450,Room Temperature,Regular,Summer,Buffet,Urban,High,40,3,tatli,0.0889
+Fruits,250,Wedding,400,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Low,25,1,tatli,0.0625
+Fruits,320,Wedding,400,Refrigerated,Regular,Summer,Finger Food,Rural,Moderate,25,2,tatli,0.0625
+Meat,267,Birthday,393,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,Low,24,1,ana_yemek,0.0611
+Fruits,400,Corporate,500,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,Low,25,1,tatli,0.05
+Fruits,350,Corporate,350,Room Temperature,Regular,Winter,Finger Food,Urban,High,54,3,tatli,0.1543
+Meat,300,Corporate,400,Refrigerated,Occasional,Winter,Finger Food,Rural,Moderate,20,2,ana_yemek,0.05
+Fruits,439,Birthday,459,Room Temperature,Regular,All Seasons,Buffet,Suburban,Low,36,1,tatli,0.0784
+Baked Goods,275,Wedding,388,Room Temperature,Regular,Winter,Finger Food,Rural,Low,16,1,tatli,0.0412
+Vegetables,320,Social Gathering,400,Refrigerated,Regular,Winter,Buffet,Rural,High,30,3,salata,0.075
+Fruits,250,Corporate,480,Room Temperature,Regular,Winter,Finger Food,Suburban,Low,20,1,tatli,0.0417
+Fruits,300,Wedding,400,Room Temperature,Regular,Summer,Finger Food,Rural,Moderate,15,2,tatli,0.0375
+Vegetables,220,Corporate,300,Room Temperature,Regular,Summer,Finger Food,Urban,Low,15,1,salata,0.05
+Meat,350,Wedding,450,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,High,35,3,ana_yemek,0.0778
+Baked Goods,250,Corporate,480,Room Temperature,Regular,Winter,Finger Food,Urban,Low,20,1,tatli,0.0417
+Vegetables,280,Wedding,350,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,Low,20,1,salata,0.0571
+Dairy Products,320,Birthday,480,Room Temperature,Regular,Winter,Buffet,Suburban,High,40,3,icecek,0.0833
+Vegetables,230,Wedding,500,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,Moderate,30,2,salata,0.06
+Vegetables,250,Birthday,350,Refrigerated,Regular,Summer,Sit-down Dinner,Suburban,High,40,3,salata,0.1143
+Vegetables,300,Social Gathering,400,Refrigerated,Regular,Summer,Buffet,Urban,Moderate,30,2,salata,0.075
+Vegetables,261,Wedding,350,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,Moderate,23,2,salata,0.0657
+Fruits,300,Corporate,450,Room Temperature,Occasional,Winter,Finger Food,Suburban,High,35,3,tatli,0.0778
+Dairy Products,280,Birthday,350,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Low,25,1,icecek,0.0714
+Baked Goods,261,Birthday,350,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Moderate,24,2,tatli,0.0686
+Dairy Products,380,Corporate,480,Room Temperature,Regular,All Seasons,Buffet,Suburban,Moderate,30,2,icecek,0.0625
+Baked Goods,220,Social Gathering,300,Room Temperature,Regular,Summer,Finger Food,Rural,Moderate,15,2,tatli,0.05
+Fruits,250,Social Gathering,350,Room Temperature,Regular,Summer,Finger Food,Rural,High,30,3,tatli,0.0857
+Vegetables,429,Wedding,496,Refrigerated,Occasional,Summer,Sit-down Dinner,Suburban,Low,42,1,salata,0.0847
+Baked Goods,300,Corporate,400,Room Temperature,Regular,Summer,Finger Food,Suburban,Low,15,1,tatli,0.0375
+Dairy Products,350,Wedding,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Moderate,25,2,icecek,0.0556
+Dairy Products,400,Social Gathering,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,50,3,icecek,0.1
+Meat,491,Wedding,497,Refrigerated,Regular,Summer,Finger Food,Rural,High,32,3,ana_yemek,0.0644
+Meat,250,Corporate,350,Refrigerated,Occasional,Winter,Buffet,Suburban,Low,10,1,ana_yemek,0.0286
+Baked Goods,280,Wedding,350,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,15,2,tatli,0.0429
+Meat,438,Birthday,493,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,35,2,ana_yemek,0.071
+Baked Goods,472,Social Gathering,489,Room Temperature,Regular,Winter,Buffet,Suburban,Low,36,1,tatli,0.0736
+Baked Goods,400,Corporate,500,Room Temperature,Regular,Summer,Sit-down Dinner,Urban,High,40,3,tatli,0.08
+Baked Goods,300,Birthday,400,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Low,20,1,tatli,0.05
+Vegetables,320,Wedding,400,Refrigerated,Regular,All Seasons,Sit-down Dinner,Suburban,High,35,3,salata,0.0875
+Vegetables,250,Corporate,350,Refrigerated,Occasional,Winter,Finger Food,Suburban,Moderate,20,2,salata,0.0571
+Dairy Products,400,Wedding,500,Room Temperature,Regular,All Seasons,Finger Food,Urban,High,40,3,icecek,0.08
+Dairy Products,280,Birthday,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,Low,15,1,icecek,0.0429
+Baked Goods,280,Social Gathering,350,Room Temperature,Regular,Winter,Finger Food,Rural,Moderate,20,2,tatli,0.0571
+Dairy Products,400,Corporate,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,High,40,3,icecek,0.08
+Dairy Products,350,Wedding,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,High,45,3,icecek,0.1
+Dairy Products,400,Birthday,500,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,25,1,icecek,0.05
+Baked Goods,350,Corporate,450,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,25,2,tatli,0.0556
+Dairy Products,400,Wedding,500,Room Temperature,Occasional,All Seasons,Finger Food,Rural,High,40,3,icecek,0.08
+Baked Goods,292,Corporate,470,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,High,50,3,tatli,0.1064
+Baked Goods,320,Social Gathering,400,Room Temperature,Regular,Summer,Finger Food,Rural,Moderate,25,2,tatli,0.0625
+Baked Goods,450,Social Gathering,500,Room Temperature,Regular,All Seasons,Finger Food,Rural,High,30,3,tatli,0.06
+Fruits,280,Social Gathering,350,Room Temperature,Occasional,Summer,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Meat,380,Corporate,480,Refrigerated,Regular,Winter,Buffet,Suburban,Moderate,30,2,ana_yemek,0.0625
+Meat,207,Corporate,280,Refrigerated,Regular,Winter,Finger Food,Suburban,High,20,3,ana_yemek,0.0714
+Meat,491,Birthday,497,Room Temperature,Regular,Winter,Finger Food,Urban,High,38,3,ana_yemek,0.0765
+Meat,267,Corporate,393,Refrigerated,Regular,Summer,Sit-down Dinner,Rural,Low,24,1,ana_yemek,0.0611
+Dairy Products,280,Corporate,350,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,20,2,icecek,0.0571
+Baked Goods,280,Corporate,350,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,20,2,tatli,0.0571
+Dairy Products,280,Corporate,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,20,2,icecek,0.0571
+Baked Goods,400,Social Gathering,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,50,3,tatli,0.1
+Dairy Products,320,Birthday,400,Room Temperature,Regular,All Seasons,Finger Food,Suburban,Moderate,20,2,icecek,0.05
+Dairy Products,280,Social Gathering,350,Room Temperature,Regular,Summer,Finger Food,Rural,Moderate,20,2,icecek,0.0571
+Baked Goods,491,Social Gathering,497,Room Temperature,Regular,All Seasons,Finger Food,Suburban,High,32,3,tatli,0.0644
+Dairy Products,438,Corporate,493,Room Temperature,Regular,All Seasons,Sit-down Dinner,Urban,Moderate,35,2,icecek,0.071
+Dairy Products,350,Corporate,450,Room Temperature,Regular,All Seasons,Sit-down Dinner,Rural,Moderate,25,2,icecek,0.0556
+Baked Goods,442,Social Gathering,482,Room Temperature,Regular,All Seasons,Sit-down Dinner,Suburban,Low,32,1,tatli,0.0664
+Meat,270,Corporate,470,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,40,3,ana_yemek,0.0851
+Meat,284,Social Gathering,443,Refrigerated,Occasional,Winter,Buffet,Rural,Low,32,1,ana_yemek,0.0722
+Meat,250,Wedding,400,Refrigerated,Occasional,Winter,Sit-down Dinner,Urban,Low,25,1,ana_yemek,0.0625
+Meat,320,Corporate,400,Refrigerated,Regular,Summer,Finger Food,Rural,Moderate,25,2,ana_yemek,0.0625
+Meat,220,Wedding,300,Refrigerated,Occasional,Winter,Finger Food,Rural,Moderate,15,2,ana_yemek,0.05
+Meat,367,Social Gathering,420,Refrigerated,Regular,All Seasons,Buffet,Urban,Low,40,1,ana_yemek,0.0952
+Meat,434,Birthday,495,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,High,36,3,ana_yemek,0.0727
+Meat,240,Birthday,450,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,Low,20,1,ana_yemek,0.0444
+Fruits,380,Birthday,480,Room Temperature,Regular,Winter,Buffet,Suburban,Moderate,30,2,tatli,0.0625
+Dairy Products,320,Birthday,400,Room Temperature,Regular,Summer,Buffet,Rural,High,40,3,icecek,0.1
+Fruits,250,Social Gathering,480,Refrigerated,Regular,Winter,Finger Food,Urban,Low,20,1,tatli,0.0417
+Fruits,302,Corporate,371,Room Temperature,Regular,All Seasons,Buffet,Suburban,Low,27,1,tatli,0.0728
+Vegetables,267,Corporate,393,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,Low,24,1,salata,0.0611
+Fruits,320,Corporate,400,Room Temperature,Regular,All Seasons,Buffet,Urban,Moderate,25,2,tatli,0.0625
+Baked Goods,488,Corporate,498,Room Temperature,Regular,Winter,Finger Food,Urban,High,63,3,tatli,0.1265
+Meat,350,Corporate,450,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,High,45,3,ana_yemek,0.1
+Vegetables,300,Birthday,400,Refrigerated,Regular,Summer,Finger Food,Suburban,Moderate,15,2,salata,0.0375
+Dairy Products,472,Birthday,489,Room Temperature,Regular,All Seasons,Buffet,Urban,Low,36,1,icecek,0.0736
+Fruits,380,Corporate,480,Refrigerated,Occasional,All Seasons,Buffet,Suburban,Moderate,30,2,tatli,0.0625
+Vegetables,429,Wedding,496,Refrigerated,Regular,All Seasons,Sit-down Dinner,Rural,Low,42,1,salata,0.0847
+Baked Goods,220,Birthday,300,Refrigerated,Regular,All Seasons,Finger Food,Suburban,Low,15,1,tatli,0.05
+Meat,220,Social Gathering,300,Room Temperature,Regular,Summer,Finger Food,Suburban,Low,15,1,ana_yemek,0.05
+Fruits,350,Corporate,450,Refrigerated,Regular,Winter,Sit-down Dinner,Suburban,Moderate,30,2,tatli,0.0667
+Dairy Products,250,Corporate,350,Room Temperature,Regular,Winter,Finger Food,Urban,High,30,3,icecek,0.0857
+Fruits,230,Wedding,500,Room Temperature,Regular,Winter,Sit-down Dinner,Suburban,Moderate,30,2,tatli,0.06
+Meat,320,Corporate,400,Refrigerated,Regular,Winter,Buffet,Urban,High,45,3,ana_yemek,0.1125
+Meat,310,Wedding,450,Refrigerated,Occasional,Summer,Buffet,Urban,Low,25,1,ana_yemek,0.0556
+Fruits,491,Birthday,497,Refrigerated,Regular,Winter,Finger Food,Rural,High,32,3,tatli,0.0644
+Meat,491,Birthday,497,Refrigerated,Regular,Summer,Finger Food,Suburban,High,32,3,ana_yemek,0.0644
+Meat,280,Birthday,350,Refrigerated,Regular,Summer,Finger Food,Rural,Moderate,20,2,ana_yemek,0.0571
+Meat,292,Corporate,470,Refrigerated,Regular,Winter,Sit-down Dinner,Rural,High,50,3,ana_yemek,0.1064
+Vegetables,300,Wedding,400,Refrigerated,Occasional,Summer,Buffet,Suburban,High,30,3,salata,0.075
+Vegetables,280,Social Gathering,350,Refrigerated,Regular,Summer,Buffet,Urban,Low,20,1,salata,0.0571
+Meat,300,Corporate,400,Refrigerated,Occasional,Summer,Finger Food,Rural,Moderate,25,2,ana_yemek,0.0625
+Vegetables,380,Wedding,500,Refrigerated,Regular,Winter,Sit-down Dinner,Urban,High,35,3,salata,0.07
+Fruits,380,Birthday,480,Refrigerated,Regular,All Seasons,Buffet,Suburban,Moderate,30,2,tatli,0.0625
+Fruits,400,Wedding,500,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,High,45,3,tatli,0.09
+Fruits,350,Wedding,450,Refrigerated,Regular,All Seasons,Sit-down Dinner,Urban,High,35,3,tatli,0.0778
+Meat,320,Birthday,400,Refrigerated,Occasional,Summer,Finger Food,Suburban,Moderate,20,2,ana_yemek,0.05
+Fruits,429,Wedding,496,Room Temperature,Regular,Summer,Sit-down Dinner,Suburban,Low,42,1,tatli,0.0847
+Vegetables,350,Corporate,450,Refrigerated,Regular,Summer,Sit-down Dinner,Urban,High,35,3,salata,0.0778
+Fruits,491,Birthday,497,Room Temperature,Regular,All Seasons,Finger Food,Urban,High,32,3,tatli,0.0644
+Meat,350,Birthday,450,Room Temperature,Regular,Winter,Sit-down Dinner,Urban,Moderate,25,2,ana_yemek,0.0556
+Meat,491,Social Gathering,497,Room Temperature,Regular,Winter,Finger Food,Urban,High,32,3,ana_yemek,0.0644
+Baked Goods,310,Corporate,350,Room Temperature,Regular,Summer,Finger Food,Urban,High,35,3,tatli,0.1
+Baked Goods,284,Social Gathering,443,Room Temperature,Regular,Winter,Buffet,Rural,Low,32,1,tatli,0.0722
+Fruits,220,Wedding,300,Room Temperature,Regular,All Seasons,Finger Food,Urban,Moderate,15,2,tatli,0.05
+Fruits,250,Wedding,350,Room Temperature,Regular,All Seasons,Finger Food,Rural,Moderate,20,2,tatli,0.0571
