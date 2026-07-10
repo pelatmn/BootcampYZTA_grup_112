@@ -212,7 +212,7 @@ Dönen çıktı (orkestratör sözleşmesi):
 ## 11. Sonraki adımlar (Sprint 3'e köprü)
 
 - Orkestratör, `TalepAgent().predict(week)` çıktısını Fire ve Kâr agent'larının kategori profilleriyle birleştirecek
-- `DATA_SOURCES.md`'ye `meal_info.csv` notu eklenecek (küçük doküman güncellemesi)
+- ~~`DATA_SOURCES.md`'ye `meal_info.csv` notu eklenecek~~ ✅ eklendi
 - Opsiyonel ürün fikri: Genpact `test.csv` (hafta 146–155) ile "gerçek gelecek" tahmini — planlanan fiyat/promosyonla bir sonraki haftayı öngörme
 
 ---
