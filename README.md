@@ -166,7 +166,8 @@ python tests/test_talep_agent.py   # 8 testi çalıştırır
 
 - **Daily Scrum**: Sprint 1 retrospective kararı doğrultusunda haftalık akşam toplantılarına ek olarak, hafta içi engeller için kısa yazılı güncelleme akışı (WhatsApp) kullanılmıştır. <!-- Daily Scrum ekran görüntüleri linki: [Sprint 2 - Daily Scrum](#) -->
 
-- **Sprint board update**: <!-- Sprint 2 board ekran görüntüsünü buraya ekleyin: ![Sprint 2 Board](docs/sprint-2/screenshots/board.png) -->
+- **Sprint board update**: <!-- Sprint 2 <img width="1201" height="668" alt="Ekran Resmi 2026-07-15 20 56 33" src="https://github.com/user-attachments/assets/ea5f5867-991e-42f0-9a77-857d83b69e43" />
+board ekran görüntüsünü buraya ekleyin: ![Sprint 2 Board](docs/sprint-2/screenshots/board.png) -->
 
 - **Ürün Durumu**: Sprint 2 sonunda:
   - **Talep Agent'ı tamamlandı**: Genpact gerçek talep verisiyle (456.548 satır, 145 hafta) eğitilen model, kategori bazlı tahmin hatasını naif yönteme göre **%12.4'ten %7.6'ya (MAPE)** düşürdü ve **her kategoride** naif yöntemi geçti. Model, orkestratörün tek satırla çağırabileceği bir Python sınıfı (`src/talep_agent.py`) olarak teslim edildi ve **8/8 otomatik test** ile korunuyor. Temiz kurulum doğrulamasında agent kendini eğitip birebir aynı sonuçları üretti.
