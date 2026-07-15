@@ -99,7 +99,7 @@ Kategori bazında MAPE (ortalama yüzde hata — düşük iyi), test dönemi (ha
 - v1 = ilk çalışan model (kare-hata) · v2 = Poisson kaybı + 6 promosyon özelliği (doğrulama diliminde seçildi)
 - Model **her kategoride** naifi yeniyor; en büyük kazanım tatlıda (hata üçte bire indi).
 
-**EDA'dan önemli bulgu:** promosyon, satışı **~3 katına** çıkarıyor (salata: 332 → 1030 ortalama sipariş). Çorba kategorisinde ise veri boyunca hiç promosyon yapılmamış.
+**EDA'dan önemli bulgu:** promosyon, satışı **~3 katına** çıkarıyor (salata: 332 → 1030 ortalama sipariş). Çorba kategorisinde ise veri boyunca hiç **e-posta promosyonu** yapılmamış (yalnızca sınırlı sayıda anasayfa vitrini var — 12.675 satırın 478'i).
 
 **Dürüst sınırlılık — salata:** Salatanın hatalı olduğu haftalar, test dönemindeki **yalnızca iki promosyon haftası** (140 ve 144). Yani salata hatası yapısal: nadir promosyon sıçramalarını az örnekten öğrenmek zorunda. Bu, sunumda saklanacak değil söylenecek bir şey — verimizi tanıyoruz.
 

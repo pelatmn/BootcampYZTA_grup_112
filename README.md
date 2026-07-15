@@ -12,7 +12,7 @@
 | | İsim | Ünvan | Sosyal Medya |
 |---|---|---|---|
 | <!-- foto --> | Beyza ATA | Product Owner | [LinkedIn](https://www.linkedin.com/in/beyza-ata-50a2b3317/) |
-| <!-- foto --> | Pelin ATAMAN | Scrum Master | [LinkedIn](www.linkedin.com/in/pelin-ataman) |
+| <!-- foto --> | Pelin ATAMAN | Scrum Master | [LinkedIn](https://www.linkedin.com/in/pelin-ataman) |
 | <!-- foto --> | Furkan BİTİK | Developer | [LinkedIn](https://www.linkedin.com/in/furkanbitik/) |
 
 ## Ürün İsmi
@@ -171,7 +171,17 @@ python tests/test_talep_agent.py   # 8 testi çalıştırır
 - **Ürün Durumu**: Sprint 2 sonunda:
   - **Talep Agent'ı tamamlandı**: Genpact gerçek talep verisiyle (456.548 satır, 145 hafta) eğitilen model, kategori bazlı tahmin hatasını naif yönteme göre **%12.4'ten %7.6'ya (MAPE)** düşürdü ve **her kategoride** naif yöntemi geçti. Model, orkestratörün tek satırla çağırabileceği bir Python sınıfı (`src/talep_agent.py`) olarak teslim edildi ve **8/8 otomatik test** ile korunuyor. Temiz kurulum doğrulamasında agent kendini eğitip birebir aynı sonuçları üretti.
   - Değerlendirmede zamana göre ayrım kullanıldı (eğitim: hafta 1–130, test: hafta 131–145); model seçimi test kümesine bakılmadan ayrı bir doğrulama diliminde yapıldı. 7 farklı iyileştirme denemesi kaydedildi ve yalnızca doğrulamada kazananlar (Poisson kaybı + promosyon özellikleri) final modele alındı.
-  - EDA'dan önemli bulgu: promosyon, satışı **~3 katına** çıkarıyor; çorba kategorisinde veri boyunca hiç promosyon yapılmamış.
+  - EDA'dan önemli bulgu: promosyon, satışı **~3 katına** çıkarıyor; çorba kategorisinde veri boyunca hiç e-posta promosyonu yapılmamış (yalnızca sınırlı sayıda anasayfa vitrini var).
+  - Kategori bazlı test sonuçları (MAPE — düşük iyi):
+
+    | Kategori | Naif ("geçen hafta") | WasteZero modeli |
+    |---|---|---|
+    | **Genel** | %12.40 | **%7.64** |
+    | corba | %4.47 | %3.41 |
+    | tatli | %20.09 | %6.02 |
+    | icecek | %10.24 | %7.07 |
+    | ana_yemek | %9.51 | %7.80 |
+    | salata | %17.70 | %13.87 |
   - Fire/İsraf ve Kâr/Fiyat agent'ları için kategori bazlı işlenmiş veriler hazırlandı (`data/processed/agent_waste.csv`, `agent_profit.csv`).
 
 - **Sprint Review**:
