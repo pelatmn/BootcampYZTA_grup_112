@@ -162,7 +162,7 @@ python tests/test_talep_agent.py   # 8 testi çalıştırır
 | US-06 | Talep Agent'ının geliştirilmesi ve eğitilmesi | Beyza | Yüksek |
 | US-07 | Fire/İsraf Agent'ı için veri profili ve geliştirme | Furkan | Yüksek |
 | US-08 | Kâr/Fiyat Agent'ı için veri profili ve geliştirme | Pelin | Yüksek |
-| US-09 | Agent çıktı sözleşmesinin (JSON formatı) tanımlanması ve otomatik testler | Beyza | Orta |
+| US-09 | Agent çıktı sözleşmesinin (JSON formatı) tanımlanması ve otomatik testler | - | Orta |
 
 - **Daily Scrum**: Sprint 1 retrospective kararı doğrultusunda haftalık akşam toplantılarına ek olarak, hafta içi engeller için kısa yazılı güncelleme akışı (WhatsApp) kullanılmıştır. <!-- Daily Scrum ekran görüntüleri linki: [Sprint 2 - Daily Scrum](#) -->
 
