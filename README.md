@@ -12,8 +12,8 @@
 | | İsim | Ünvan | Sosyal Medya |
 |---|---|---|---|
 | <!-- foto --> | Beyza ATA | Product Owner | [LinkedIn](https://www.linkedin.com/in/beyza-ata-50a2b3317/) |
-| <!-- foto --> | Pelin ATAMAN | Scrum Master | [LinkedIn](#) |
-| <!-- foto --> | Furkan BİTİK | Developer | [LinkedIn](#) |
+| <!-- foto --> | Pelin ATAMAN | Scrum Master | [LinkedIn](www.linkedin.com/in/pelin-ataman) |
+| <!-- foto --> | Furkan BİTİK | Developer | [LinkedIn](https://www.linkedin.com/in/furkanbitik/) |
 
 ## Ürün İsmi
 
