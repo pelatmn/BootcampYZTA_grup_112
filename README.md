@@ -118,7 +118,7 @@ python tests/test_talep_agent.py   # 8 testi çalıştırır
 
 - **Sprint board update**: Görevler To Do → In Progress → Done sütunlarında Trello üzerinden takip edilmiştir.
 
-<img src="docs/assets/trello_board.png" width="900" alt="Sprint 1 Trello Board" />
+<img src="docs/assets/sprint1.png" width="900" alt="Sprint 1 Trello Board" />
 
 | Aşama | To Do | In Progress | Done |
 |---|---|---|---|
@@ -163,7 +163,7 @@ python tests/test_talep_agent.py   # 8 testi çalıştırır
 
 - **Sprint board update**: Sprint sonunda Trello panosunun güncel durumu:
 
-<img src="docs/assets/trello_board.png" width="900" alt="Sprint 2 Trello Board" />
+<img src="docs/assets/sprint2.png" width="900" alt="Sprint 2 Trello Board" />
 
 - **Ürün Durumu**: Sprint 2 sonunda:
   - **Talep Agent'ı geliştirildi ve hazır durumda**: Genpact gerçek talep verisiyle (456.548 satır, 145 hafta) eğitilen agent, orkestratörün tek satırla çağırabileceği bir Python sınıfı (`src/talep_agent.py`) olarak teslim edildi ve **8/8 otomatik test** ile korunuyor. Temiz kurulum doğrulamasında agent kendini eğitip birebir aynı sonuçları üretti. Agent, orkestratör entegrasyonu için hazır beklemektedir.
