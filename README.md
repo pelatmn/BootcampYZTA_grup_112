@@ -38,7 +38,7 @@
 
 ## Ürün Özellikleri
 
-- Gerçek şirket verisiyle eğitilmiş, kategori bazlı talep tahmini (naif yönteme göre hatayı %12.4'ten %7.6'ya düşüren model)
+- Gerçek şirket verisiyle eğitilmiş, kategori bazlı talep tahmini
 - Ürün bazlı fire/israf risk profili
 - Fiyat, maliyet ve kârlılık analizi
 - Agent bazlı, modüler mimari (her agent bağımsız geliştirilebilir ve test edilebilir)
@@ -56,8 +56,8 @@
 - Agent bazlı sisteme uygun gerçek veri setlerinin bulunması ve hazırlanması ✅
 - Keşifsel veri analizi (EDA) ✅
 - Talep tahmin agent'ının eğitilmesi ✅
-- Fire/israf risk agent'ının kurulması
-- Kâr/fiyat agent'ının kurulması
+- Fire/israf risk agent'ının kurulması ✅
+- Kâr/fiyat agent'ının kurulması ✅
 - Agent'lar arası orkestrasyon ve karar katmanı
 - Yönetici paneli / arayüz
 - AI destekli günlük yönetici özeti
