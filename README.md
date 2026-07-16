@@ -5,7 +5,7 @@
 # **Takım Logosu**
 
 <!-- Takım logonuzu buraya ekleyin -->
-<!-- ![TakımLogo](docs/assets/team_logo.png) -->
+![TakımLogo](docs/assets/team_logo.png)
 
 ## Takım Elemanları
 
