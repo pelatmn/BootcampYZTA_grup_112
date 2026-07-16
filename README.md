@@ -20,8 +20,7 @@
 
 ## Ürün Logosu
 
-<!-- Ürün logonuzu buraya ekleyin -->
-<!-- ![ÜrünLogo](docs/assets/product_logo.png) -->
+<img src="docs/assets/product-logo.png" width="420" alt="WasteZero AI Logo" />
 
 ## Ürün Açıklaması
 
