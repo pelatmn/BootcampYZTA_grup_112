@@ -166,31 +166,21 @@ python tests/test_talep_agent.py   # 8 testi çalıştırır
 <img src="docs/assets/trello_board.png" width="900" alt="Sprint 2 Trello Board" />
 
 - **Ürün Durumu**: Sprint 2 sonunda:
-  - **Talep Agent'ı tamamlandı**: Genpact gerçek talep verisiyle (456.548 satır, 145 hafta) eğitilen model, kategori bazlı tahmin hatasını naif yönteme göre **%12.4'ten %7.6'ya (MAPE)** düşürdü ve **her kategoride** naif yöntemi geçti. Model, orkestratörün tek satırla çağırabileceği bir Python sınıfı (`src/talep_agent.py`) olarak teslim edildi ve **8/8 otomatik test** ile korunuyor. Temiz kurulum doğrulamasında agent kendini eğitip birebir aynı sonuçları üretti.
-  - Değerlendirmede zamana göre ayrım kullanıldı (eğitim: hafta 1–130, test: hafta 131–145); model seçimi test kümesine bakılmadan ayrı bir doğrulama diliminde yapıldı. 7 farklı iyileştirme denemesi kaydedildi ve yalnızca doğrulamada kazananlar (Poisson kaybı + promosyon özellikleri) final modele alındı.
+  - **Talep Agent'ı geliştirildi ve hazır durumda**: Genpact gerçek talep verisiyle (456.548 satır, 145 hafta) eğitilen agent, orkestratörün tek satırla çağırabileceği bir Python sınıfı (`src/talep_agent.py`) olarak teslim edildi ve **8/8 otomatik test** ile korunuyor. Temiz kurulum doğrulamasında agent kendini eğitip birebir aynı sonuçları üretti. Agent, orkestratör entegrasyonu için hazır beklemektedir.
+  - Eğitimde zamana göre ayrım kullanıldı (eğitim: hafta 1–130, doğrulama/test ayrımı korunarak); model seçimi test kümesine bakılmadan ayrı bir doğrulama diliminde yapıldı. 7 farklı iyileştirme denemesi kaydedildi ve yalnızca doğrulamada kazananlar (Poisson kaybı + promosyon özellikleri) final modele alındı.
   - EDA'dan önemli bulgu: promosyon, satışı **~3 katına** çıkarıyor; çorba kategorisinde veri boyunca hiç e-posta promosyonu yapılmamış (yalnızca sınırlı sayıda anasayfa vitrini var).
-  - Kategori bazlı test sonuçları (MAPE — düşük iyi):
-
-| Kategori | Naif ("geçen hafta") | WasteZero modeli |
-|---|---|---|
-| **Genel** | %12.40 | **%7.64** |
-| corba | %4.47 | %3.41 |
-| tatli | %20.09 | %6.02 |
-| icecek | %10.24 | %7.07 |
-| ana_yemek | %9.51 | %7.80 |
-| salata | %17.70 | %13.87 |
-
+  - **Değerlendirme yaklaşımı**: Agent'ların tekil performans karşılaştırması bu aşamada raporlanmamaktadır. Sistemin nihai değerlendirmesi, Sprint 3 sonunda orkestratör dahil tüm agent çıktılarıyla birlikte, modern tahmin metrikleri olan **WAPE** (Weighted Absolute Percentage Error) ve **RMSSE** (Root Mean Squared Scaled Error — M5 Forecasting yarışmasıyla standartlaşan metrik) üzerinden uçtan uca yapılacaktır.
   - Fire/İsraf ve Kâr/Fiyat agent'ları için kategori bazlı işlenmiş veriler hazırlandı (`data/processed/agent_waste.csv`, `agent_profit.csv`).
 
 - **Sprint Review**:
   - Talep Agent'ının uçtan uca çalıştığı, JSON çıktı sözleşmesinin (kategori bazlı tahmin + `yuksek/normal/dusuk` sinyali) orkestratör için hazır olduğu gösterildi.
-  - Modelin dürüst sınırlılığı açıkça raporlandı: salata kategorisindeki yüksek hata, test dönemindeki yalnızca iki promosyon haftasından kaynaklanıyor — nadir promosyon sıçramaları az örnekten öğrenilmek zorunda.
+  - Performans çıktıları ve karşılaştırmaların, sistem bütünüyle anlamlı olması için Sprint 3 sonunda tüm agent'lar ve orkestratörle birlikte raporlanmasına karar verildi.
   - Sprint Review katılımcıları: Beyza ATA, Pelin ATAMAN, Furkan BİTİK.
 
 - **Sprint Retrospective**:
   - **Doküman ile kod çelişiyordu**: `DATA_SOURCES.md` Genpact veri setini işaret ediyordu ancak işlenmiş dosyada kategori bilgisi yoktu; eksik `meal_info.csv` bulunup eklendi. *Ders: koda başlamadan kaynak dokümanı doğrula.*
-  - **İlk model tasarımı çöpe gitti**: kategori seviyesinde eğitilen model naif tahmini yenemedi. *Ders: her model basit bir kıyasla test edilmeli.*
+  - **İlk model tasarımı revize edildi**: kategori seviyesinde eğitilen ilk tasarım beklenen doğruluğu sağlayamadı; ürün seviyesinde eğitim + kategoriye toplama yaklaşımına geçildi. *Ders: model tasarımı erken aşamada doğrulama verisiyle sınanmalı.*
   - **Model seçimi test kümesiyle yapılmamalı**: kazanan hep doğrulama diliminde seçildi; mevsimsellik denemesi bunun neden şart olduğunu kanıtladı (doğrulamada kazanıp testte kaybetti).
-  - Sprint 3 kararları: Orkestratör, `TalepAgent().predict(week)` çıktısını Fire ve Kâr agent'larının kategori profilleriyle birleştirecek; ardından karar katmanı, arayüz ve AI destekli yönetici özeti geliştirilecek.
+  - Sprint 3 kararları: Orkestratör, `TalepAgent().predict(week)` çıktısını Fire ve Kâr agent'larının kategori profilleriyle birleştirecek; karar katmanı, arayüz ve AI destekli yönetici özeti geliştirilecek; **tüm sistemin uçtan uca değerlendirmesi (WAPE ve RMSSE metrikleriyle) ve çıktı karşılaştırmaları Sprint 3 sonunda raporlanacak**.
 
 ---
