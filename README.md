@@ -4,16 +4,15 @@
 
 # **Takım Logosu**
 
-<!-- Takım logonuzu buraya ekleyin -->
 ![TakımLogo](docs/assets/team-logo.png)
 
 ## Takım Elemanları
 
 | | İsim | Ünvan | Sosyal Medya |
 |---|---|---|---|
-| <!-- foto --> | Beyza ATA | Product Owner | [LinkedIn](https://www.linkedin.com/in/beyza-ata-50a2b3317/) |
-| <!-- foto --> | Pelin ATAMAN | Scrum Master | [LinkedIn](https://www.linkedin.com/in/pelin-ataman) |
-| <!-- foto --> | Furkan BİTİK | Developer | [LinkedIn](https://www.linkedin.com/in/furkanbitik/) |
+| <img src="docs/assets/beyza.png" width="70" height="70"> | Beyza ATA | Product Owner | [LinkedIn](https://www.linkedin.com/in/beyza-ata-50a2b3317/) |
+| <img src="docs/assets/pelin.png" width="70" height="70"> | Pelin ATAMAN | Scrum Master | [LinkedIn](https://www.linkedin.com/in/pelin-ataman) |
+| <img src="docs/assets/furkan.png" width="70" height="70"> | Furkan BİTİK | Developer | [LinkedIn](https://www.linkedin.com/in/furkanbitik/) |
 
 ## Ürün İsmi
 
@@ -70,11 +69,9 @@ Kullanılan veri setleri ve hangi agent'a ait oldukları [`data/DATA_SOURCES.md`
 ```
 BootcampYZTA_grup_112/
 ├── README.md                          # Bu dosya
+├── requirements.txt                   # Python bağımlılıkları
 ├── docs/
-│   ├── sprint-1/
-│   │   └── WasteZero_Sprint1.md       # Sprint 1 Scrum çıktıları
-│   └── sprint-2/
-│       └── SPRINT2_TALEP_AGENT.md     # Sprint 2 — Talep Agent'ı dokümanı
+│   └── assets/                        # Görseller (takım logosu, üye fotoğrafları, Trello board)
 ├── data/
 │   ├── raw/                           # İndirilen ham veri setleri
 │   ├── processed/                     # Temizlenmiş / agent bazlı veri
@@ -83,13 +80,12 @@ BootcampYZTA_grup_112/
 │   ├── 01_preprocessing_eda.ipynb     # Ön işleme + keşifsel veri analizi
 │   └── talep_agent.ipynb              # Talep Agent'ı araştırma kaydı
 ├── src/
+│   ├── __init__.py
 │   └── talep_agent.py                 # Talep Agent modülü (orkestratörün çağıracağı sınıf)
 ├── models/
 │   └── talep_agent.joblib             # Eğitilmiş talep tahmin modeli
-├── tests/
-│   └── test_talep_agent.py            # 8 otomatik test
-├── trello_sprint1                     # Sprint 1 board ekran görüntüsü
-└── requirements.txt
+└── tests/
+    └── test_talep_agent.py            # 8 otomatik test
 ```
 
 ## Kurulum
@@ -104,7 +100,7 @@ python tests/test_talep_agent.py   # 8 testi çalıştırır
 
 # Sprint 1
 
-- **Sprint Notları**: User Story'ler product backlog item'ları içinde detaylandırılmıştır. Sprint 1'in tüm Scrum çıktıları (backlog dağıtma mantığı, Daily Scrum notları, board güncellemeleri, Review ve Retrospective) [`docs/sprint-1/WasteZero_Sprint1.md`](docs/sprint-1/WasteZero_Sprint1.md) dosyasında ayrıntılı olarak yer almaktadır.
+- **Sprint Notları**: User Story'ler product backlog item'ları içinde detaylandırılmıştır. Sprint 1'in tüm Scrum çıktıları (backlog dağıtma mantığı, Daily Scrum notları, board güncellemeleri, Review ve Retrospective) aşağıda ayrıntılı olarak yer almaktadır.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
 
@@ -119,17 +115,17 @@ python tests/test_talep_agent.py   # 8 testi çalıştırır
 | US-03 | GitHub repo yapısı, klasör düzeni, README ve veri dokümantasyonu | Pelin | Orta |
 | US-04 | Keşifsel veri analizinin başlatılması (temel keşif ve ilk görselleştirmeler) | Furkan | Orta |
 
-- **Daily Scrum**: Ekip üyelerinin eğitim ve iş sorumlulukları nedeniyle Daily Scrum, sprint boyunca haftada bir gün akşam saatlerinde online yapılmıştır (2 haftalık sprint'te toplam 2 toplantı). Her üye üç soruyu yanıtlamıştır: *Geçen haftadan bu yana ne yaptım? Önümüzdeki hafta ne yapacağım? Önümde engel var mı?* Toplantı notlarının tamamı [`docs/sprint-1/WasteZero_Sprint1.md`](docs/sprint-1/WasteZero_Sprint1.md) dosyasındadır.
+- **Daily Scrum**: Ekip üyelerinin eğitim ve iş sorumlulukları nedeniyle Daily Scrum, sprint boyunca haftada bir gün akşam saatlerinde online yapılmıştır (2 haftalık sprint'te toplam 2 toplantı). Her üye üç soruyu yanıtlamıştır: *Geçen haftadan bu yana ne yaptım? Önümüzdeki hafta ne yapacağım? Önümde engel var mı?*
 
 - **Sprint board update**: Görevler To Do → In Progress → Done sütunlarında Trello üzerinden takip edilmiştir.
 
-  ![Sprint 1 Board](trello_sprint1)
+<img src="docs/assets/trello_board.png" width="900" alt="Sprint 1 Trello Board" />
 
-  | Aşama | To Do | In Progress | Done |
-  |---|---|---|---|
-  | Sprint Başı | US-01, US-02, US-03, US-04 | — | — |
-  | Sprint Ortası | US-04 | US-02, US-03 | US-01 |
-  | Sprint Sonu | — | US-04 (devam ediyor) | US-01, US-02, US-03 |
+| Aşama | To Do | In Progress | Done |
+|---|---|---|---|
+| Sprint Başı | US-01, US-02, US-03, US-04 | — | — |
+| Sprint Ortası | US-04 | US-02, US-03 | US-01 |
+| Sprint Sonu | — | US-04 (devam ediyor) | US-01, US-02, US-03 |
 
 - **Ürün Durumu**: Sprint 1 sonunda WasteZero AI'nın veri temeli hazırdır ve keşifsel analiz başlatılmıştır. Talep, fire/israf ve kâr/fiyat konularını kapsayan gerçek veri setleri seçilmiş; eksik değerler, tip dönüşümleri ve tarih alanları işlenerek veri temizlenmiş; veri kaynakları ve değişkenler belgelenmiş; repo altyapısı kurulmuş ve EDA'nın ilk görselleştirmeleri üretilmiştir.
 
@@ -148,7 +144,7 @@ python tests/test_talep_agent.py   # 8 testi çalıştırır
 
 # Sprint 2
 
-- **Sprint Notları**: Sprint 2'nin hedefi EDA'nın tamamlanması ve agent geliştirmeye geçilmesiydi. Görevler agent bazında paylaştırıldı: **Talep Agent'ı → Beyza**, **Fire/İsraf Agent'ı → Furkan**, **Kâr/Fiyat Agent'ı → Pelin**. Talep Agent'ının teknik dokümanı (veri, yöntem, deney kayıtları, testler) [`docs/sprint-2/SPRINT2_TALEP_AGENT.md`](docs/sprint-2/SPRINT2_TALEP_AGENT.md) dosyasında ayrıntılı olarak yer almaktadır.
+- **Sprint Notları**: Sprint 2'nin hedefi EDA'nın tamamlanması ve agent geliştirmeye geçilmesiydi. Görevler agent bazında paylaştırıldı: **Talep Agent'ı → Beyza**, **Fire/İsraf Agent'ı → Furkan**, **Kâr/Fiyat Agent'ı → Pelin**. Talep Agent'ının teknik detayları `notebooks/talep_agent.ipynb` ve `src/talep_agent.py` içinde; özet aşağıdaki Ürün Durumu bölümündedir.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
 
@@ -162,11 +158,13 @@ python tests/test_talep_agent.py   # 8 testi çalıştırır
 | US-06 | Talep Agent'ının geliştirilmesi ve eğitilmesi | Beyza | Yüksek |
 | US-07 | Fire/İsraf Agent'ı için veri profili ve geliştirme | Furkan | Yüksek |
 | US-08 | Kâr/Fiyat Agent'ı için veri profili ve geliştirme | Pelin | Yüksek |
-| US-09 | Agent çıktı sözleşmesinin (JSON formatı) tanımlanması ve otomatik testler | - | Orta |
+| US-09 | Agent çıktı sözleşmesinin (JSON formatı) tanımlanması ve otomatik testler | Beyza | Orta |
 
-- **Daily Scrum**: Sprint 1 retrospective kararı doğrultusunda haftalık akşam toplantılarına ek olarak, hafta içi engeller için kısa yazılı güncelleme akışı (WhatsApp) kullanılmıştır. <!-- Daily Scrum ekran görüntüleri linki: [Sprint 2 - Daily Scrum](#) -->
+- **Daily Scrum**: Sprint 1 retrospective kararı doğrultusunda haftalık akşam toplantılarına ek olarak, hafta içi engeller için kısa yazılı güncelleme akışı (WhatsApp) kullanılmıştır.
 
-- **Sprint board update**: <img width="1201" height="668" alt="Ekran Resmi 2026-07-15 20 56 33" src="https://github.com/user-attachments/assets/ea5f5867-991e-42f0-9a77-857d83b69e43" />
+- **Sprint board update**: Sprint sonunda Trello panosunun güncel durumu:
+
+<img src="docs/assets/trello_board.png" width="900" alt="Sprint 2 Trello Board" />
 
 - **Ürün Durumu**: Sprint 2 sonunda:
   - **Talep Agent'ı tamamlandı**: Genpact gerçek talep verisiyle (456.548 satır, 145 hafta) eğitilen model, kategori bazlı tahmin hatasını naif yönteme göre **%12.4'ten %7.6'ya (MAPE)** düşürdü ve **her kategoride** naif yöntemi geçti. Model, orkestratörün tek satırla çağırabileceği bir Python sınıfı (`src/talep_agent.py`) olarak teslim edildi ve **8/8 otomatik test** ile korunuyor. Temiz kurulum doğrulamasında agent kendini eğitip birebir aynı sonuçları üretti.
@@ -174,14 +172,15 @@ python tests/test_talep_agent.py   # 8 testi çalıştırır
   - EDA'dan önemli bulgu: promosyon, satışı **~3 katına** çıkarıyor; çorba kategorisinde veri boyunca hiç e-posta promosyonu yapılmamış (yalnızca sınırlı sayıda anasayfa vitrini var).
   - Kategori bazlı test sonuçları (MAPE — düşük iyi):
 
-    | Kategori | Naif ("geçen hafta") | WasteZero modeli |
-    |---|---|---|
-    | **Genel** | %12.40 | **%7.64** |
-    | corba | %4.47 | %3.41 |
-    | tatli | %20.09 | %6.02 |
-    | icecek | %10.24 | %7.07 |
-    | ana_yemek | %9.51 | %7.80 |
-    | salata | %17.70 | %13.87 |
+| Kategori | Naif ("geçen hafta") | WasteZero modeli |
+|---|---|---|
+| **Genel** | %12.40 | **%7.64** |
+| corba | %4.47 | %3.41 |
+| tatli | %20.09 | %6.02 |
+| icecek | %10.24 | %7.07 |
+| ana_yemek | %9.51 | %7.80 |
+| salata | %17.70 | %13.87 |
+
   - Fire/İsraf ve Kâr/Fiyat agent'ları için kategori bazlı işlenmiş veriler hazırlandı (`data/processed/agent_waste.csv`, `agent_profit.csv`).
 
 - **Sprint Review**:
