@@ -8,7 +8,7 @@ Bu dosya, her agent'ın hangi gerçek veri seti ile beslendiğini gösterir. Tek
 **Görev:** Kategori bazlı satış/talep tahmini.
 **Veri seti:** Food Demand Dataset
 **Link:** https://www.kaggle.com/datasets/arashnic/food-demand
-**Ek dosya:** `data/raw/meal_info.csv` — `meal_id → category` eşlemesi (aynı veri setinin parçası). Ana veride yemekler yalnızca kod olarak bulunduğu için kategori bazlı tahmin bu dosya olmadan yapılamaz. Genpact'in 14 kategorisi projenin 5 ortak kategorisine eşlenir: Soup→corba, Salad→salata, Desert→tatli, Beverages→icecek, kalan 10 kategori→ana_yemek. Ayrıntı: `docs/sprint-2/SPRINT2_TALEP_AGENT.md`
+**Ek dosya:** `data/raw/meal_info.csv` — `meal_id → category` eşlemesi (aynı veri setinin parçası). Ana veride yemekler yalnızca kod olarak bulunduğu için kategori bazlı tahmin bu dosya olmadan yapılamaz. Genpact'in 14 kategorisi projenin 5 ortak kategorisine eşlenir: Soup→corba, Salad→salata, Desert→tatli, Beverages→icecek, kalan 10 kategori→ana_yemek. Ayrıntı: `notebooks/talep_agent.ipynb` ve `src/talep_agent.py`
 
 ### Fire / İsraf Agent'ı
 **Görev:** Ürün bazlı israf riski profili.

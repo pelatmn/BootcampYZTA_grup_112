@@ -78,11 +78,13 @@ def test_available_weeks():
 def test_regresyon_hafta_140():
     """Bilinen cikti degismemeli (model/veri sessizce bozulursa yakalar).
 
-    Beklenen degerler model v2'ye (poisson + promosyon ozellikleri) aittir.
-    Model bilerek degistirilirse bu sayilar da guncellenmelidir.
+    Beklenen degerler model v2'ye (poisson + promosyon ozellikleri) aittir ve
+    scikit-learn 1.9 ile egitilmis modele gore sabitlenmistir. Model bilerek
+    degistirilirse veya sklearn major surumu degisip model yeniden egitilirse
+    bu sayilar da guncellenmelidir.
     """
-    beklenen = {"ana_yemek": 390543, "corba": 10420, "icecek": 243073,
-                "salata": 108850, "tatli": 13439}
+    beklenen = {"ana_yemek": 379028, "corba": 10335, "icecek": 242680,
+                "salata": 113416, "tatli": 13429}
     assert agent().predict(140)["by_category"] == beklenen
 
 
