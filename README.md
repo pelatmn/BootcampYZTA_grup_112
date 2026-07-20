@@ -1,63 +1,47 @@
-# **Takım İsmi**
-
-**The Parsimonia**
-
-# **Takım Logosu**
+# The Parsimonia — WasteZero AI
 
 ![TakımLogo](docs/assets/team-logo.png)
 
-## Takım Elemanları
+## Takım
 
-| | İsim | Ünvan | Sosyal Medya |
+| | İsim | Scrum Rolü | Sosyal Medya |
 |---|---|---|---|
 | <img src="docs/assets/beyza.png" width="70" height="70"> | Beyza ATA | Product Owner | [LinkedIn](https://www.linkedin.com/in/beyza-ata-50a2b3317/) |
 | <img src="docs/assets/pelin.png" width="70" height="70"> | Pelin ATAMAN | Scrum Master | [LinkedIn](https://www.linkedin.com/in/pelin-ataman) |
 | <img src="docs/assets/furkan.png" width="70" height="70"> | Furkan BİTİK | Developer | [LinkedIn](https://www.linkedin.com/in/furkanbitik/) |
 
-## Ürün İsmi
+## Ürün
 
-**WasteZero AI**
+<img src="docs/assets/product-logo.png" width="360" alt="WasteZero AI Logo" />
 
-## Ürün Logosu
+**WasteZero AI**, restoranlar için akıllı talep, israf ve kârlılık karar destek sistemidir. Geçmiş satış, üretim, fiyat ve maliyet verilerinden kategori bazlı talep tahmini yapar, fazla üretimden kaynaklanan fire riskini hesaplar ve kârlılığı koruyacak günlük üretim/menü kararları önerir. Hedef kitle: restoran ve zincir restoran yöneticileri, yemekhaneler ve israfını azaltmak isteyen tüm yiyecek-içecek işletmeleri.
 
-<img src="docs/assets/product-logo.png" width="420" alt="WasteZero AI Logo" />
-
-## Ürün Açıklaması
-
-- **WasteZero AI**, restoranlar için akıllı menü, talep ve israf karar destek sistemidir. Restoranların geçmiş satış, üretim, fiyat, maliyet ve kampanya verilerini analiz ederek ürün bazlı talep tahmini yapar, fazla üretimden kaynaklanan fire/israf riskini hesaplar ve kârlılığı koruyacak şekilde günlük üretim ve menü kararlarına aksiyon önerileri sunar.
-
-- Sistem, tek bir model yerine her biri kendi gerçek verisiyle çalışan **uzman agent'lardan** oluşur. Agent'lar çıktılarını ortak bir dil olan **ürün kategorisi** (çorba, ana yemek, salata, tatlı, içecek) üzerinden paylaşır. Bir **orkestratör** (Sprint 3), agent çıktılarını birleştirip çelişkileri (satış kaçırma riski ile fire riski arasındaki denge) değerlendirerek son kararı ve yönetici özetini üretecektir.
+Sistem, tek bir model yerine her biri kendi gerçek verisiyle çalışan **uzman agent'lardan** oluşur:
 
 | Agent | Görevi | Durum |
 |---|---|---|
-| Talep Agent'ı | Kategori bazlı satış/talep tahmini | ✅ Uygulandı (`src/talep_agent.py`) |
-| Fire/İsraf Agent'ı | Ürün bazlı israf riski profili | ✅ Uygulandı (`src/fire_agent.py`) |
-| Kâr/Fiyat Agent'ı | Fiyat, maliyet ve kârlılık analizi | ✅ Uygulandı (`src/kar_fiyat_agent.py`) |
+| Talep Agent'ı | Kategori bazlı satış/talep tahmini | ✅ `src/talep_agent.py` |
+| Fire/İsraf Agent'ı | Ürün bazlı israf riski profili | ✅ `src/fire_agent.py` |
+| Kâr/Fiyat Agent'ı | Fiyat, maliyet ve kârlılık analizi | ✅ `src/kar_fiyat_agent.py` |
 | Orkestratör | Agent çıktılarını birleştirir, karar ve yönetici özeti üretir | 🔜 Sprint 3 |
 
-## Ürün Özellikleri
+## Scrum Çerçevesi
 
-- Gerçek şirket verisiyle eğitilmiş, kategori bazlı talep tahmini
-- Ürün bazlı fire/israf risk profili (kompozit risk indeksi ve sürücü etkenler)
-- Fiyat, maliyet ve kârlılık analizi (agent_profit.csv + marj bazlı yedek hesaplama)
-- Agent bazlı, modüler mimari (her agent bağımsız geliştirilebilir ve test edilebilir)
-- Ortak kategori dili ve ortak sinyal sözleşmesi (`yuksek` / `normal` / `dusuk` / `veri_yok`) sayesinde agent çıktıları doğrudan karşılaştırılabilir
-- Orkestratör aracılığıyla tek bir karar çıktısı ve AI destekli günlük yönetici özeti (Sprint 3)
-- Otomatik testlerle korunan, tekrarlanabilir kod tabanı (30 test)
+Proje, Google Yapay Zeka ve Teknoloji Akademisi (YZTA) Bootcamp takvimine uygun olarak **3 sprint × 2 hafta** halinde Scrum ile yürütülmektedir.
 
-## Hedef Kitle
+- **Roller**: Product Owner (Beyza — backlog önceliklendirme, ürün vizyonu), Scrum Master (Pelin — süreç, engel çözme, board takibi), Developer (Furkan). Üç kişilik takımda PO ve SM de aktif geliştirme yapar.
+- **Product Backlog**: toplam **300 puan**, her sprint'e 100 puan. Puanlama backlog düzenleme toplantısında birlikte yapıldı; dağıtımda bağımlılık sırası (önce veri, sonra model, sonra orkestrasyon), yetkinlik ve iş yükü dengesi gözetildi.
+- **Sprint Planning**: her sprint başında hedef ve User Story seçimi; **Daily Scrum**: haftalık online akşam toplantısı + hafta içi WhatsApp üzerinden yazılı asenkron güncellemeler (aşağıdaki notlar bu akıştan derlenmiştir); **Sprint Review** ve **Retrospective**: her sprint sonunda tüm ekiple.
+- **Board**: Trello (To Do → In Progress → Done).
 
-- Restoran işletmecileri ve zincir restoran yöneticileri
-- Yemekhane / toplu yemek üretim tesisleri
-- Gıda israfını azaltmayı ve kârlılığını artırmayı hedefleyen tüm yiyecek-içecek işletmeleri
+**Backlog durumu**: veri setleri ✅ · EDA ✅ · Talep Agent'ı ✅ · Fire/İsraf Agent'ı ✅ · Kâr/Fiyat Agent'ı ✅ · Orkestratör + arayüz + AI yönetici özeti + uçtan uca değerlendirme (WAPE/RMSSE) → Sprint 3.
 
 ## Mimari
 
-WasteZero AI, tek bir uçtan-uca modelden değil, her biri kendi veri kaynağıyla çalışan **üç bağımsız uzman agent**'tan oluşur. Agent'lar birbirinden habersiz çalışabilir çünkü hepsi aynı ortak dili konuşur:
+Agent'lar birbirinden bağımsızdır çünkü hepsi aynı ortak dili konuşur:
 
-- **Ortak kategori dili**: tüm agent çıktıları 5 ürün kategorisi üzerinden ifade edilir — `corba`, `ana_yemek`, `salata`, `tatli`, `icecek` (bkz. `src/sabitler.py`). Ham veri setlerindeki 14+ farklı ürün/yemek etiketi, ön işleme aşamasında bu 5 kategoriye eşlenir.
-- **Ortak sinyal sözleşmesi**: her agent, kategori başına `"yuksek" | "normal" | "dusuk" | "veri_yok"` değerlerinden birini üretir. Bu sayede orkestratör, farklı kaynaklardan gelen üç agent çıktısını doğrudan karşılaştırıp çelişkileri çözebilir (örn. yüksek talep + yüksek israf riski).
-- **Orkestratör (Sprint 3)**: üç agent'ın kategori bazlı sinyallerini ve sayısal profillerini birleştirerek nihai üretim/menü kararını ve yönetici özetini üretecek katman.
+- **Ortak kategori dili**: tüm çıktılar 5 kategori üzerinden ifade edilir — `corba`, `ana_yemek`, `salata`, `tatli`, `icecek` (`src/sabitler.py`). Ham verideki 14+ ürün etiketi ön işlemede bu 5 kategoriye eşlenir.
+- **Ortak sinyal sözleşmesi**: her agent kategori başına `"yuksek" | "normal" | "dusuk" | "veri_yok"` üretir; orkestratör bu sayede farklı kaynaklı çıktıları doğrudan karşılaştırıp çelişkileri (ör. yüksek talep + yüksek israf riski) çözebilir.
 
 ```mermaid
 flowchart LR
@@ -80,253 +64,178 @@ flowchart LR
     E --> F["Karar + Yönetici Özeti<br/>(Sprint 3)"]
 ```
 
-## Agent Çıktı Sözleşmeleri
-
-Her agent, kendi ham verisinden kategori bazlı bir profil çıkarır ve bunu ortak sinyal sözleşmesiyle birlikte bir Python sözlüğü (JSON uyumlu) olarak döner. Aşağıdaki örnekler, her agent'ın `src/` altındaki demo komutuyla üretilen gerçek çıktı biçimini yansıtır.
-
-### Talep Agent'ı (`src/talep_agent.py`)
-
-Genpact Food Demand veri setinden (456.548 satır, 145 hafta) ürün seviyesinde eğitilip kategoriye toplanan bir `HistGradientBoostingRegressor` (Poisson kaybı) kullanır. Model, zamana göre ayrılmış eğitim/doğrulama/test dilimleriyle seçilmiştir; kategori bazında ortalama mutlak yüzde hatası (MAPE) %8.27'den %7.50'ye düşürülmüştür. `predict(week)` çağrısı, ilgili hafta için kategori bazlı tahmin ve talep sinyali döner.
+Her agent, JSON uyumlu bir Python sözlüğü döner. Örnek — `TalepAgent().predict(140)`:
 
 ```json
 {
   "week": 140,
   "in_sample": false,
-  "by_category": {
-    "ana_yemek": 379028, "corba": 10335, "icecek": 242680,
-    "salata": 113416, "tatli": 13429
-  },
-  "signal": {
-    "ana_yemek": "dusuk", "corba": "yuksek", "icecek": "dusuk",
-    "salata": "yuksek", "tatli": "normal"
-  }
+  "by_category": {"ana_yemek": 379028, "corba": 10335, "icecek": 242680,
+                  "salata": 113416, "tatli": 13429},
+  "signal": {"ana_yemek": "dusuk", "corba": "yuksek", "icecek": "dusuk",
+             "salata": "yuksek", "tatli": "normal"}
 }
 ```
 
-### Fire/İsraf Agent'ı (`src/fire_agent.py`)
+Fire Agent'ı aynı sözleşmeyle kategori başına `risk_index` ve israf "sürücülerini" (`pricing_level`, `prep_method`), Kâr/Fiyat Agent'ı ise [0, 1] aralığında kârlılık skoru ve marj/fiyat sürücülerini döner. Kullanılan veri setleri ve linkleri: [`data/DATA_SOURCES.md`](data/DATA_SOURCES.md).
 
-`data/processed/agent_waste.csv` (1.618 israf olayı) üzerinden kategori başına deterministik bir kompozit risk indeksi hesaplar: `0.6 × (kategori ortalama waste_ratio / genel ortalama) + 0.4 × (kategori yüksek-israf kuyruk payı / genel kuyruk payı)` (kuyruk = 90. yüzdelik üstü). Sinyal eşikleri 1.05 / 0.95'tir; ayrıca her kategori için en yüksek israfa yol açan fiyat seviyesi ve hazırlama yöntemi "sürücü" olarak raporlanır. `corba` kategorisi bu veri setinde hiç örnek içermediği için `"veri_yok"` döner.
+## Kurulum ve Çalıştırma
 
-```json
-{
-  "source": "agent_waste",
-  "global_mean_waste_ratio": 0.0687,
-  "by_category": {
-    "corba": null, "ana_yemek": 0.0684, "salata": 0.0676,
-    "tatli": 0.0692, "icecek": 0.0684
-  },
-  "risk_index": {
-    "corba": null, "ana_yemek": 1.0628, "salata": 0.8441,
-    "tatli": 1.0348, "icecek": 0.9522
-  },
-  "signal": {
-    "corba": "veri_yok", "ana_yemek": "yuksek", "salata": "dusuk",
-    "tatli": "normal", "icecek": "normal"
-  },
-  "drivers": {
-    "corba": null,
-    "ana_yemek": {"pricing_level": "High", "prep_method": "Sit-down Dinner"},
-    "...": "..."
-  }
-}
+```bash
+pip install -r requirements.txt
+
+python -m src.preprocessing        # ham veriden işlenmiş veriyi üret (data/raw -> data/processed)
+python -m src.talep_agent          # talep demo (örnek girdi: hafta 140 tahmini)
+python -m src.fire_agent           # israf riski profili demo
+python -m src.kar_fiyat_agent      # kârlılık profili demo
 ```
 
-### Kâr/Fiyat Agent'ı (`src/kar_fiyat_agent.py`)
+`models/talep_agent.joblib` silinirse agent kendini otomatik olarak yeniden eğitir ve birebir aynı sonuçları üretir.
 
-Öncelikli kaynak `data/processed/agent_profit.csv`'deki `profitability_score` (1/2/3) değeridir; `(ortalama - 1) / 2` ile [0, 1] aralığına normalize edilir. Kâr verisinde örneği olmayan kategoriler (örn. `corba`) için `agent_demand_category.csv`'den marj oranına (`(satış fiyatı - girdi maliyeti) / satış fiyatı`) dayalı bir **yedek hesaplama** devreye girer. Sinyal eşikleri 0.60 / 0.40'tır.
+## Testler
 
-```json
-{
-  "source": "agent_profit+demand_category",
-  "by_category": {
-    "corba": 0.7909, "ana_yemek": 0.7457, "salata": 0.7154,
-    "tatli": 0.7253, "icecek": 0.3569
-  },
-  "signal": {
-    "corba": "yuksek", "ana_yemek": "yuksek", "salata": "yuksek",
-    "tatli": "yuksek", "icecek": "dusuk"
-  },
-  "drivers": {
-    "corba": {"avg_price": null, "margin_ratio": 0.7909, "high_share": null,
-              "source": "demand_fallback", "low_n": true},
-    "ana_yemek": {"avg_price": 17.6602, "margin_ratio": 0.7449, "high_share": 0.5332,
-                  "source": "profit", "low_n": false},
-    "...": "..."
-  }
-}
+Toplam **30 otomatik test**; her dosya `pytest` gerektirmeden tek başına çalışır:
+
+```bash
+python tests/test_talep_agent.py      # 8 test
+python tests/test_fire_agent.py       # 8 test
+python tests/test_kar_fiyat_agent.py  # 8 test
+python tests/test_preprocessing.py    # 6 test
 ```
 
-## Veri Pipeline'ı
-
-`src/preprocessing.py`, ham veriden agent'ların tükettiği işlenmiş CSV'lere giden **tekrarlanabilir** dönüşüm hattıdır:
-
-- **Girdi**: `data/raw/` altındaki 6 ham veri seti (Genpact talep verisi + `meal_info.csv`, israf verisi, kârlılık verisi, `restaurant_sales_data.csv`).
-- **Dönüşüm**: eksik değer/tip temizliği, 14 → 5 kategori eşlemesi (`map_to_category`, sayısal kod eşlemesi + diğer veri setleri için anahtar kelime eşlemesi), tarih/hafta alanlarının normalize edilmesi.
-- **Çıktı**: 4 işlenmiş CSV — `agent_demand.csv` (456.548 × 13), `agent_demand_category.csv` (10.000 × 15), `agent_waste.csv` (1.618 × 14), `agent_profit.csv` (973 × 9).
-- **Tekrarlanabilirlik**: `python -m src.preprocessing` komutu, `data/processed/` altındaki mevcut dosyalarla **bayt bazında birebir aynı** çıktıyı üretecek şekilde doğrulanmıştır.
-
-Kullanılan veri setleri, kaynakları ve hangi agent'a ait oldukları [`data/DATA_SOURCES.md`](data/DATA_SOURCES.md) dosyasında listelenmiştir.
-
-## Product Backlog
-
-- Agent bazlı sisteme uygun gerçek veri setlerinin bulunması ve hazırlanması ✅
-- Keşifsel veri analizi (EDA) ✅
-- Talep tahmin agent'ının eğitilmesi ✅
-- Fire/israf risk agent'ının kurulması ✅
-- Kâr/fiyat agent'ının kurulması ✅
-- Agent'lar arası orkestrasyon ve karar katmanı (Sprint 3)
-- Yönetici paneli / arayüz (Sprint 3)
-- AI destekli günlük yönetici özeti (Sprint 3)
+Kapsam: çıktı sözleşmesi doğrulama, bilinen girdiler için sayısal regresyon pinleri, determinizm ve uç durumlar (`corba` için israf verisi yokluğu, eksik ikincil dosya, şema doğruluğu).
 
 ## Repo Yapısı
 
 ```
 BootcampYZTA_grup_112/
-├── README.md                          # Bu dosya
-├── requirements.txt                   # Python bağımlılıkları (pandas, numpy, scikit-learn, joblib, ...)
-├── docs/
-│   └── assets/                        # Görseller (takım logosu, üye fotoğrafları, Trello board)
+├── README.md
+├── requirements.txt                   # pandas, numpy, scikit-learn, joblib, ...
+├── docs/assets/                       # logolar, üye fotoğrafları, board ve çıktı görselleri
 ├── data/
-│   ├── raw/                           # İndirilen ham veri setleri (6 CSV)
-│   ├── processed/                     # Agent bazlı işlenmiş veri (4 CSV)
-│   └── DATA_SOURCES.md                # Agent–veri seti eşleştirmesi ve linkler
+│   ├── raw/                           # 5 ham veri seti (CSV)
+│   ├── processed/                     # 4 agent girdisi (CSV)
+│   └── DATA_SOURCES.md                # agent–veri seti eşleştirmesi ve linkler
 ├── notebooks/
-│   ├── 01_preprocessing_eda.ipynb     # Ön işleme + keşifsel veri analizi
-│   ├── talep_agent.ipynb              # Talep Agent'ı araştırma kaydı
-│   └── Kar_Fiyat_Agent.ipynb          # Kâr/Fiyat Agent'ı araştırma kaydı
+│   ├── 01_preprocessing_eda.ipynb     # Sprint 1: ön işleme + EDA
+│   ├── talep_agent.ipynb              # Sprint 2: Talep Agent'ı araştırma kaydı
+│   └── Kar_Fiyat_Agent.ipynb          # Sprint 2: Kâr/Fiyat Agent'ı araştırma kaydı
 ├── src/
-│   ├── __init__.py
-│   ├── sabitler.py                    # Ortak kategori listesi ve sinyal sözleşmesi
-│   ├── preprocessing.py               # Ham veriden işlenmiş veriyi üreten pipeline
-│   ├── talep_agent.py                 # Talep Agent modülü
-│   ├── fire_agent.py                  # Fire/İsraf Agent modülü
-│   └── kar_fiyat_agent.py             # Kâr/Fiyat Agent modülü
-├── models/
-│   └── talep_agent.joblib             # Eğitilmiş talep tahmin modeli (eksikse otomatik yeniden eğitilir)
-└── tests/
-    ├── test_talep_agent.py            # Talep Agent testleri (8)
-    ├── test_fire_agent.py             # Fire/İsraf Agent testleri (8)
-    ├── test_kar_fiyat_agent.py        # Kâr/Fiyat Agent testleri (8)
-    └── test_preprocessing.py          # Pipeline testleri (6)
+│   ├── sabitler.py                    # ortak kategori listesi ve sinyal sözleşmesi
+│   ├── preprocessing.py               # ham veri -> işlenmiş veri pipeline'ı
+│   ├── talep_agent.py, fire_agent.py, kar_fiyat_agent.py
+├── models/talep_agent.joblib          # eğitilmiş talep modeli
+└── tests/                             # 30 otomatik test (4 dosya)
 ```
-
-## Kurulum
-
-```bash
-pip install -r requirements.txt
-
-python -m src.preprocessing        # ham veriden işlenmiş veriyi üret
-python -m src.talep_agent          # talep demo (hafta 140 tahmini)
-python -m src.fire_agent           # israf riski profili demo
-python -m src.kar_fiyat_agent      # kârlılık profili demo
-
-python tests/test_talep_agent.py   # her test dosyası tek başına çalışır (pytest gerektirmez)
-```
-
-## Testler
-
-Toplam **30 otomatik test** (8 Talep Agent + 8 Fire/İsraf Agent + 8 Kâr/Fiyat Agent + 6 pipeline), hepsi geçiyor. Her test dosyası bağımsız çalışacak şekilde yazılmıştır ve `pytest` gerektirmez:
-
-```bash
-python tests/test_talep_agent.py
-python tests/test_fire_agent.py
-python tests/test_kar_fiyat_agent.py
-python tests/test_preprocessing.py
-```
-
-Testler şunları kapsar:
-
-- **Sözleşme testleri**: her agent çıktısının beklenen anahtarları, kategori listesini ve sinyal değerlerini (`yuksek`/`normal`/`dusuk`/`veri_yok`) içerdiğinin doğrulanması.
-- **Regresyon pinleri**: bilinen girdiler için beklenen sayısal sonuçların (hafta 140 talep tahminleri, risk indeksleri, kârlılık skorları) sabit referans değerlerle karşılaştırılması — model veya veri sessizce bozulursa test yakalar.
-- **Determinizm**: aynı girdiyle art arda çağrıların birebir aynı çıktıyı üretmesi.
-- **Sağlamlık / uç durumlar**: veri setinde örneği olmayan kategoriler (`corba` için israf verisi), eksik ikincil veri dosyası (kârlılıkta profit-only mod), pipeline çıktılarının beklenen şema ve türetilmiş kolon doğruluğu.
 
 ---
 
-# Sprint 1
+# Sprint 1 — Veri Temeli ve EDA
 
-- **Sprint Notları**: User Story'ler product backlog item'ları içinde detaylandırılmıştır. Sprint 1'in tüm Scrum çıktıları (backlog dağıtma mantığı, Daily Scrum notları, board güncellemeleri, Review ve Retrospective) aşağıda ayrıntılı olarak yer almaktadır.
+**Sprint Hedefi**: Agent bazlı sisteme uygun gerçek veri setlerini bulmak, temizlemek, belgelemek ve keşifsel veri analizine başlamak. Kapsam bilinçli dar tutuldu: sağlam veri temeli olmadan modelleme anlamlı değildi.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+**Tahmin edilen / tamamlanan puan**: 100 / 100
 
-- **Puan tamamlama mantığı**: Proje boyunca tamamlanması gereken toplam 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde her sprint'in 100 puandan oluşması kararlaştırıldı. İlk sprint'in kapsamı bilinçli olarak dar tutuldu: sağlam bir veri temeli ve keşifsel analiz olmadan modelleme, agent eğitimi ve karar katmanının anlamlı kurulması mümkün olmadığı için bu bileşenler sonraki sprint'lere bırakıldı.
+**Sprint Backlog**:
 
-- **Backlog düzeni ve Story seçimleri**: Görevler üç ilkeye göre dağıtılmıştır: **bağımlılık sırası** (EDA veriye bağımlı olduğu için önce veri araştırma ve temizleme planlandı), **yetkinlik ve ilgi alanı**, **iş yükü dengesi** (üç kişilik takımda Product Owner ve Scrum Master da aktif olarak geliştirmeye katıldı).
-
-| ID | İş (User Story) | Atanan | Öncelik |
+| ID | User Story | Atanan | Puan |
 |---|---|---|---|
-| US-01 | Agent bazlı sistem için uygun gerçek veri setlerinin araştırılması (talep, fire/israf, kâr/fiyat) | Beyza, Pelin, Furkan | Yüksek |
-| US-02 | Seçilen veri setlerinin temizlenmesi ve ön işlenmesi (eksik değer, tip dönüşümü, tarih alanları) | Pelin, Beyza, Furkan | Yüksek |
-| US-03 | GitHub repo yapısı, klasör düzeni, README ve veri dokümantasyonu | Pelin | Orta |
-| US-04 | Keşifsel veri analizinin başlatılması (temel keşif ve ilk görselleştirmeler) | Furkan | Orta |
+| US-01 | Talep, israf ve kârlılık için gerçek veri setlerinin araştırılıp seçilmesi | Tüm ekip | 30 |
+| US-02 | Veri temizleme ve ön işleme (eksik değer, tip dönüşümü, tarih alanları) | Pelin, Beyza, Furkan | 35 |
+| US-03 | Repo yapısı, README ve veri dokümantasyonu (`DATA_SOURCES.md`) | Pelin | 15 |
+| US-04 | Keşifsel veri analizinin başlatılması (`01_preprocessing_eda.ipynb`) | Furkan | 20 |
 
-- **Daily Scrum**: Ekip üyelerinin eğitim ve iş sorumlulukları nedeniyle Daily Scrum, sprint boyunca haftada bir gün akşam saatlerinde online yapılmıştır (2 haftalık sprint'te toplam 2 toplantı). Her üye üç soruyu yanıtlamıştır: *Geçen haftadan bu yana ne yaptım? Önümüzdeki hafta ne yapacağım? Önümde engel var mı?*
+**Daily Scrum notları** (haftalık toplantı + hafta içi yazılı güncellemelerden derlendi):
 
-- **Sprint board update**: Görevler To Do → In Progress → Done sütunlarında Trello üzerinden takip edilmiştir.
+| Gün | Dün / son güncellemeden beri | Bugün | Engel |
+|---|---|---|---|
+| H1 Pzt | Sprint Planning yapıldı, hedef netleşti | Kaggle'da talep/israf/kârlılık veri seti taraması | — |
+| H1 Sal | Aday listesi çıkarıldı | Genpact Food Demand (456K satır, 145 hafta) talep için değerlendirilecek | Bazı adaylarda lisans/kalite belirsiz |
+| H1 Çar | Genpact talep için seçildi | Food Wastage (israf) ve Menu Profitability (kârlılık) setlerinin incelenmesi | — |
+| H1 Per | Üç ana set seçildi, `data/raw/` altına indirildi | Günlük satış verisi (`restaurant_sales_data.csv`) ekleme, repo klasör düzeni | — |
+| H1 Cum | Haftalık toplantı: seçimler onaylandı, `DATA_SOURCES.md` taslağı | Eksik değer ve tip analizine başlanacak | — |
+| H2 Pzt | Eksik değer/tip taraması bitti | Tarih alanı düzeltmesi (`MM/DD/YYYY` → datetime), `Pricing` etiketinin 1/2/3 skora çevrilmesi | — |
+| H2 Sal | Tip dönüşümleri tamam; `restaurant_sales_data2.csv`'nin kopya olduğu şüphesi | MD5 karşılaştırması ile kopya kontrolü, `drop_duplicates` adımları | Kopya dosya repo boyutunu şişiriyor |
+| H2 Çar | MD5 ile birebir kopya kanıtlandı (kaldırılmak üzere işaretlendi) | Türetilmiş kolonlar: `discount_rate`, `is_promoted`, `waste_ratio` | — |
+| H2 Per | Türetilmiş kolonlar üretildi ve doğrulandı | EDA: kategori dağılımları ve promosyon etkisinin ilk grafikleri | Farklı setlerin ürün etiketlerini ortak yapıya oturtmak tartışma gerektiriyor |
+| H2 Cum | İlk EDA grafikleri hazır | Notebook toparlama, Sprint Review + Retrospective | — |
 
-<img src="docs/assets/sprint1.png" width="900" alt="Sprint 1 Trello Board" />
+**Sprint board**: <img src="docs/assets/sprint1.png" width="900" alt="Sprint 1 Trello Board" />
 
 | Aşama | To Do | In Progress | Done |
 |---|---|---|---|
-| Sprint Başı | US-01, US-02, US-03, US-04 | — | — |
+| Sprint Başı | US-01…US-04 | — | — |
 | Sprint Ortası | US-04 | US-02, US-03 | US-01 |
-| Sprint Sonu | — | US-04 (devam ediyor) | US-01, US-02, US-03 |
+| Sprint Sonu | — | US-04 (devrediyor) | US-01, US-02, US-03 |
 
-- **Ürün Durumu**: Sprint 1 sonunda WasteZero AI'nın veri temeli hazırdır ve keşifsel analiz başlatılmıştır. Talep, fire/israf ve kâr/fiyat konularını kapsayan gerçek veri setleri seçilmiş; eksik değerler, tip dönüşümleri ve tarih alanları işlenerek veri temizlenmiş; veri kaynakları ve değişkenler belgelenmiş; repo altyapısı kurulmuş ve EDA'nın ilk görselleştirmeleri üretilmiştir.
+**Sprint 1 sonucu — tamamlananlar ve teknik kararlar**:
 
-- **Sprint Review**:
-  - Sprint hedefi (agent bazlı sisteme uygun gerçek veri setlerini bulmak ve EDA'ya başlamak) karşılandı.
-  - Veri araştırma (US-01), temizleme (US-02) ve dokümantasyon (US-03) tamamlandı; EDA (US-04) planlandığı gibi başlatıldı ve kalan kısmı Sprint 2'ye devredildi.
-  - Demo'da seçilen veri setleri, temizlik adımları ve ilk keşifsel analiz grafikleri gösterildi.
-  - Sprint Review katılımcıları: Beyza ATA, Pelin ATAMAN, Furkan BİTİK.
+- **Veri temeli kuruldu**: 3 Kaggle veri seti + günlük satış verisi seçildi, indirildi ve `data/DATA_SOURCES.md`'de agent–veri eşleşmesiyle belgelendi.
+- **Temizlik ve türetilmiş özellikler**: kopya satır temizliği, promosyon bayraklarının bool'a çevrilmesi, `discount_rate = (base_price - checkout_price) / base_price`, `waste_ratio = israf / hazırlanan`, metinsel `Pricing`/`Profitability` etiketlerinin sıralı sayısal skora dönüştürülmesi.
+- **Veri kalitesi bulgusu**: `restaurant_sales_data2.csv`'nin MD5 ile birebir kopya olduğu kanıtlandı ve depodan kaldırılmasına karar verildi (Sprint sonrası uygulandı).
+- **Ön işleme mantığı** `notebooks/01_preprocessing_eda.ipynb`'de geliştirildi; Sprint 2'de `src/preprocessing.py` olarak modülleştirildi ve `python -m src.preprocessing` komutu depodaki işlenmiş CSV'lerle **bayt bazında birebir aynı** çıktıyı üretecek şekilde doğrulandı.
+- **Somut çıktı**: 4 işlenmiş CSV — `agent_demand.csv` (456.548 × 13), `agent_demand_category.csv` (10.000 × 15), `agent_waste.csv` (1.618 × 14), `agent_profit.csv` (973 × 9).
 
-- **Sprint Retrospective**:
-  - Sprint kapsamını dar ve gerçekçi tutmak doğru karardı; hedefe ulaşıldı. Haftalık akşam toplantıları üyelerin yoğunluğuna uygundu ve düzenli yapıldı.
-  - İki kişi eksik başlandığı için zamansal olarak geri kalındı; haftada tek toplantı, hafta içi küçük soruların çözümünü zaman zaman yavaşlattı; farklı kaynaklardan gelen veri setlerini ortak yapıya oturtmak beklenenden fazla tartışma gerektirdi.
-  - Sonraki sprint kararları: Backlog dağıtımı aktif üye sayısına göre sürekli güncellenecek; haftalık toplantıya ek olarak hafta içi engeller için kısa yazılı güncelleme akışı kurulacak; veri setlerinin ortak yapısı (kategori eşlemesi) Sprint 2'nin başında netleştirilecek.
+**Ürün Durumu** — Sprint 1'de kurulan veri pipeline'ının gerçek çalıştırma çıktısı (`python -m src.preprocessing` ve pipeline testleri, bu repoda çalıştırılıp yakalanmıştır):
+
+<img src="docs/assets/sprint1-urun-durumu.png" width="620" alt="Sprint 1 Ürün Durumu — preprocessing çıktısı" />
+
+**Sprint Review**: Sprint hedefi karşılandı; US-01/02/03 tamamlandı, US-04 planlandığı gibi başlatılıp kalanı Sprint 2'ye devredildi. Demo'da veri setleri, temizlik adımları ve ilk EDA grafikleri gösterildi. Katılımcılar: Beyza ATA, Pelin ATAMAN, Furkan BİTİK.
+
+**Sprint Retrospective**: Dar kapsam doğru karardı; haftalık akşam toplantısı düzenli işledi. İki üye ile geç başlandığı için zaman kaybı yaşandı; haftada tek toplantı küçük soruların çözümünü yavaşlattı; veri setlerini ortak yapıya oturtmak beklenenden fazla tartışma gerektirdi. **Kararlar**: backlog dağıtımı aktif üye sayısına göre güncellenecek; hafta içi engeller için yazılı güncelleme akışı kurulacak; ortak kategori eşlemesi Sprint 2 başında netleştirilecek.
 
 ---
 
-# Sprint 2
+# Sprint 2 — Üç Uzman Agent
 
-- **Sprint Notları**: Sprint 2'nin hedefi EDA'nın tamamlanması ve agent geliştirmeye geçilmesiydi. Görevler agent bazında paylaştırıldı: **Talep Agent'ı → Beyza**, **Fire/İsraf Agent'ı → Furkan**, **Kâr/Fiyat Agent'ı → Pelin**. Talep Agent'ının teknik detayları `notebooks/talep_agent.ipynb` ve `src/talep_agent.py` içinde; özet aşağıdaki Ürün Durumu bölümündedir.
+**Sprint Hedefi**: EDA'yı tamamlamak, ortak kategori dilini netleştirmek ve üç uzman agent'ı ortak çıktı sözleşmesiyle, otomatik testlerle korunur halde geliştirmek. Görev dağılımı agent bazında: Talep → Beyza, Fire/İsraf → Furkan, Kâr/Fiyat → Pelin.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+**Tahmin edilen / tamamlanan puan**: 100 / 100
 
-- **Puan tamamlama mantığı**: Toplam 300 puanlık backlog'un ikinci 100 puanlık dilimi bu sprint'e ayrılmıştır. Backlog, oyuncu ihtiyacı yerine sistemin çekirdeğini besleyecek şekilde düzenlendi: önce ortak kategori dili netleştirildi, ardından her üye kendi agent'ını bu ortak dil üzerinden geliştirdi.
+**Sprint Backlog**:
 
-- **Backlog düzeni ve Story seçimleri**:
-
-| ID | İş (User Story) | Atanan | Öncelik |
+| ID | User Story | Atanan | Puan |
 |---|---|---|---|
-| US-05 | EDA'nın tamamlanması ve ortak kategori eşlemesinin (14 → 5) netleştirilmesi | Furkan, Beyza | Yüksek |
-| US-06 | Talep Agent'ının geliştirilmesi ve eğitilmesi | Beyza | Yüksek |
-| US-07 | Fire/İsraf Agent'ı için veri profili ve geliştirme | Furkan | Yüksek |
-| US-08 | Kâr/Fiyat Agent'ı için veri profili ve geliştirme | Pelin | Yüksek |
-| US-09 | Agent çıktı sözleşmesinin (JSON formatı) tanımlanması ve otomatik testler | Beyza | Orta |
+| US-05 | EDA'nın tamamlanması ve 14 → 5 ortak kategori eşlemesinin netleştirilmesi | Furkan, Beyza | 15 |
+| US-06 | Talep Agent'ının geliştirilmesi ve eğitilmesi | Beyza | 30 |
+| US-07 | Fire/İsraf Agent'ının geliştirilmesi | Furkan | 20 |
+| US-08 | Kâr/Fiyat Agent'ının geliştirilmesi | Pelin | 20 |
+| US-09 | Ortak çıktı sözleşmesi (JSON) ve otomatik testler | Beyza | 15 |
 
-- **Daily Scrum**: Sprint 1 retrospective kararı doğrultusunda haftalık akşam toplantılarına ek olarak, hafta içi engeller için kısa yazılı güncelleme akışı (WhatsApp) kullanılmıştır.
+**Daily Scrum notları**:
 
-- **Sprint board update**: Sprint sonunda Trello panosunun güncel durumu:
+| Gün | Dün / son güncellemeden beri | Bugün | Engel |
+|---|---|---|---|
+| H1 Pzt | Retro kararı uygulandı: kategori eşlemesi masaya yatırıldı | `src/sabitler.py`: 5 kategori + `yuksek/normal/dusuk/veri_yok` sinyal sözleşmesi | — |
+| H1 Sal | Sinyal sözleşmesi netleşti | `map_to_category`: TR+EN anahtar kelime kuralları; kontrol sırası (salata en sonda, "Vegetable Stir-Fry" ana yemek kalsın diye) | — |
+| H1 Çar | Kategori eşlemesi çalışıyor | Talep verisinde kategori kolonu aranıyor | **Doküman–kod çelişkisi**: `DATA_SOURCES.md` Genpact'i işaret ediyor ama işlenmiş veride kategori yok |
+| H1 Per | Eksik `meal_info.csv` (meal_id → kategori) bulunup `data/raw/`'a eklendi, engel çözüldü | Talep Agent'ı ilk model: kategori seviyesinde eğitim | — |
+| H1 Cum | Haftalık toplantı: kategori seviyesi model doğrulama hedefini tutturamadı | Karar: ürün seviyesinde eğitim + kategoriye toplama yaklaşımına geçiş | İlk model tasarımı revize gerektirdi |
+| H2 Pzt | Yeni tasarım kuruldu: `HistGradientBoostingRegressor` (Poisson kaybı), zamana göre ayrım (eğitim: hafta 1–130) | Özellik denemeleri; Fire Agent'ta kompozit risk indeksi formülü (0.6 × oran + 0.4 × kuyruk payı) | — |
+| H2 Sal | 7 iyileştirme denemesi kaydedildi; promosyon özellikleri doğrulamada kazandı | Mevsimsellik denemesi değerlendiriliyor; Kâr Agent'ında `profitability_score` → [0, 1] normalizasyonu | Mevsimsellik doğrulamada kazanıp testte kaybetti → reddedildi |
+| H2 Çar | Final model: MAPE %8.27 → %7.50 | Uç durumlar: kâr verisinde olmayan `corba` için marj bazlı yedek hesaplama; israf verisinde olmayan `corba` için `veri_yok` sinyali | `corba` iki veri setinde de örneksiz |
+| H2 Per | Üç agent da ortak sözleşmeyle çıktı üretiyor | 30 otomatik test (8+8+8+6); model `joblib` kaydı; `preprocessing.py` modülleştirme + bayt bazında birebir çıktı doğrulaması | — |
+| H2 Cum | Tüm testler yeşil | Demo çıktıları, README güncellemesi, Sprint Review + Retrospective | — |
 
-<img src="docs/assets/sprint2.png" width="900" alt="Sprint 2 Trello Board" />
+**Sprint board**: <img src="docs/assets/sprint2.png" width="900" alt="Sprint 2 Trello Board" />
 
-- **Ürün Durumu**: Sprint 2 sonunda:
-  - **Talep Agent'ı geliştirildi ve hazır durumda**: Genpact gerçek talep verisiyle (456.548 satır, 145 hafta) eğitilen agent, orkestratörün tek satırla çağırabileceği bir Python sınıfı (`src/talep_agent.py`) olarak teslim edildi ve **8/8 otomatik test** ile korunuyor. Temiz kurulum doğrulamasında agent kendini eğitip birebir aynı sonuçları üretti. Agent, orkestratör entegrasyonu için hazır beklemektedir.
-  - Eğitimde zamana göre ayrım kullanıldı (eğitim: hafta 1–130, doğrulama/test ayrımı korunarak); model seçimi test kümesine bakılmadan ayrı bir doğrulama diliminde yapıldı. 7 farklı iyileştirme denemesi kaydedildi ve yalnızca doğrulamada kazananlar (Poisson kaybı + promosyon özellikleri) final modele alındı.
-  - EDA'dan önemli bulgu: promosyon, satışı **~3 katına** çıkarıyor; çorba kategorisinde veri boyunca hiç e-posta promosyonu yapılmamış (yalnızca sınırlı sayıda anasayfa vitrini var).
-  - **Değerlendirme yaklaşımı**: Agent'ların tekil performans karşılaştırması bu aşamada raporlanmamaktadır. Sistemin nihai değerlendirmesi, Sprint 3 sonunda orkestratör dahil tüm agent çıktılarıyla birlikte, modern tahmin metrikleri olan **WAPE** (Weighted Absolute Percentage Error) ve **RMSSE** (Root Mean Squared Scaled Error — M5 Forecasting yarışmasıyla standartlaşan metrik) üzerinden uçtan uca yapılacaktır.
-  - **Fire/İsraf ve Kâr/Fiyat agent'ları da geliştirildi ve hazır durumda**: her ikisi de `src/` altında (`fire_agent.py`, `kar_fiyat_agent.py`) birer Python sınıfı olarak uygulandı, her biri **8/8 otomatik test** ile korunuyor ve kategori bazlı risk/kârlılık profillerini orkestratörün tüketebileceği ortak sözleşme (`yuksek/normal/dusuk/veri_yok`) üzerinden üretiyor.
+**Sprint 2 sonucu — tamamlananlar ve teknik kararlar**:
 
-- **Sprint Review**:
-  - Talep Agent'ının uçtan uca çalıştığı, JSON çıktı sözleşmesinin (kategori bazlı tahmin + `yuksek/normal/dusuk` sinyali) orkestratör için hazır olduğu gösterildi.
-  - Performans çıktıları ve karşılaştırmaların, sistem bütünüyle anlamlı olması için Sprint 3 sonunda tüm agent'lar ve orkestratörle birlikte raporlanmasına karar verildi.
-  - Sprint Review katılımcıları: Beyza ATA, Pelin ATAMAN, Furkan BİTİK.
+- **Talep Agent'ı**: Genpact verisiyle (456.548 satır, 145 hafta) ürün seviyesinde eğitilip kategoriye toplanan `HistGradientBoostingRegressor` (Poisson kaybı). Zamana göre eğitim/doğrulama/test ayrımı; model seçimi test kümesine bakılmadan doğrulama diliminde yapıldı; 7 deneme içinden yalnızca doğrulamada kazananlar (Poisson + promosyon özellikleri) final modele alındı. Kategori bazlı MAPE **%8.27 → %7.50**. Temiz kurulumda kendini yeniden eğitip birebir aynı sonuçları üretiyor.
+- **Fire/İsraf Agent'ı**: 1.618 israf olayından deterministik kompozit risk indeksi — `0.6 × (kategori waste_ratio / genel ortalama) + 0.4 × (yüksek-israf kuyruk payı / genel kuyruk payı)`; eşikler 1.05/0.95. Kategori başına en israf yaratan fiyat seviyesi ve hazırlama yöntemi "sürücü" olarak raporlanıyor; `corba` örneksiz olduğu için dürüstçe `veri_yok` dönüyor.
+- **Kâr/Fiyat Agent'ı**: birincil kaynak `profitability_score` (1/2/3 → [0, 1] normalize); kâr verisinde olmayan kategoriler için marj oranına dayalı **yedek hesaplama**; eşikler 0.60/0.40.
+- **EDA bulgusu**: promosyon satışı **~3 katına** çıkarıyor; `corba` kategorisine veri boyunca hiç e-posta promosyonu yapılmamış.
+- **Kalite güvencesi**: 30 otomatik test (sözleşme + sayısal regresyon pinleri + determinizm + uç durumlar), tamamı geçiyor. Tekil agent karşılaştırması bilinçli olarak raporlanmadı; uçtan uca değerlendirme Sprint 3 sonunda **WAPE** ve **RMSSE** metrikleriyle, orkestratör dahil yapılacak.
 
-- **Sprint Retrospective**:
-  - **Doküman ile kod çelişiyordu**: `DATA_SOURCES.md` Genpact veri setini işaret ediyordu ancak işlenmiş dosyada kategori bilgisi yoktu; eksik `meal_info.csv` bulunup eklendi. *Ders: koda başlamadan kaynak dokümanı doğrula.*
-  - **İlk model tasarımı revize edildi**: kategori seviyesinde eğitilen ilk tasarım beklenen doğruluğu sağlayamadı; ürün seviyesinde eğitim + kategoriye toplama yaklaşımına geçildi. *Ders: model tasarımı erken aşamada doğrulama verisiyle sınanmalı.*
-  - **Model seçimi test kümesiyle yapılmamalı**: kazanan hep doğrulama diliminde seçildi; mevsimsellik denemesi bunun neden şart olduğunu kanıtladı (doğrulamada kazanıp testte kaybetti).
-  - Sprint 3 kararları: Orkestratör, `TalepAgent().predict(week)` çıktısını Fire ve Kâr agent'larının kategori profilleriyle birleştirecek; karar katmanı, arayüz ve AI destekli yönetici özeti geliştirilecek; **tüm sistemin uçtan uca değerlendirmesi (WAPE ve RMSSE metrikleriyle) ve çıktı karşılaştırmaları Sprint 3 sonunda raporlanacak**.
+**Ürün Durumu** — üç agent'ın ve test paketinin gerçek çalıştırma çıktısı (bu repoda çalıştırılıp yakalanmıştır; talep demosu örnek girdi olarak hafta 140'ı kullanır):
 
----
+<img src="docs/assets/sprint2-urun-durumu.png" width="620" alt="Sprint 2 Ürün Durumu — üç agent demo çıktısı ve testler" />
+
+**Sprint Review**: Talep Agent'ının uçtan uca çalıştığı ve JSON çıktı sözleşmesinin orkestratör için hazır olduğu gösterildi; Fire ve Kâr/Fiyat agent'ları aynı sözleşmeyle teslim edildi. Performans karşılaştırmalarının sistem bütünüyle anlamlı olması için Sprint 3 sonunda raporlanmasına karar verildi. Katılımcılar: Beyza ATA, Pelin ATAMAN, Furkan BİTİK.
+
+**Sprint Retrospective**:
+
+- *Doküman ile kod çelişiyordu*: `DATA_SOURCES.md` Genpact'i işaret ediyordu ama işlenmiş dosyada kategori yoktu; eksik `meal_info.csv` bulunup eklendi. **Ders**: koda başlamadan kaynak dokümanı doğrula.
+- *İlk model tasarımı revize edildi*: kategori seviyesinde eğitim beklenen doğruluğu vermedi; ürün seviyesi + kategoriye toplama yaklaşımına geçildi. **Ders**: model tasarımını erken aşamada doğrulama verisiyle sına.
+- *Model seçimi test kümesiyle yapılmamalı*: mevsimsellik denemesi doğrulamada kazanıp testte kaybederek bunun neden şart olduğunu kanıtladı.
+- **Sprint 3 kararları**: Orkestratör `TalepAgent().predict(week)` çıktısını Fire ve Kâr profilleriyle birleştirecek; karar katmanı, arayüz ve AI destekli yönetici özeti geliştirilecek; uçtan uca değerlendirme (WAPE/RMSSE) Sprint 3 sonunda raporlanacak.
